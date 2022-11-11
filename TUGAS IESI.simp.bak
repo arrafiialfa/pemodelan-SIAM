@@ -21,7 +21,7 @@
       </counter>
       <counter>
         <item-type type-id="drawing-line" type="Line" />
-        <value>10</value>
+        <value>20</value>
       </counter>
       <counter>
         <item-type type-id="swimlane" type="Swimlane" />
@@ -113,11 +113,11 @@
       </counter>
       <counter>
         <item-type type-id="dfd-process" type="Process" />
-        <value>55</value>
+        <value>56</value>
       </counter>
       <counter>
         <item-type type-id="dfd-external" type="External" />
-        <value>17</value>
+        <value>41</value>
       </counter>
       <counter>
         <item-type type-id="dfd-data-store" type="Data Store" />
@@ -135,7 +135,7 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>17611</value>
+        <value>18317</value>
       </counter>
       <counter>
         <item-type type-id="actor" type="Actor" />
@@ -167,11 +167,11 @@
       </counter>
       <counter>
         <item-type type-id="universal-connector" type="Universal Connector" />
-        <value>84</value>
+        <value>97</value>
       </counter>
       <counter>
         <item-type type-id="drawing-line" type="Line" />
-        <value>39</value>
+        <value>113</value>
       </counter>
       <counter>
         <item-type type-id="dependency" type="Dependency" />
@@ -271,15 +271,15 @@
       </counter>
       <counter>
         <item-type type-id="dfd-process" type="Process" />
-        <value>72</value>
+        <value>73</value>
       </counter>
       <counter>
         <item-type type-id="dfd-external" type="External" />
-        <value>21</value>
+        <value>45</value>
       </counter>
       <counter>
         <item-type type-id="dfd-data-flow" type="Data Flow" />
-        <value>124</value>
+        <value>127</value>
       </counter>
       <counter>
         <item-type type-id="diagram-description" type="Diagram Description" />
@@ -500,7 +500,6 @@
     </item>
     <item id="f7dd0558a49e4f16b307833782a39c20" cid="PROP015" type="property" owner="4e5016e58a2d4e99879db42c44c11ea0" creation-date="11/10/2022 11:13:22" visibility="private" />
     <item id="did458dbde66ca45418633bbf8239cb7f56355" cid="CN002" type="comment-connector" creation-date="11/11/2022 07:52:43" from="8ef0d4421de14f018a191716256cc396" to="6d428e58bfe448ee9ad1cce40fe82b8c" />
-    <item id="di4f9608b9859644ebb5bf1d2b421be3064267" cid="CN006" type="comment-connector" creation-date="11/11/2022 18:22:33" from="a239240e78044689aea1c5ed92ebfd73" />
     <item id="287c949507854680b95c1d029a832987" cid="UC018" type="use-case" name="Hitung SKS" owner="59d60594bbf14bf69a7f11a8f5e797e6" creation-date="11/10/2022 11:27:43" visibility="undefined">
       <use-case>
         <stakeholders />
@@ -648,9 +647,6 @@
     </item>
     <item id="1435e6126e984665af753e8b2f1b1f84" cid="PROP203" type="property" name="SIAM" creation-date="11/11/2022 11:12:41" visibility="undefined">
       <structural-feature type="window detailNilai" type-id="Class:10dba79693aa4748bacad3d82769bbe0" />
-    </item>
-    <item id="a239240e78044689aea1c5ed92ebfd73" cid="CMT004" type="comment" name="Comment" creation-date="11/11/2022 18:22:33">
-      <comment>4</comment>
     </item>
     <item id="5a8b674b3432408f87a9e8a93783f339" cid="PROP208" type="property" owner="6c854b42255442699f509412dbfe54de" creation-date="11/11/2022 14:50:04" visibility="private">
       <structural-feature type="Otentikasi" type-id="Class:69723f1f99e1442f88d3fd880e062bba" />
@@ -7176,7 +7172,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="p858f2e46bf054c5ca21c1cda1a0c8f5f_334755194" name="DFD-Login" order-index="15" overview-order-index="13" uid="" auto-routed-paths="false" default-line-style="default" view-location="546,-1483" zoom="0.7">
+      <diagram type="data-flow" id="p858f2e46bf054c5ca21c1cda1a0c8f5f_334755194" name="DFD-Login" order-index="15" overview-order-index="13" uid="" auto-routed-paths="false" default-line-style="default" view-location="562,-1392" zoom="0.7">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -7188,7 +7184,7 @@
           </authors>
           <description />
           <creation-date>11/11/2022 16:24:51</creation-date>
-          <change-date>11/11/2022 19:45:04</change-date>
+          <change-date>11/11/2022 19:51:56</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -7201,8 +7197,8 @@
           <item id="49f9bfb0f2ad4800be73ad4341521f36" cid="DFS001" type="dfd-data-store" name="session" creation-date="11/11/2022 17:09:00" />
           <item id="6210ad6328b24f6195d54595dac7d3ee" cid="DFF001" type="dfd-data-flow" name="nim&amp;password" creation-date="11/11/2022 17:05:41" from="6a65561b9b124d53ae3638f994bbcaab" to="0cbc9e2e8fd848a599d6d108fad2cf8e" />
           <item id="0cbc9e2e8fd848a599d6d108fad2cf8e" cid="DFP002" type="dfd-process" name="SIAM" creation-date="11/11/2022 17:05:41" />
+          <item id="b07e419d0ef8407faf149207284cbadf" cid="DFE023" type="dfd-external" name="validate &amp; save to session" creation-date="11/11/2022 19:49:44" />
           <item id="9f6ff94a47744d93927496fd31450fad" cid="DFF057" type="dfd-data-flow" name="mahasiswa" creation-date="11/11/2022 18:09:32" from="7a519321afec4ca6b15dd34583b8970c" to="8438b6e1aa384f1e9fbff4c75d2b6a93" />
-          <item id="852a742e76d94a7c945ecb8e8372dc56" cid="DFE011" type="dfd-external" name="Login" creation-date="11/11/2022 19:18:08" />
           <item id="5fddeb1f0e4443549f5501b47e65c7ef" cid="DFF012" type="dfd-data-flow" name="nim &amp; password" creation-date="11/11/2022 17:18:54" to="fb366beaa6e3498d9224da07523202d6" />
           <item id="fb366beaa6e3498d9224da07523202d6" cid="DFP068" type="dfd-process" name="1.1.1get Input data" creation-date="11/11/2022 19:33:46" />
           <item id="3b945b4984234605840731dd5240a74e" cid="DFS003" type="dfd-data-store" name="mahasiswa" creation-date="11/11/2022 17:12:36" />
@@ -7211,23 +7207,25 @@
           <item id="b488ce4cc06b43f0b7e295823a19fd81" cid="DFP033" type="dfd-process" name="1.3. menampilkan error" creation-date="11/11/2022 18:10:28" />
           <item id="e1b2c48cd9bd48a1bc02b1d31f416ee0" cid="DFP007" type="dfd-process" name="1.1.3 cek password" creation-date="11/11/2022 17:13:05" />
           <item id="6a65561b9b124d53ae3638f994bbcaab" cid="DFE001" type="dfd-external" name="Pengunjung" creation-date="11/11/2022 17:05:28" />
-          <item id="Line5" cid="ELEM005" type="drawing-line" name="die29539f84a344f40b8bd4935a4f056de5308" creation-date="11/11/2022 19:21:10">
-            <drawing />
-          </item>
-          <item id="Line4" cid="ELEM004" type="drawing-line" name="dieded96faf2f84132aeb1b492bb1c19397701" creation-date="11/11/2022 19:21:00">
-            <drawing />
-          </item>
           <item id="b7653b0fa17545ee8f44d5831692bacf" cid="DFF058" type="dfd-data-flow" name="mahasiswa" creation-date="11/11/2022 18:09:50" from="8438b6e1aa384f1e9fbff4c75d2b6a93" />
-          <item id="Line9" cid="ELEM035" type="drawing-line" name="di5adc03476c8847ecb318edb0f86e2d335903" creation-date="11/11/2022 19:23:13">
+          <item id="Line12" cid="ELEM059" type="drawing-line" name="dic3c3e8f62e914bc685b49ab3573cbda72560" creation-date="11/11/2022 19:50:25">
             <drawing />
           </item>
-          <item id="Line8" cid="ELEM020" type="drawing-line" name="dif360dffae46349d6be08eba9f96c67236962" creation-date="11/11/2022 19:23:09">
-            <drawing />
-          </item>
-          <item id="6c21a40b559e4808bd20485552b9b5dc" cid="DFP006" type="dfd-process" name="1.1.2.getMahasiswa" creation-date="11/11/2022 17:12:07" />
+          <item id="6c21a40b559e4808bd20485552b9b5dc" cid="DFP006" type="dfd-process" name="1.1.2. check data mahasiswa" creation-date="11/11/2022 17:12:07" />
           <item id="7b60a0d2fd7c4410989536c37b0cc1f8" cid="DFF123" type="dfd-data-flow" name="mahasiswa" creation-date="11/11/2022 19:45:04" from="e1b2c48cd9bd48a1bc02b1d31f416ee0" to="2c7353bc4ada4acfa732e960bdad5dc6" />
-          <item id="c3e9db834ef843c0bce27321c39e39fc" cid="DFP034" type="dfd-process" name="2. menampilkan error" creation-date="11/11/2022 18:11:32" />
-          <item id="cabe5bb4a69b42b3b3113e38214a2754" cid="DFE013" type="dfd-external" name="validasi input" creation-date="11/11/2022 19:19:09" />
+          <item id="Line15" cid="ELEM084" type="drawing-line" name="di1a3b65218a374e9db42959caaf3da13a7265" creation-date="11/11/2022 19:50:56">
+            <drawing />
+          </item>
+          <item id="dfef33eafcd245d69086925c350ca939" cid="DFF124" type="dfd-data-flow" name="err mssg" creation-date="11/11/2022 19:46:48" from="6c21a40b559e4808bd20485552b9b5dc" to="c3e9db834ef843c0bce27321c39e39fc" />
+          <item id="09004b9747ab41b0baf728e9b9a0614a" cid="DFE022" type="dfd-external" name="check data mahasiswa" creation-date="11/11/2022 19:48:44" />
+          <item id="Line14" cid="ELEM083" type="drawing-line" name="did36709524c57484792a5231de183be399797" creation-date="11/11/2022 19:50:53">
+            <drawing />
+          </item>
+          <item id="Line11" cid="ELEM058" type="drawing-line" name="di9b14ad0966b8474da22bc57c4eac67d14464" creation-date="11/11/2022 19:50:21">
+            <drawing />
+          </item>
+          <item id="c3e9db834ef843c0bce27321c39e39fc" cid="DFP034" type="dfd-process" name="1.3. menampilkan error" creation-date="11/11/2022 18:11:32" />
+          <item id="2b230d4c875543bd82c82f21588c8c33" cid="DFE021" type="dfd-external" name="get input data" creation-date="11/11/2022 19:48:35" />
           <item id="7a1d557b1598406785e02c99e66f0489" cid="DFF059" type="dfd-data-flow" name="nim&amp;password" creation-date="11/11/2022 18:09:53" to="7a519321afec4ca6b15dd34583b8970c" />
           <item id="2395724084c649218444405a6443f561" cid="ELEM056" type="formatted-text" name="FormattedText3" creation-date="11/11/2022 17:06:19">
             <formatted-text>
@@ -7264,9 +7262,7 @@
             </formatted-text>
           </item>
           <item id="8f8ba2e18c2f46da95860e7e4f5f458b" cid="DFF060" type="dfd-data-flow" name="err mssg" creation-date="11/11/2022 18:10:28" from="7a519321afec4ca6b15dd34583b8970c" to="b488ce4cc06b43f0b7e295823a19fd81" />
-          <item id="Line10" cid="ELEM038" type="drawing-line" name="di0dbcb5367f424b8ba73f762a9216cd203740" creation-date="11/11/2022 19:27:49">
-            <drawing />
-          </item>
+          <item id="89efe73968d04cc0b73a6d855112a069" cid="DFE026" type="dfd-external" name="login" creation-date="11/11/2022 19:50:47" />
           <item id="di6e3156cf860f4cb384002a3a208618c18200" cid="ELEM060" type="formatted-text" name="FormattedText3" creation-date="11/11/2022 17:06:19">
             <formatted-text>
               <text>
@@ -7302,10 +7298,7 @@
             </formatted-text>
           </item>
           <item id="f7900d67a27b4b03a3e14324650fbd0a" cid="DFS002" type="dfd-data-store" name="mahasiswa" creation-date="11/11/2022 17:10:33" />
-          <item id="2c7353bc4ada4acfa732e960bdad5dc6" cid="DFP071" type="dfd-process" name="save to session" creation-date="11/11/2022 19:45:04" />
-          <item id="dc77d7bffc2f4ac4acf0d0bed096fbb7" cid="DFE017" type="dfd-external" name="save to session" creation-date="11/11/2022 19:20:29" />
-          <item id="7efb833e6d1a4f1780cc2431649e2611" cid="DFE015" type="dfd-external" name="cek password" creation-date="11/11/2022 19:20:01" />
-          <item id="a7a2cf3ae1d7421bbb5eb153ed19f7c6" cid="DFE016" type="dfd-external" name="display error" creation-date="11/11/2022 19:20:10" />
+          <item id="2c7353bc4ada4acfa732e960bdad5dc6" cid="DFP071" type="dfd-process" name="1.2. save to session" creation-date="11/11/2022 19:45:04" />
           <item id="1657531bbe2a4b4ba1308a80875e8792" cid="DFF119" type="dfd-data-flow" name="nim&amp;password" creation-date="11/11/2022 19:34:07" from="fb366beaa6e3498d9224da07523202d6" to="6c21a40b559e4808bd20485552b9b5dc" />
           <item id="di837be9e7186e4258a455cd517d10b4487217" cid="ELEM057" type="formatted-text" name="FormattedText3" creation-date="11/11/2022 17:06:19">
             <formatted-text>
@@ -7343,7 +7336,7 @@
           </item>
           <item id="56cc817e2dd94691b4728d8b64353199" cid="DFF062" type="dfd-data-flow" name="err mssg" creation-date="11/11/2022 18:11:44" from="e1b2c48cd9bd48a1bc02b1d31f416ee0" to="c3e9db834ef843c0bce27321c39e39fc" />
           <item id="bf02c9149fce4bef95d7c3dac962b192" cid="DFP003" type="dfd-process" name="1. login" creation-date="11/11/2022 17:08:13" />
-          <item id="85368acec4e641f69c9d97ee42f7ce03" cid="DFE012" type="dfd-external" name="getDataMahasiswa" creation-date="11/11/2022 19:18:25" />
+          <item id="9f03ce69e7e0464390e15f6281cb5c00" cid="DFE024" type="dfd-external" name="menampilkan error" creation-date="11/11/2022 19:49:52" />
           <item id="7a0cc35b0b9743328321473884ca8f5a" cid="DFF003" type="dfd-data-flow" creation-date="11/11/2022 17:09:00" from="bf02c9149fce4bef95d7c3dac962b192" to="49f9bfb0f2ad4800be73ad4341521f36" />
         </abstract-items>
         <layer id="b1a8de485dd94df6b82f5f75e625e1d3" name="Default" visible="true" enabled="true" locked="false">
@@ -7418,25 +7411,25 @@
             <layout ax="1242.542" ay="-1511" awidth="120" aheight="90" x="1242.542" y="-1511" width="120" height="90" />
           </item>
           <item id="3b945b4984234605840731dd5240a74e" iid="1f2cfb24f14046a3a0ecffe3f3cb9db3" creation-date="11/11/2022 17:12:36" order-index="18" type="entity">
-            <layout ax="1216" ay="-1615" awidth="120" aheight="46" x="1216" y="-1615" width="120" height="50" />
+            <layout ax="1195" ay="-1656" awidth="120" aheight="46" x="1195" y="-1656" width="120" height="50" />
           </item>
           <item id="420c531a1dd64db781d838d6ddfcdd4b" iid="313aae0e08be4b6c81b1b50991f13a61" creation-date="11/11/2022 17:12:46" order-index="19" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1276" y1="-1569" x2="1302" y2="-1510" start-border-pos="0.624046770731608" end-border-pos="0.123869895935059" start-local-pos="60.45755" end-local-pos="59.45755" name-position="67,-4">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1255" y1="-1610" x2="1302" y2="-1510" start-border-pos="0.624046770731608" end-border-pos="0.123869895935059" start-local-pos="60.45755" end-local-pos="59.45755" name-position="67,-4">
               <points>
-                <point x="1276" y="-1569" />
+                <point x="1255" y="-1610" />
                 <point x="1302" y="-1510" />
               </points>
             </layout>
             <relation from="3b945b4984234605840731dd5240a74e" from-iid="1f2cfb24f14046a3a0ecffe3f3cb9db3" to="6c21a40b559e4808bd20485552b9b5dc" to-iid="e3c502a1facc4bcebfe62892255d24d6" />
           </item>
           <item id="e1b2c48cd9bd48a1bc02b1d31f416ee0" iid="478e34d69df140c2a3bd00c9a0089cda" creation-date="11/11/2022 17:13:05" order-index="20" type="entity">
-            <layout ax="1414" ay="-1378" awidth="120" aheight="90" x="1414" y="-1378" width="120" height="90" />
+            <layout ax="1497.542" ay="-1479" awidth="120" aheight="90" x="1497.542" y="-1479" width="120" height="90" />
           </item>
           <item id="9691e92f619c45b48c2afabfa579d980" iid="0283a567e60745a483dd24db839ba386" creation-date="11/11/2022 17:13:05" order-index="21" type="relation">
-            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1360" y1="-1453" x2="1432" y2="-1365" start-border-pos="0.504306793212891" end-border-pos="0.0375000014901161" end-local-pos="18" name-position="-48,44" name-width="141">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1362" y1="-1466" x2="1516" y2="-1466" start-border-pos="0.375" end-border-pos="0.0375000014901161" end-local-pos="18" name-position="-1,-32" name-width="141">
               <points>
-                <point x="1360" y="-1453" />
-                <point x="1432" y="-1365" />
+                <point x="1362" y="-1466" />
+                <point x="1516" y="-1466" />
               </points>
             </layout>
             <relation from="6c21a40b559e4808bd20485552b9b5dc" from-iid="e3c502a1facc4bcebfe62892255d24d6" to="e1b2c48cd9bd48a1bc02b1d31f416ee0" to-iid="478e34d69df140c2a3bd00c9a0089cda" />
@@ -7499,54 +7492,16 @@
             <relation from="7a519321afec4ca6b15dd34583b8970c" from-iid="d828394270dd4bf4bcc14be3031a000d" to="b488ce4cc06b43f0b7e295823a19fd81" to-iid="51817502837043f3ad7a30fcdc03e6a7" />
           </item>
           <item id="c3e9db834ef843c0bce27321c39e39fc" iid="d43d45fe8dfe4120992cd8b6f5742856" creation-date="11/11/2022 18:11:32" order-index="37" type="entity">
-            <layout ax="1575" ay="-1224.618" awidth="120" aheight="90" x="1575" y="-1224.618" width="120" height="90" />
+            <layout ax="1395" ay="-1297.618" awidth="120" aheight="90" x="1395" y="-1297.618" width="120" height="90" />
           </item>
           <item id="56cc817e2dd94691b4728d8b64353199" iid="527ba7c6a77b4dc08a6e4f14eb99aaf2" creation-date="11/11/2022 18:11:44" order-index="39" type="relation">
-            <layout line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1504" y1="-1294" x2="1575" y2="-1180" start-border-pos="0.561546836048365" end-border-pos="0.375" start-local-pos="90.45752" end-local-pos="45" name-position="0,20">
+            <layout line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1588" y1="-1395" x2="1514" y2="-1253" start-border-pos="0.561546836048365" end-border-pos="0.375" start-local-pos="90.45752" end-local-pos="45" name-position="0,20">
               <points>
-                <point x="1504" y="-1294" />
-                <point x="1575" y="-1180" />
+                <point x="1588" y="-1395" />
+                <point x="1514" y="-1253" />
               </points>
             </layout>
             <relation from="e1b2c48cd9bd48a1bc02b1d31f416ee0" from-iid="478e34d69df140c2a3bd00c9a0089cda" to="c3e9db834ef843c0bce27321c39e39fc" to-iid="d43d45fe8dfe4120992cd8b6f5742856" />
-          </item>
-          <item id="852a742e76d94a7c945ecb8e8372dc56" iid="3a7571dc04f4407db20d55ee35ee1199" creation-date="11/11/2022 19:18:08" order-index="40" type="entity">
-            <layout ax="1194" ay="-1094.618" awidth="120" aheight="70" x="1194" y="-1094.618" width="120" height="70" />
-          </item>
-          <item id="85368acec4e641f69c9d97ee42f7ce03" iid="4621e5c972224bf7a607bdbe11bac1c3" creation-date="11/11/2022 19:18:25" order-index="41" type="entity">
-            <layout ax="1020" ay="-949" awidth="120" aheight="70" x="1020" y="-949" width="120" height="70" />
-          </item>
-          <item id="cabe5bb4a69b42b3b3113e38214a2754" iid="51c99e68def4407083237f968d8318eb" creation-date="11/11/2022 19:19:09" order-index="42" type="entity">
-            <layout ax="1194" ay="-949" awidth="120" aheight="70" x="1194" y="-949" width="120" height="70" />
-          </item>
-          <item id="7efb833e6d1a4f1780cc2431649e2611" iid="501b2c62e52f465c8b3cc3ed52f4a054" creation-date="11/11/2022 19:20:01" order-index="44" type="entity">
-            <layout ax="1217" ay="-791" awidth="120" aheight="70" x="1217" y="-791" width="120" height="70" />
-          </item>
-          <item id="a7a2cf3ae1d7421bbb5eb153ed19f7c6" iid="49fd6f0b95fd49fbaff4adce2aa90311" creation-date="11/11/2022 19:20:10" order-index="45" type="entity">
-            <layout ax="1414" ay="-791" awidth="120" aheight="70" x="1414" y="-791" width="120" height="70" />
-          </item>
-          <item id="dc77d7bffc2f4ac4acf0d0bed096fbb7" iid="31ded3221d344de9bcd7b2d5c483d759" creation-date="11/11/2022 19:20:29" order-index="46" type="entity">
-            <layout ax="1020" ay="-791" awidth="120" aheight="70" x="1020" y="-791" width="120" height="70" />
-          </item>
-          <item id="Line4" iid="0d7b23b445f74369ba4c4f4e75dc2f74" creation-date="11/11/2022 19:21:00" order-index="47" type="entity">
-            <layout ax="1254" ay="-1025" awidth="2" aheight="78" x="1254" y="-1025" width="2" height="78" rotation-center="-1255,986" />
-            <drawing-line start-point="1255,-1025" end-point="1254,-948" />
-          </item>
-          <item id="Line5" iid="62eed105fc51497ca184ef0747c3bcca" creation-date="11/11/2022 19:21:10" order-index="48" type="entity">
-            <layout ax="1082" ay="-1025" awidth="174" aheight="76" x="1082" y="-1025" width="174" height="76" rotation-center="-1169,987" />
-            <drawing-line start-point="1255,-1025" end-point="1082,-950" />
-          </item>
-          <item id="Line8" iid="381df3b58911474099b2b20fbe679a83" creation-date="11/11/2022 19:23:09" order-index="51" type="entity">
-            <layout ax="1251" ay="-877" awidth="4" aheight="87" x="1251" y="-877" width="4" height="87" rotation-center="-1253,833.5" />
-            <drawing-line start-point="1254,-877" end-point="1251,-791" />
-          </item>
-          <item id="Line9" iid="e42d4f083f484df08774cccc13c6921a" creation-date="11/11/2022 19:23:13" order-index="52" type="entity">
-            <layout ax="1082" ay="-878" awidth="174" aheight="88" x="1082" y="-878" width="174" height="88" rotation-center="-1169,834" />
-            <drawing-line start-point="1255,-878" end-point="1082,-791" />
-          </item>
-          <item id="Line10" iid="84b9f54aa09246a1846715be4e83f4b4" creation-date="11/11/2022 19:27:49" order-index="53" type="entity">
-            <layout ax="1256" ay="-876" awidth="221" aheight="86" x="50" y="50" width="140" height="160" />
-            <drawing-line start-point="1256,-876" end-point="1476,-791" />
           </item>
           <item id="1657531bbe2a4b4ba1308a80875e8792" iid="c2683900b3a540098dfaec015b0ecbfb" creation-date="11/11/2022 19:34:07" order-index="56" type="relation">
             <layout line-style="curve" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1061" y1="-1511" x2="1242" y2="-1471" start-border-pos="0.412114800347222" end-border-pos="0.888888895511627" end-local-pos="40" name-position="-33,40">
@@ -7561,20 +7516,60 @@
             <layout ax="944.1396" ay="-1569" awidth="120" aheight="90" x="944.1396" y="-1569" width="120" height="90" />
           </item>
           <item id="2c7353bc4ada4acfa732e960bdad5dc6" iid="9bbddc44f25b46db816075b366d17105" creation-date="11/11/2022 19:45:04" order-index="57" type="entity">
-            <layout ax="1695" ay="-1431" awidth="120" aheight="90" x="1695" y="-1431" width="120" height="90" />
+            <layout ax="1752.542" ay="-1479" awidth="120" aheight="90" x="1752.542" y="-1479" width="120" height="90" />
           </item>
           <item id="7b60a0d2fd7c4410989536c37b0cc1f8" iid="b7d0c271272e4cca8e0d52e0ada3fa77" creation-date="11/11/2022 19:45:04" order-index="58" type="relation">
-            <layout line-style="curve" lock-to-fields="false" auto-path="" x1="1532" y1="-1344" x2="1696" y2="-1375" start-border-pos="0.34356452094184" end-border-pos="0.84356452094184" name-position="0,20">
+            <layout line-style="curve" lock-to-fields="false" auto-path="" x1="1617" y1="-1434" x2="1752" y2="-1434" start-border-pos="0.375" end-border-pos="0.875" name-position="0,20">
               <points>
-                <point x="1532" y="-1344" />
-                <point x="1696" y="-1375" />
+                <point x="1617" y="-1434" />
+                <point x="1752" y="-1434" />
               </points>
             </layout>
             <relation from="e1b2c48cd9bd48a1bc02b1d31f416ee0" from-iid="478e34d69df140c2a3bd00c9a0089cda" to="2c7353bc4ada4acfa732e960bdad5dc6" to-iid="9bbddc44f25b46db816075b366d17105" />
           </item>
+          <item id="dfef33eafcd245d69086925c350ca939" iid="bfec74b55cae4efdad12f9a08745e017" creation-date="11/11/2022 19:46:48" order-index="59" type="relation">
+            <layout line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1324" y1="-1423" x2="1402" y2="-1275" start-border-pos="0.580296834309896" end-border-pos="0.937171427408854" start-local-pos="81.45752" end-local-pos="22.61829" name-position="-37,26">
+              <points>
+                <point x="1324" y="-1423" />
+                <point x="1402" y="-1275" />
+              </points>
+            </layout>
+            <relation from="6c21a40b559e4808bd20485552b9b5dc" from-iid="e3c502a1facc4bcebfe62892255d24d6" to="c3e9db834ef843c0bce27321c39e39fc" to-iid="d43d45fe8dfe4120992cd8b6f5742856" />
+          </item>
+          <item id="2b230d4c875543bd82c82f21588c8c33" iid="dafba8dc1fee4716a77846027214c66a" creation-date="11/11/2022 19:48:35" order-index="60" type="entity">
+            <layout ax="1054.299" ay="-959" awidth="120" aheight="70" x="1054.299" y="-959" width="120" height="70" />
+          </item>
+          <item id="09004b9747ab41b0baf728e9b9a0614a" iid="d12d47ebcb5547208736af0f19bfab36" creation-date="11/11/2022 19:48:44" order-index="61" type="entity">
+            <layout ax="1295" ay="-959" awidth="120" aheight="70" x="1295" y="-956" width="120" height="70" />
+          </item>
+          <item id="b07e419d0ef8407faf149207284cbadf" iid="d07ac015a83842e48772d482b3b62dd5" creation-date="11/11/2022 19:49:44" order-index="62" type="entity">
+            <layout ax="1295" ay="-820" awidth="120" aheight="70" x="1302" y="-820" width="120" height="70" />
+          </item>
+          <item id="9f03ce69e7e0464390e15f6281cb5c00" iid="ede44e52b0844f86ba297bdaf843ed0f" creation-date="11/11/2022 19:49:52" order-index="63" type="entity">
+            <layout ax="1481" ay="-820" awidth="120" aheight="70" x="1481" y="-823" width="120" height="70" />
+          </item>
+          <item id="Line11" iid="e68c4fd08d2e414c810519573124672c" creation-date="11/11/2022 19:50:21" order-index="65" type="entity">
+            <layout ax="1355" ay="-885" awidth="6" aheight="69" x="50" y="50" width="140" height="160" rotation-center="-1358,850.5" />
+            <drawing-line start-point="1355,-885" end-point="1360,-817" />
+          </item>
+          <item id="Line12" iid="347a10ad670d44f89f6300dd21613c14" creation-date="11/11/2022 19:50:25" order-index="66" type="entity">
+            <layout ax="1377.542" ay="-885" awidth="157.4575" aheight="65" x="50" y="50" width="140" height="160" rotation-center="-1456.271,852.5" />
+            <drawing-line start-point="1377.542,-885" end-point="1534,-821" />
+          </item>
+          <item id="89efe73968d04cc0b73a6d855112a069" iid="1d695f6d5e0644b598ae78f67985ac52" creation-date="11/11/2022 19:50:47" order-index="68" type="entity">
+            <layout ax="1213.542" ay="-1150" awidth="120" aheight="70" x="1214" y="-1150" width="120" height="70" />
+          </item>
+          <item id="Line14" iid="c8a42a7b8ee24a2d806583ec25baf762" creation-date="11/11/2022 19:50:53" order-index="69" type="entity">
+            <layout ax="1105" ay="-1087" awidth="164" aheight="131" x="50" y="50" width="140" height="160" />
+            <drawing-line start-point="1268,-1087" end-point="1105,-957" />
+          </item>
+          <item id="Line15" iid="ed0b7b1faf934ea2ad23cf7e49989462" creation-date="11/11/2022 19:50:56" order-index="70" type="entity">
+            <layout ax="1268" ay="-1084" awidth="90" aheight="127" x="1295" y="-1076" width="63" height="120" rotation-center="-1313,1020.5" />
+            <drawing-line start-point="1268,-1084" end-point="1357,-958" />
+          </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="pffba70386155485db2273bf989abd18e_993685624" name="DFD-KHS" order-index="16" overview-order-index="14" uid="" auto-routed-paths="false" default-line-style="default" view-location="19,375" zoom="0.8">
+      <diagram type="data-flow" id="pffba70386155485db2273bf989abd18e_993685624" name="DFD-KHS" order-index="16" overview-order-index="14" uid="" auto-routed-paths="false" default-line-style="default" view-location="-128,328" zoom="0.6">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -7586,41 +7581,59 @@
           </authors>
           <description />
           <creation-date>11/11/2022 17:20:23</creation-date>
-          <change-date>11/11/2022 19:32:49</change-date>
+          <change-date>11/11/2022 19:55:07</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
-          <item id="bea871b50c564453abb3c1825ad3c77a" cid="DFF019" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:24:48" from="07698fb4c3be4102b9dcecfc17f76d34" to="e5c9f6eed3a44360acaf03921b8bea05" />
-          <item id="062867cd8db74649a7173b80656aaff4" cid="DFF029" type="dfd-data-flow" name="printcommand" creation-date="11/11/2022 17:30:24" from="4e6069f03bea4faba235dfe6851ee419" />
-          <item id="9e54c6d81a4a4f9a894fa25db9a2e87f" cid="DFF015" type="dfd-data-flow" name="nim" creation-date="11/11/2022 17:21:56" from="8aebf8b8c3044cc295541966966dc62c" to="8d88a511cdd241b4a7118df65188feeb" />
-          <item id="60936223779d40ec949108777b6c0351" cid="DFP018" type="dfd-process" name="2.2. open print dialog" creation-date="11/11/2022 17:28:45" />
-          <item id="506a667e3e3141ba96622eb89cf3d9e8" cid="DFP015" type="dfd-process" name="2. print KHS" creation-date="11/11/2022 17:25:42" />
-          <item id="950e8278ceb94a9f90cca0d17cee906c" cid="DFF022" type="dfd-data-flow" name="printout" creation-date="11/11/2022 17:25:55" from="506a667e3e3141ba96622eb89cf3d9e8" />
-          <item id="5d577ecec444405f8b5d34be03b78c1d" cid="DFS005" type="dfd-data-store" name="KHS" creation-date="11/11/2022 17:27:32" />
-          <item id="290306b9178e4e2aa111f14ff790ecdc" cid="DFF031" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:46:12" from="8d88a511cdd241b4a7118df65188feeb" to="8aebf8b8c3044cc295541966966dc62c" />
-          <item id="4e6069f03bea4faba235dfe6851ee419" cid="DFP019" type="dfd-process" name="2.1 printToPrinter" creation-date="11/11/2022 17:30:02" />
-          <item id="8424f839e7bb438baee2160d415343ee" cid="DFF118" type="dfd-data-flow" creation-date="11/11/2022 19:32:47" from="673a55736c4046839191e86f80222a3a" to="698058e27b294492b4f217b046da906e" />
           <item id="ce7bb7e78d4d44828172327737db2fed" cid="DFF021" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:25:47" from="e5c9f6eed3a44360acaf03921b8bea05" to="506a667e3e3141ba96622eb89cf3d9e8" />
-          <item id="ba19418ff510443ab41f6dbe8a8388f4" cid="DFF024" type="dfd-data-flow" name="nim&amp;tahun akademik" creation-date="11/11/2022 17:27:19" to="6796fb766fb04f448f2c99d37e6f975b" />
-          <item id="e5c9f6eed3a44360acaf03921b8bea05" cid="DFP012" type="dfd-process" name="1. menampilkan daftar KHS" creation-date="11/11/2022 17:22:46" />
+          <item id="5cba15a76add4451b9c3190368e9b61d" cid="DFE027" type="dfd-external" name="print KHS" creation-date="11/11/2022 19:54:28" />
           <item id="673a55736c4046839191e86f80222a3a" cid="DFP017" type="dfd-process" name="1.2. displayKHS" creation-date="11/11/2022 17:28:11" />
           <item id="a2e5bcbb7dad42fab9ba1e2796a8dc36" cid="DFF032" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:46:37" from="8d88a511cdd241b4a7118df65188feeb" to="0e0f6a4d4d23477ea280c125bd7fb457" />
-          <item id="6796fb766fb04f448f2c99d37e6f975b" cid="DFP016" type="dfd-process" name="1.1. getKHS" creation-date="11/11/2022 17:27:04" />
-          <item id="3ef624fb26c546e99fe174c687477906" cid="DFF025" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:27:36" from="5d577ecec444405f8b5d34be03b78c1d" to="6796fb766fb04f448f2c99d37e6f975b" />
-          <item id="5edfd611f62f4e1d87b99bb80a15c8dd" cid="DFF026" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:28:33" from="6796fb766fb04f448f2c99d37e6f975b" to="673a55736c4046839191e86f80222a3a" />
-          <item id="92ade36a9a5545b78957979848411893" cid="DFE019" type="dfd-external" name="display KHS" creation-date="11/11/2022 19:31:41" />
-          <item id="8aebf8b8c3044cc295541966966dc62c" cid="DFE002" type="dfd-external" name="mahasiswa" creation-date="11/11/2022 17:21:51" />
-          <item id="51e3501640fb4a93ad41a84265244110" cid="DFF028" type="dfd-data-flow" name="KHS html" creation-date="11/11/2022 17:30:02" from="698058e27b294492b4f217b046da906e" to="4e6069f03bea4faba235dfe6851ee419" />
-          <item id="f93f6f3330334978a08d6d53752ac369" cid="DFF020" type="dfd-data-flow" name="nim &amp; tahun akademik" creation-date="11/11/2022 17:25:26" to="e5c9f6eed3a44360acaf03921b8bea05" />
-          <item id="698058e27b294492b4f217b046da906e" cid="DFP066" type="dfd-process" name="trigget print KHS" creation-date="11/11/2022 19:32:47" />
-          <item id="be4a946c49b049478736291237ef2a1a" cid="DFE018" type="dfd-external" name="get KHS data" creation-date="11/11/2022 19:31:28" />
-          <item id="f43e1f5c07de4983943ae9c902d2ddf3" cid="DFF027" type="dfd-data-flow" name="KHS html" creation-date="11/11/2022 17:28:45" from="698058e27b294492b4f217b046da906e" to="60936223779d40ec949108777b6c0351" />
-          <item id="659fcaf4c7104a6fa6fe55f85282c865" cid="DFE020" type="dfd-external" name="display KHS" creation-date="11/11/2022 19:31:54" />
-          <item id="8d88a511cdd241b4a7118df65188feeb" cid="DFP011" type="dfd-process" name="KHS" creation-date="11/11/2022 17:21:56" />
-          <item id="0e0f6a4d4d23477ea280c125bd7fb457" cid="DFE004" type="dfd-external" name="printer" creation-date="11/11/2022 17:46:30" />
-          <item id="07698fb4c3be4102b9dcecfc17f76d34" cid="DFS004" type="dfd-data-store" name="KHS" creation-date="11/11/2022 17:24:18" />
           <item id="5412a9944a714079be0aeb2b11d71899" cid="DFF016" type="dfd-data-flow" name="tahun akademik" creation-date="11/11/2022 17:22:15" from="8aebf8b8c3044cc295541966966dc62c" to="8d88a511cdd241b4a7118df65188feeb" />
+          <item id="8d88a511cdd241b4a7118df65188feeb" cid="DFP011" type="dfd-process" name="KHS" creation-date="11/11/2022 17:21:56" />
+          <item id="8424f839e7bb438baee2160d415343ee" cid="DFF118" type="dfd-data-flow" creation-date="11/11/2022 19:32:47" from="673a55736c4046839191e86f80222a3a" to="698058e27b294492b4f217b046da906e" />
+          <item id="6796fb766fb04f448f2c99d37e6f975b" cid="DFP016" type="dfd-process" name="1.1. getKHS" creation-date="11/11/2022 17:27:04" />
+          <item id="60936223779d40ec949108777b6c0351" cid="DFP018" type="dfd-process" name="2.2. open print dialog" creation-date="11/11/2022 17:28:45" />
+          <item id="47bd2047d57e477baefe6eb9546a483a" cid="DFE029" type="dfd-external" name="print to printer" creation-date="11/11/2022 19:54:45" />
+          <item id="8aebf8b8c3044cc295541966966dc62c" cid="DFE002" type="dfd-external" name="mahasiswa" creation-date="11/11/2022 17:21:51" />
+          <item id="67d3f3f88f2846b49e59abc7fbb4a4a6" cid="DFE028" type="dfd-external" name="open print window" creation-date="11/11/2022 19:54:34" />
+          <item id="0e0f6a4d4d23477ea280c125bd7fb457" cid="DFE004" type="dfd-external" name="printer" creation-date="11/11/2022 17:46:30" />
+          <item id="290306b9178e4e2aa111f14ff790ecdc" cid="DFF031" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:46:12" from="8d88a511cdd241b4a7118df65188feeb" to="8aebf8b8c3044cc295541966966dc62c" />
+          <item id="Line17" cid="ELEM090" type="drawing-line" name="di6c428c966b314aa197e75a3fa8b15d036560" creation-date="11/11/2022 19:54:55">
+            <drawing />
+          </item>
+          <item id="698058e27b294492b4f217b046da906e" cid="DFP066" type="dfd-process" name="trigget print KHS" creation-date="11/11/2022 19:32:47" />
+          <item id="950e8278ceb94a9f90cca0d17cee906c" cid="DFF022" type="dfd-data-flow" name="printout" creation-date="11/11/2022 17:25:55" from="506a667e3e3141ba96622eb89cf3d9e8" />
+          <item id="f43e1f5c07de4983943ae9c902d2ddf3" cid="DFF027" type="dfd-data-flow" name="KHS html" creation-date="11/11/2022 17:28:45" from="698058e27b294492b4f217b046da906e" to="60936223779d40ec949108777b6c0351" />
+          <item id="f93f6f3330334978a08d6d53752ac369" cid="DFF020" type="dfd-data-flow" name="nim &amp; tahun akademik" creation-date="11/11/2022 17:25:26" to="e5c9f6eed3a44360acaf03921b8bea05" />
+          <item id="Line16" cid="ELEM086" type="drawing-line" name="di01024be6056845ae86d944aefc7ed6d41034" creation-date="11/11/2022 19:54:51">
+            <drawing />
+          </item>
+          <item id="659fcaf4c7104a6fa6fe55f85282c865" cid="DFE020" type="dfd-external" name="display KHS" creation-date="11/11/2022 19:31:54" />
+          <item id="5d577ecec444405f8b5d34be03b78c1d" cid="DFS005" type="dfd-data-store" name="KHS" creation-date="11/11/2022 17:27:32" />
+          <item id="51e3501640fb4a93ad41a84265244110" cid="DFF028" type="dfd-data-flow" name="KHS html" creation-date="11/11/2022 17:30:02" from="698058e27b294492b4f217b046da906e" to="4e6069f03bea4faba235dfe6851ee419" />
+          <item id="92ade36a9a5545b78957979848411893" cid="DFE019" type="dfd-external" name="KHS" creation-date="11/11/2022 19:31:41" />
+          <item id="e5c9f6eed3a44360acaf03921b8bea05" cid="DFP012" type="dfd-process" name="1. menampilkan daftar KHS" creation-date="11/11/2022 17:22:46" />
+          <item id="4e6069f03bea4faba235dfe6851ee419" cid="DFP019" type="dfd-process" name="2.1 printToPrinter" creation-date="11/11/2022 17:30:02" />
+          <item id="bea871b50c564453abb3c1825ad3c77a" cid="DFF019" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:24:48" from="07698fb4c3be4102b9dcecfc17f76d34" to="e5c9f6eed3a44360acaf03921b8bea05" />
+          <item id="506a667e3e3141ba96622eb89cf3d9e8" cid="DFP015" type="dfd-process" name="2. print KHS" creation-date="11/11/2022 17:25:42" />
+          <item id="07698fb4c3be4102b9dcecfc17f76d34" cid="DFS004" type="dfd-data-store" name="KHS" creation-date="11/11/2022 17:24:18" />
+          <item id="be4a946c49b049478736291237ef2a1a" cid="DFE018" type="dfd-external" name="get KHS data" creation-date="11/11/2022 19:31:28" />
+          <item id="Line20" cid="ELEM112" type="drawing-line" name="did949ca52ade24408abbad77644343b292508" creation-date="11/11/2022 19:55:07">
+            <drawing />
+          </item>
+          <item id="5edfd611f62f4e1d87b99bb80a15c8dd" cid="DFF026" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:28:33" from="6796fb766fb04f448f2c99d37e6f975b" to="673a55736c4046839191e86f80222a3a" />
+          <item id="3ef624fb26c546e99fe174c687477906" cid="DFF025" type="dfd-data-flow" name="KHS" creation-date="11/11/2022 17:27:36" from="5d577ecec444405f8b5d34be03b78c1d" to="6796fb766fb04f448f2c99d37e6f975b" />
+          <item id="9e54c6d81a4a4f9a894fa25db9a2e87f" cid="DFF015" type="dfd-data-flow" name="nim" creation-date="11/11/2022 17:21:56" from="8aebf8b8c3044cc295541966966dc62c" to="8d88a511cdd241b4a7118df65188feeb" />
+          <item id="ba19418ff510443ab41f6dbe8a8388f4" cid="DFF024" type="dfd-data-flow" name="nim&amp;tahun akademik" creation-date="11/11/2022 17:27:19" to="6796fb766fb04f448f2c99d37e6f975b" />
+          <item id="Line19" cid="ELEM100" type="drawing-line" name="die3e38ac53542446f8bad7b9b779ce0307738" creation-date="11/11/2022 19:55:03">
+            <drawing />
+          </item>
+          <item id="Line18" cid="ELEM096" type="drawing-line" name="di0cd67d4bfb404eadad251d66efe5dd508356" creation-date="11/11/2022 19:54:59">
+            <drawing />
+          </item>
+          <item id="062867cd8db74649a7173b80656aaff4" cid="DFF029" type="dfd-data-flow" name="printcommand" creation-date="11/11/2022 17:30:24" from="4e6069f03bea4faba235dfe6851ee419" />
         </abstract-items>
         <layer id="94fc135fd1054f8fa70cfc82c35086be" name="Default" visible="true" enabled="true" locked="false">
           <item id="8aebf8b8c3044cc295541966966dc62c" iid="f155f92e4aef471f84073b2bfc8113a4" creation-date="11/11/2022 17:21:51" order-index="1" type="entity">
@@ -7698,34 +7711,34 @@
             <layout ax="202" ay="923" awidth="120" aheight="90" x="200" y="923" width="120" height="90" />
           </item>
           <item id="ba19418ff510443ab41f6dbe8a8388f4" iid="a879073a132d4452b4acd22633564a7b" creation-date="11/11/2022 17:27:19" order-index="13" type="relation">
-            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="43" y1="876" x2="206" y2="951" start-border-pos="-1" end-border-pos="0.922222222222222" end-local-pos="6" name-position="0,20">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="20" y1="868" x2="206" y2="951" start-border-pos="-1" end-border-pos="0.922222222222222" end-local-pos="6" name-position="-58,27">
               <points>
-                <point x="43" y="876" />
+                <point x="20" y="868" />
                 <point x="206" y="951" />
               </points>
             </layout>
             <relation to="6796fb766fb04f448f2c99d37e6f975b" to-iid="130aef827d56495daa0ab973d41a2674" />
           </item>
           <item id="5d577ecec444405f8b5d34be03b78c1d" iid="b0dcbae194624ca1b4f1867f88b5fb55" creation-date="11/11/2022 17:27:32" order-index="14" type="entity">
-            <layout ax="190" ay="1083" awidth="120" aheight="55" x="190" y="1083" width="120" height="50" />
+            <layout ax="187" ay="1084" awidth="120" aheight="55" x="187" y="1084" width="120" height="50" />
           </item>
           <item id="3ef624fb26c546e99fe174c687477906" iid="be66c361821940daaa98daf983712ba6" creation-date="11/11/2022 17:27:36" order-index="15" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="250" y1="1083" x2="262" y2="1013" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="60" end-local-pos="60" name-position="55,7" name-width="102">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="247" y1="1084" x2="262" y2="1013" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="60" end-local-pos="60" name-position="55,7" name-width="102">
               <points>
-                <point x="250" y="1083" />
+                <point x="247" y="1084" />
                 <point x="262" y="1013" />
               </points>
             </layout>
             <relation from="5d577ecec444405f8b5d34be03b78c1d" from-iid="b0dcbae194624ca1b4f1867f88b5fb55" to="6796fb766fb04f448f2c99d37e6f975b" to-iid="130aef827d56495daa0ab973d41a2674" />
           </item>
           <item id="673a55736c4046839191e86f80222a3a" iid="ded8f7a57e414e9fb4472c03a63ce0d7" creation-date="11/11/2022 17:28:11" order-index="16" type="entity">
-            <layout ax="418" ay="923" awidth="120" aheight="90" x="418" y="923" width="120" height="90" />
+            <layout ax="440" ay="923" awidth="120" aheight="90" x="440" y="923" width="120" height="90" />
           </item>
           <item id="5edfd611f62f4e1d87b99bb80a15c8dd" iid="5bbaa25e1a3247b7b05f0278154eda3d" creation-date="11/11/2022 17:28:33" order-index="17" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="321" y1="967" x2="418" y2="968" start-border-pos="0.372222222222222" end-border-pos="0.875" start-local-pos="44" end-local-pos="45" name-position="0,20">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="321" y1="967" x2="440" y2="968" start-border-pos="0.372222222222222" end-border-pos="0.875" start-local-pos="44" end-local-pos="45" name-position="0,20">
               <points>
                 <point x="321" y="967" />
-                <point x="418" y="968" />
+                <point x="440" y="968" />
               </points>
             </layout>
             <relation from="6796fb766fb04f448f2c99d37e6f975b" from-iid="130aef827d56495daa0ab973d41a2674" to="673a55736c4046839191e86f80222a3a" to-iid="ded8f7a57e414e9fb4472c03a63ce0d7" />
@@ -7798,17 +7811,46 @@
             <layout ax="689.0051" ay="952" awidth="120" aheight="90" x="689.0051" y="952" width="120" height="90" />
           </item>
           <item id="8424f839e7bb438baee2160d415343ee" iid="b13b8c06c885403fb03bd99ac8274980" creation-date="11/11/2022 19:32:47" order-index="30" type="relation">
-            <layout line-style="curve" lock-to-fields="false" auto-path="" x1="537" y1="974" x2="689" y2="991" start-border-pos="0.392835150824653" end-border-pos="0.892835150824653" name-position="0,20">
+            <layout line-style="curve" lock-to-fields="false" auto-path="" x1="559" y1="975" x2="689" y2="990" start-border-pos="0.394411044650608" end-border-pos="0.894411044650608" name-position="0,20">
               <points>
-                <point x="537" y="974" />
-                <point x="689" y="991" />
+                <point x="559" y="975" />
+                <point x="689" y="990" />
               </points>
             </layout>
             <relation from="673a55736c4046839191e86f80222a3a" from-iid="ded8f7a57e414e9fb4472c03a63ce0d7" to="698058e27b294492b4f217b046da906e" to-iid="964e44f85f97438a9d052cc283780dd1" />
           </item>
+          <item id="5cba15a76add4451b9c3190368e9b61d" iid="811a69637a7e40e99611baf69ee8f5a4" creation-date="11/11/2022 19:54:28" order-index="31" type="entity">
+            <layout ax="475" ay="1406" awidth="120" aheight="70" x="475" y="1405" width="120" height="70" />
+          </item>
+          <item id="67d3f3f88f2846b49e59abc7fbb4a4a6" iid="171d16dfd17b4713b06c6299ae02492c" creation-date="11/11/2022 19:54:34" order-index="32" type="entity">
+            <layout ax="355" ay="1571" awidth="120" aheight="70" x="361" y="1571" width="120" height="70" />
+          </item>
+          <item id="47bd2047d57e477baefe6eb9546a483a" iid="8998efa7b51d4b2289f9f9068e7c3dd9" creation-date="11/11/2022 19:54:45" order-index="33" type="entity">
+            <layout ax="605" ay="1571" awidth="120" aheight="70" x="605" y="1573" width="120" height="70" />
+          </item>
+          <item id="Line16" iid="7e88a00a58ae4b05b3553b031fc7383b" creation-date="11/11/2022 19:54:51" order-index="34" type="entity">
+            <layout ax="326" ay="1333" awidth="1" aheight="74" x="50" y="50" width="140" height="160" />
+            <drawing-line start-point="326,1333" end-point="326,1406" />
+          </item>
+          <item id="Line17" iid="da60c2d4451d40c3886335b0a17f285f" creation-date="11/11/2022 19:54:55" order-index="35" type="entity">
+            <layout ax="138" ay="1335" awidth="188" aheight="76" x="50" y="50" width="140" height="160" />
+            <drawing-line start-point="325,1335" end-point="138,1410" />
+          </item>
+          <item id="Line18" iid="743dccb3d6a546e3a412afe0c4dd640f" creation-date="11/11/2022 19:54:59" order-index="36" type="entity">
+            <layout ax="325" ay="1338" awidth="212" aheight="71" x="50" y="50" width="140" height="160" />
+            <drawing-line start-point="325,1338" end-point="536,1408" />
+          </item>
+          <item id="Line19" iid="2a5ef4bbcbf84682884d1b939de8ec8a" creation-date="11/11/2022 19:55:03" order-index="37" type="entity">
+            <layout ax="419" ay="1478" awidth="117" aheight="92" x="50" y="50" width="140" height="160" />
+            <drawing-line start-point="535,1478" end-point="419,1569" />
+          </item>
+          <item id="Line20" iid="826c64b4d6e54a0ab3c6c4f533b2c94d" creation-date="11/11/2022 19:55:07" order-index="38" type="entity">
+            <layout ax="533" ay="1476" awidth="133" aheight="96" x="50" y="50" width="140" height="160" />
+            <drawing-line start-point="533,1476" end-point="665,1571" />
+          </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="pa50e804443e4448b9b4f3739257ea6a5_557763585" name="DFD-KRS" order-index="17" overview-order-index="15" uid="" auto-routed-paths="false" default-line-style="default" view-location="-164,147" zoom="0.5">
+      <diagram type="data-flow" id="pa50e804443e4448b9b4f3739257ea6a5_557763585" name="DFD-KRS" order-index="17" overview-order-index="15" uid="" auto-routed-paths="false" default-line-style="default" view-location="-389,50" zoom="0.5">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -7820,47 +7862,49 @@
           </authors>
           <description />
           <creation-date>11/11/2022 17:32:35</creation-date>
-          <change-date>11/11/2022 18:50:48</change-date>
+          <change-date>11/11/2022 20:14:49</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
-          <item id="4a4042f673634664bb702adcbdae07af" cid="DFP060" type="dfd-process" name="update jadwal kelas" creation-date="11/11/2022 18:48:18" />
+          <item id="4a4042f673634664bb702adcbdae07af" cid="DFP060" type="dfd-process" name="6. update jadwal kelas" creation-date="11/11/2022 18:48:18" />
           <item id="2940c5ef470c46448141116d74eed46e" cid="DFE009" type="dfd-external" name="Jadwal" creation-date="11/11/2022 18:24:26" />
           <item id="ed701a48d5e84f92b11b00aa798150e0" cid="DFP030" type="dfd-process" name="4.1.  getListKelas" creation-date="11/11/2022 18:05:09" />
           <item id="dia571e5c9707e487ebbdae2f20fadd5a72678" cid="DFF035" type="dfd-data-flow" name="KRS" creation-date="11/11/2022 17:46:12" from="did4358b4e885646729c50b7d6c1361bd92678" to="dic7fcc08f04f04b35af5ca9ee56135e1d2678" />
+          <item id="07dafb443ffe4389913c993d5b8850eb" cid="DFE033" type="dfd-external" name="get matkul" creation-date="11/11/2022 20:08:27" />
           <item id="21d3f1e206fe42ffbc348acb0eb87c86" cid="DFF075" type="dfd-data-flow" name="matkulId" creation-date="11/11/2022 18:26:56" to="7150c2535ddf4b6782f2cf4c4968f481" />
           <item id="f329628624404fc78815e348d916d25a" cid="DFF044" type="dfd-data-flow" name="matkulId" creation-date="11/11/2022 17:55:18" to="fc2260209b444fa0a23907098415ec56" />
           <item id="eae41f56e14c4982a3b0e5e294b1492e" cid="DFP061" type="dfd-process" name="6. update jadwal kelas" creation-date="11/11/2022 18:48:47" />
-          <item id="e41de1d83db347119a3893e965b4a040" cid="DFP051" type="dfd-process" name="2.1 getJadwal" creation-date="11/11/2022 18:33:15" />
-          <item id="di6a5a1949b2384690bdcacbdbc49ce2335948" cid="DFP047" type="dfd-process" name="3.1. getKRS" creation-date="11/11/2022 17:27:04" />
-          <item id="bc5283e48ae9418f951934503c047e44" cid="DFF093" type="dfd-data-flow" name="jadwal" creation-date="11/11/2022 18:35:21" from="2408962fba7e48b19c0d90d820946023" to="e41de1d83db347119a3893e965b4a040" />
-          <item id="di8424fc6794b64c3d854fee0f65321cae5948" cid="DFP048" type="dfd-process" name="3.2.setKRS" creation-date="11/11/2022 17:28:11" />
+          <item id="e41de1d83db347119a3893e965b4a040" cid="DFP051" type="dfd-process" name="2.1 getMatkul" creation-date="11/11/2022 18:33:15" />
+          <item id="bc5283e48ae9418f951934503c047e44" cid="DFF093" type="dfd-data-flow" name="jadwal" creation-date="11/11/2022 18:35:21" from="2408962fba7e48b19c0d90d820946023" to="0f59bbb16cd54f9f9459793c0f0a9280" />
+          <item id="di8424fc6794b64c3d854fee0f65321cae5948" cid="DFP048" type="dfd-process" name="5.1.trigger print" creation-date="11/11/2022 17:28:11" />
           <item id="di1c914ef309ce4074aa4e8fcad8e9c9b69177" cid="DFF089" type="dfd-data-flow" name="printcommand" creation-date="11/11/2022 17:30:24" from="did61f2f959fd547889d34cf51f0266aeb5948" />
-          <item id="0f59bbb16cd54f9f9459793c0f0a9280" cid="DFP053" type="dfd-process" name="2.3. update jadwal" creation-date="11/11/2022 18:34:10" />
-          <item id="7a95da97e9ab487c9d7670fa7f833274" cid="DFF108" type="dfd-data-flow" creation-date="11/11/2022 18:48:18" from="af78ce23bda64229bbeed56a58afbb07" to="4a4042f673634664bb702adcbdae07af" />
+          <item id="0f59bbb16cd54f9f9459793c0f0a9280" cid="DFP053" type="dfd-process" name="6. update jadwal" creation-date="11/11/2022 18:34:10" />
+          <item id="7a95da97e9ab487c9d7670fa7f833274" cid="DFF108" type="dfd-data-flow" name="matkul" creation-date="11/11/2022 18:48:18" from="7150c2535ddf4b6782f2cf4c4968f481" to="4a4042f673634664bb702adcbdae07af" />
+          <item id="6d652053c82d48c5a00a848ca77c2d7e" cid="DFE031" type="dfd-external" name="open print dialog" creation-date="11/11/2022 19:59:08" />
           <item id="e5202343d2d543dca962c6a26ca95c57" cid="DFF074" type="dfd-data-flow" name="isValid" creation-date="11/11/2022 18:24:57" from="2940c5ef470c46448141116d74eed46e" to="9dd203482bb94a96a900efa7daefb1fd" />
           <item id="7150c2535ddf4b6782f2cf4c4968f481" cid="DFP039" type="dfd-process" name="1.1. validasi tambah matkul" creation-date="11/11/2022 18:17:29" />
-          <item id="09a3867845f5410b851ff9a6829cd56d" cid="DFF077" type="dfd-data-flow" name="isValid" creation-date="11/11/2022 18:28:02" from="9dd203482bb94a96a900efa7daefb1fd" to="af78ce23bda64229bbeed56a58afbb07" />
           <item id="ca1f9f1d07144a9c9d080e95bf6fd83a" cid="DFP028" type="dfd-process" name="4. displayHalamanTambahMatkul" creation-date="11/11/2022 17:56:23" />
+          <item id="1ce9751ce29b4e8c96320238f78e2406" cid="DFE041" type="dfd-external" name="External38" creation-date="11/11/2022 20:13:28" />
           <item id="0883b25b6ef8477986e020d14147b9aa" cid="DFS007" type="dfd-data-store" name="mahasiswa" creation-date="11/11/2022 17:54:03" />
           <item id="869ee7bb467740fe90a5304e4c0be2d3" cid="DFF109" type="dfd-data-flow" name="matkulId" creation-date="11/11/2022 18:49:56" from="fc2260209b444fa0a23907098415ec56" to="eae41f56e14c4982a3b0e5e294b1492e" />
-          <item id="a40ef49bcc444485bb7874dd934ee732" cid="DFF076" type="dfd-data-flow" name="isValid" creation-date="11/11/2022 18:27:59" from="bff3039112694818baf74d6bc4f375b2" to="af78ce23bda64229bbeed56a58afbb07" />
           <item id="did4358b4e885646729c50b7d6c1361bd92678" cid="DFP021" type="dfd-process" name="KRS" creation-date="11/11/2022 17:21:56" />
-          <item id="da644fe30e1a425c8ed6fecd9419d81a" cid="DFF090" type="dfd-data-flow" creation-date="11/11/2022 18:33:30" from="e41de1d83db347119a3893e965b4a040" to="9afeeb585aac4255846c2ace69a90f4f" />
-          <item id="did3cb9d48d6134a41b78929b29ff537e05948" cid="DFS012" type="dfd-data-store" name="KRS" creation-date="11/11/2022 17:27:32" />
-          <item id="didbdb301125dc46909f8cc57864ccd0689177" cid="DFF085" type="dfd-data-flow" name="KRS" creation-date="11/11/2022 17:27:36" from="did3cb9d48d6134a41b78929b29ff537e05948" to="di6a5a1949b2384690bdcacbdbc49ce2335948" />
+          <item id="5fcf429ae0354dad91c4db9eb531dd57" cid="DFE035" type="dfd-external" name="cek matkul prasyarat" creation-date="11/11/2022 20:09:08" />
+          <item id="da644fe30e1a425c8ed6fecd9419d81a" cid="DFF090" type="dfd-data-flow" creation-date="11/11/2022 18:33:30" from="e41de1d83db347119a3893e965b4a040" to="0f59bbb16cd54f9f9459793c0f0a9280" />
           <item id="did61f2f959fd547889d34cf51f0266aeb5948" cid="DFP050" type="dfd-process" name="5.1 printToPrinter" creation-date="11/11/2022 17:30:02" />
           <item id="4bf1937d0f3544e3963f6671d5e4355d" cid="DFP035" type="dfd-process" name="4.2. display list kelas" creation-date="11/11/2022 18:13:29" />
           <item id="1c5bcd9b76bf4a08984a323886a0734a" cid="DFF069" type="dfd-data-flow" name="matkulId" creation-date="11/11/2022 18:23:06" from="7150c2535ddf4b6782f2cf4c4968f481" to="0c22a034388e437cb10061276868e007" />
           <item id="e0f5a9075f4d4aeb830edcf0e056fd7f" cid="DFF063" type="dfd-data-flow" name="kelas" creation-date="11/11/2022 18:13:15" from="736571cb7bfc4ffabd4df58e239d14c5" to="ed701a48d5e84f92b11b00aa798150e0" />
           <item id="d5dd532b89db4b6bb4887cc0bddd0e95" cid="DFF072" type="dfd-data-flow" name="jumlah sks tersedia" creation-date="11/11/2022 18:24:18" from="d6bc11a548a94002aaad766b3396a05d" to="bff3039112694818baf74d6bc4f375b2" />
           <item id="dia27a18d5cdb944fbab9b0a59f175991d9177" cid="DFF087" type="dfd-data-flow" name="KRS html" creation-date="11/11/2022 17:28:45" from="di8424fc6794b64c3d854fee0f65321cae5948" to="didc8d06d7f8c4400fa93b2034a87578515948" />
+          <item id="2a38711fb426456c97a89e138701ea93" cid="DFE043" type="dfd-external" name="display list kelas" creation-date="11/11/2022 20:14:39" />
+          <item id="36b5aa39ee8b4689a74c54326a849d70" cid="DFE037" type="dfd-external" name="cek jadwal kelas" creation-date="11/11/2022 20:09:31" />
           <item id="9dd203482bb94a96a900efa7daefb1fd" cid="DFP043" type="dfd-process" name="1.4. cek jadwal kelas" creation-date="11/11/2022 18:23:26" />
-          <item id="9afeeb585aac4255846c2ace69a90f4f" cid="DFP052" type="dfd-process" name="2.2 delete matkul from jadwal" creation-date="11/11/2022 18:33:30" />
           <item id="fc2260209b444fa0a23907098415ec56" cid="DFP022" type="dfd-process" name="1. tambah mata kuliah" creation-date="11/11/2022 17:47:41" />
-          <item id="d0617d99d788440ebd1487a6cd5dc8a7" cid="DFF095" type="dfd-data-flow" name="matkulId" creation-date="11/11/2022 18:35:56" to="e41de1d83db347119a3893e965b4a040" />
+          <item id="3f7f534d85c84e8189f4727a2aeb1177" cid="DFF126" type="dfd-data-flow" name="matkul" creation-date="11/11/2022 20:06:28" to="e534f8de94d04ff3897ecdac118f3fd4" />
+          <item id="d0617d99d788440ebd1487a6cd5dc8a7" cid="DFF095" type="dfd-data-flow" name="matkul" creation-date="11/11/2022 18:35:56" to="e41de1d83db347119a3893e965b4a040" />
           <item id="d6bc11a548a94002aaad766b3396a05d" cid="DFS015" type="dfd-data-store" name="Mahasiswa" creation-date="11/11/2022 18:46:34" />
+          <item id="029dbe2341d54dc2934ebfa383d62f32" cid="DFE038" type="dfd-external" name="tambah matkul" creation-date="11/11/2022 20:10:09" />
           <item id="did230618693ca4beeb3183dfe0d2748ac2678" cid="DFF036" type="dfd-data-flow" name="KRS" creation-date="11/11/2022 17:46:37" from="did4358b4e885646729c50b7d6c1361bd92678" to="di62b48ee613a042a690d3c1ce5779fc132678" />
           <item id="bff3039112694818baf74d6bc4f375b2" cid="DFP042" type="dfd-process" name="1.3. cek ketersediaan SKS" creation-date="11/11/2022 18:23:15" />
           <item id="dic7fcc08f04f04b35af5ca9ee56135e1d2678" cid="DFE005" type="dfd-external" name="mahasiswa" creation-date="11/11/2022 17:21:51" />
@@ -7868,27 +7912,32 @@
           <item id="0834c4a1e1644fd99107da76a24066b3" cid="DFF054" type="dfd-data-flow" name="matkulId" creation-date="11/11/2022 18:02:16" from="3d208af63c814737b79ac3c4aef6d0ac" to="eae41f56e14c4982a3b0e5e294b1492e" />
           <item id="7315df8235d147b0b2195394efa22520" cid="DFF073" type="dfd-data-flow" name="isValid" creation-date="11/11/2022 18:24:21" from="efc8987771334ed2a575595334f2b50a" to="0c22a034388e437cb10061276868e007" />
           <item id="736571cb7bfc4ffabd4df58e239d14c5" cid="DFE008" type="dfd-external" name="kelas" creation-date="11/11/2022 18:13:10" />
-          <item id="af78ce23bda64229bbeed56a58afbb07" cid="DFP044" type="dfd-process" name="1.4. cek validasi" creation-date="11/11/2022 18:27:45" />
+          <item id="1496ccd778fc4cee80e7cd5fd87afbad" cid="DFE040" type="dfd-external" name="batal tambah" creation-date="11/11/2022 20:10:56" />
+          <item id="e534f8de94d04ff3897ecdac118f3fd4" cid="DFP072" type="dfd-process" name="getJadwalKelas" creation-date="11/11/2022 20:06:21" />
           <item id="didc8d06d7f8c4400fa93b2034a87578515948" cid="DFP049" type="dfd-process" name="5.2. open print dialog" creation-date="11/11/2022 17:28:45" />
           <item id="di5bb8a1fd22834249ac41264f46f16dd39177" cid="DFF088" type="dfd-data-flow" name="KRS html" creation-date="11/11/2022 17:30:02" from="di8424fc6794b64c3d854fee0f65321cae5948" to="did61f2f959fd547889d34cf51f0266aeb5948" />
           <item id="6b1b89ccfcb247039192938bda8e7bac" cid="DFF071" type="dfd-data-flow" name="jadwalId" creation-date="11/11/2022 18:23:26" from="7150c2535ddf4b6782f2cf4c4968f481" to="9dd203482bb94a96a900efa7daefb1fd" />
+          <item id="9a34511f1ed14234807a35beaea82f88" cid="DFE044" type="dfd-external" name="display halaman tambah matkul" creation-date="11/11/2022 20:14:49" />
           <item id="93a89ac7a09a42af91407deb3885c8f3" cid="DFS008" type="dfd-data-store" name="KRS" creation-date="11/11/2022 17:54:13" />
           <item id="edad468fd87f48199444661fde7a3887" cid="DFS006" type="dfd-data-store" name="jadwal" creation-date="11/11/2022 17:53:54" />
-          <item id="c89db8ed623b43caa011c5c3af667586" cid="DFF091" type="dfd-data-flow" creation-date="11/11/2022 18:34:10" from="9afeeb585aac4255846c2ace69a90f4f" to="0f59bbb16cd54f9f9459793c0f0a9280" />
           <item id="2408962fba7e48b19c0d90d820946023" cid="DFS013" type="dfd-data-store" name="Jadwal" creation-date="11/11/2022 18:35:16" />
           <item id="di62b48ee613a042a690d3c1ce5779fc132678" cid="DFE006" type="dfd-external" name="printer" creation-date="11/11/2022 17:46:30" />
           <item id="9750425d381c43f2ba9d05cec9d9f261" cid="DFF092" type="dfd-data-flow" name="jadwal" creation-date="11/11/2022 18:34:44" from="edad468fd87f48199444661fde7a3887" to="eae41f56e14c4982a3b0e5e294b1492e" />
           <item id="96a73e018d154d278b39368f338d3d79" cid="DFF070" type="dfd-data-flow" name="nim" creation-date="11/11/2022 18:23:15" from="7150c2535ddf4b6782f2cf4c4968f481" to="bff3039112694818baf74d6bc4f375b2" />
+          <item id="36021d9eb1a14f58b7e6d291de964658" cid="DFE042" type="dfd-external" name="get list kelas" creation-date="11/11/2022 20:14:35" />
+          <item id="01a3fd504491472cafa3921f778858bd" cid="DFE036" type="dfd-external" name="cek ketersediaan SKS" creation-date="11/11/2022 20:09:15" />
           <item id="79c439e641ea49ccbec3cb09897059b0" cid="DFP029" type="dfd-process" name="5. print KRS" creation-date="11/11/2022 17:58:54" />
-          <item id="b8018ee39eab46b9b227d4422fda9581" cid="DFF067" type="dfd-data-flow" name="list kelas" creation-date="11/11/2022 18:17:40" to="4bf1937d0f3544e3963f6671d5e4355d" />
+          <item id="b8018ee39eab46b9b227d4422fda9581" cid="DFF067" type="dfd-data-flow" name="list kelas" creation-date="11/11/2022 18:17:40" from="4bf1937d0f3544e3963f6671d5e4355d" />
           <item id="9d2da0bc370949dc98e3695cbfc41a37" cid="DFP027" type="dfd-process" name="3. displayKRS" creation-date="11/11/2022 17:54:26" />
           <item id="602d8a86095e41a69fd04847e136f3ae" cid="DFF045" type="dfd-data-flow" name="matkulId" creation-date="11/11/2022 17:55:35" to="3d208af63c814737b79ac3c4aef6d0ac" />
           <item id="21a16a630c2a4cf48e7e9027a40725eb" cid="DFF065" type="dfd-data-flow" name="kelasId" creation-date="11/11/2022 18:14:04" from="ca1f9f1d07144a9c9d080e95bf6fd83a" to="fc2260209b444fa0a23907098415ec56" />
-          <item id="di23a9952b34834345bab1434cc0b5cd4e9177" cid="DFF086" type="dfd-data-flow" name="KRS" creation-date="11/11/2022 17:28:33" from="di6a5a1949b2384690bdcacbdbc49ce2335948" to="di8424fc6794b64c3d854fee0f65321cae5948" />
+          <item id="f7b3f8fa47c74c0fab5aa91126f21ff3" cid="DFE039" type="dfd-external" name="update jadwal kelas" creation-date="11/11/2022 20:10:44" />
+          <item id="di23a9952b34834345bab1434cc0b5cd4e9177" cid="DFF086" type="dfd-data-flow" name="KRS html" creation-date="11/11/2022 17:28:33" to="di8424fc6794b64c3d854fee0f65321cae5948" />
           <item id="6c2ea6abdcf0441b88a2ebce29e25e48" cid="DFF055" type="dfd-data-flow" name="suksesMssg" creation-date="11/11/2022 18:03:38" from="fc2260209b444fa0a23907098415ec56" to="9d2da0bc370949dc98e3695cbfc41a37" />
-          <item id="dibd4cc15520114dcab8e5182002a8e2259177" cid="DFF084" type="dfd-data-flow" name="nim" creation-date="11/11/2022 17:27:19" to="di6a5a1949b2384690bdcacbdbc49ce2335948" />
+          <item id="fcb15e34a6114037838b6ed5e5c2ef64" cid="DFE032" type="dfd-external" name="print to printer" creation-date="11/11/2022 19:59:16" />
+          <item id="5d388d6140244678a41095a0dd4c70f1" cid="DFE034" type="dfd-external" name="validasi tambah matkul" creation-date="11/11/2022 20:08:52" />
+          <item id="56fec6e5fd054449a8ea571327ae2635" cid="DFE030" type="dfd-external" name="print KRS" creation-date="11/11/2022 19:59:00" />
           <item id="6feaa65c5eda47e7be723a87e6bdcb61" cid="DFF052" type="dfd-data-flow" name="availableSKS" creation-date="11/11/2022 18:01:21" from="0883b25b6ef8477986e020d14147b9aa" to="fc2260209b444fa0a23907098415ec56" />
-          <item id="11f381369fa54823ac7ad4f6814492f2" cid="DFF078" type="dfd-data-flow" name="isValid" creation-date="11/11/2022 18:28:05" from="0c22a034388e437cb10061276868e007" to="af78ce23bda64229bbeed56a58afbb07" />
           <item id="f88bb921d77b4f12910827735ac13598" cid="DFF066" type="dfd-data-flow" name="kodematkul / nama matkul" creation-date="11/11/2022 18:15:09" to="ed701a48d5e84f92b11b00aa798150e0" />
           <item id="356722b08e1940fba6f23441c7b7127b" cid="DFS009" type="dfd-data-store" name="Kelas" creation-date="11/11/2022 18:05:40" />
           <item id="e1b338a6eb334edea949e94a27418404" cid="DFF037" type="dfd-data-flow" name="err mssg" creation-date="11/11/2022 17:48:34" from="fc2260209b444fa0a23907098415ec56" to="ca1f9f1d07144a9c9d080e95bf6fd83a" />
@@ -7897,8 +7946,8 @@
           <item id="3059261d3c3f45bca4f22841819ccfad" cid="DFF041" type="dfd-data-flow" creation-date="11/11/2022 17:54:39" from="93a89ac7a09a42af91407deb3885c8f3" to="9d2da0bc370949dc98e3695cbfc41a37" />
           <item id="dia154b984e4b744849a8097b30867577c2678" cid="DFF033" type="dfd-data-flow" name="NIM" creation-date="11/11/2022 17:21:56" from="dic7fcc08f04f04b35af5ca9ee56135e1d2678" to="did4358b4e885646729c50b7d6c1361bd92678" />
           <item id="86f4d405e5d64436a911b55117d4e647" cid="DFF056" type="dfd-data-flow" name="list kelas" creation-date="11/11/2022 18:05:44" from="356722b08e1940fba6f23441c7b7127b" to="ca1f9f1d07144a9c9d080e95bf6fd83a" />
+          <item id="ea47e30d173b463baea82d20dd8b83a5" cid="DFF125" type="dfd-data-flow" name="matkul" creation-date="11/11/2022 20:03:26" from="0f59bbb16cd54f9f9459793c0f0a9280" to="2408962fba7e48b19c0d90d820946023" />
           <item id="3d208af63c814737b79ac3c4aef6d0ac" cid="DFP023" type="dfd-process" name="2. batal tambah mata kuliah" creation-date="11/11/2022 17:47:48" />
-          <item id="e58868e1e3994d13aaa716cd291777a9" cid="DFF094" type="dfd-data-flow" name="new jadwal" creation-date="11/11/2022 18:35:38" from="0f59bbb16cd54f9f9459793c0f0a9280" to="2408962fba7e48b19c0d90d820946023" />
           <item id="5c954c60f96440d1b791406bd6f131f3" cid="DFF064" type="dfd-data-flow" name="list kelas" creation-date="11/11/2022 18:13:29" from="ed701a48d5e84f92b11b00aa798150e0" to="4bf1937d0f3544e3963f6671d5e4355d" />
           <item id="0c22a034388e437cb10061276868e007" cid="DFP041" type="dfd-process" name="1.2 cek matkul prasyarat" creation-date="11/11/2022 18:23:06" />
           <item id="e8c643f00c3b4b1c8e98dbe189b28b53" cid="DFF050" type="dfd-data-flow" name="printcommand" creation-date="11/11/2022 17:59:16" from="79c439e641ea49ccbec3cb09897059b0" />
@@ -8067,7 +8116,7 @@
             <relation from="fc2260209b444fa0a23907098415ec56" from-iid="bc6e9734bfe5449d99ad9974412cafa0" to="9d2da0bc370949dc98e3695cbfc41a37" to-iid="1a5559d16e6343b6ba9732508f4d5e1a" />
           </item>
           <item id="ed701a48d5e84f92b11b00aa798150e0" iid="5cc29b71929d457ca66d3961128618b5" creation-date="11/11/2022 18:05:09" order-index="52" type="entity">
-            <layout ax="-222" ay="1316" awidth="120" aheight="90" x="-222" y="1316" width="120" height="90" />
+            <layout ax="-172" ay="1319" awidth="120" aheight="90" x="-172" y="1319" width="120" height="90" />
           </item>
           <item id="356722b08e1940fba6f23441c7b7127b" iid="10aacbed23b74aae9e58be3aa391e270" creation-date="11/11/2022 18:05:40" order-index="53" type="entity">
             <layout ax="604" ay="363.875" awidth="120" aheight="50.75" x="604" y="363.875" width="120" height="50" />
@@ -8082,25 +8131,25 @@
             <relation from="356722b08e1940fba6f23441c7b7127b" from-iid="10aacbed23b74aae9e58be3aa391e270" to="ca1f9f1d07144a9c9d080e95bf6fd83a" to-iid="c10ce0942955410fbc2a45329e9204fb" />
           </item>
           <item id="736571cb7bfc4ffabd4df58e239d14c5" iid="3cc2326c7ac043cc9e5e203820f46ca9" creation-date="11/11/2022 18:13:10" order-index="55" type="entity">
-            <layout ax="-234" ay="1106" awidth="120" aheight="70" x="-234" y="1106" width="120" height="70" />
+            <layout ax="-184" ay="1109" awidth="120" aheight="70" x="-184" y="1109" width="120" height="70" />
           </item>
           <item id="e0f5a9075f4d4aeb830edcf0e056fd7f" iid="e3075dc4103f4b07b01d068e91970554" creation-date="11/11/2022 18:13:15" order-index="56" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-170" y1="1176" x2="-194" y2="1322" start-border-pos="0.616666666666667" end-border-pos="0.0583333333333333" start-local-pos="64" end-local-pos="28" name-position="-39,20">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-120" y1="1179" x2="-144" y2="1325" start-border-pos="0.616666666666667" end-border-pos="0.0583333333333333" start-local-pos="64" end-local-pos="28" name-position="-39,20">
               <points>
-                <point x="-170" y="1176" />
-                <point x="-194" y="1322" />
+                <point x="-120" y="1179" />
+                <point x="-144" y="1325" />
               </points>
             </layout>
             <relation from="736571cb7bfc4ffabd4df58e239d14c5" from-iid="3cc2326c7ac043cc9e5e203820f46ca9" to="ed701a48d5e84f92b11b00aa798150e0" to-iid="5cc29b71929d457ca66d3961128618b5" />
           </item>
           <item id="4bf1937d0f3544e3963f6671d5e4355d" iid="45d17da42aab42879789622212cb50cf" creation-date="11/11/2022 18:13:29" order-index="57" type="entity">
-            <layout ax="-55" ay="1200" awidth="120" aheight="90" x="-55" y="1200" width="120" height="90" />
+            <layout ax="-5" ay="1203" awidth="120" aheight="90" x="-5" y="1203" width="120" height="90" />
           </item>
           <item id="5c954c60f96440d1b791406bd6f131f3" iid="5cf5c79007584ee983fa5bbde27aa038" creation-date="11/11/2022 18:13:29" order-index="58" type="relation">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-140" y1="1319" x2="-16" y2="1287" start-border-pos="0.259231567382813" end-border-pos="0.759231567382813" name-position="0,20">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-90" y1="1322" x2="33" y2="1290" start-border-pos="0.259231567382813" end-border-pos="0.759231567382813" name-position="0,20">
               <points>
-                <point x="-140" y="1319" />
-                <point x="-16" y="1287" />
+                <point x="-90" y="1322" />
+                <point x="33" y="1290" />
               </points>
             </layout>
             <relation from="ed701a48d5e84f92b11b00aa798150e0" from-iid="5cc29b71929d457ca66d3961128618b5" to="4bf1937d0f3544e3963f6671d5e4355d" to-iid="45d17da42aab42879789622212cb50cf" />
@@ -8115,10 +8164,10 @@
             <relation from="ca1f9f1d07144a9c9d080e95bf6fd83a" from-iid="c10ce0942955410fbc2a45329e9204fb" to="fc2260209b444fa0a23907098415ec56" to-iid="bc6e9734bfe5449d99ad9974412cafa0" />
           </item>
           <item id="f88bb921d77b4f12910827735ac13598" iid="a8ba5095f35b44138fec96179ac06305" creation-date="11/11/2022 18:15:09" order-index="60" type="relation">
-            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-327" y1="1263" x2="-222" y2="1361" start-border-pos="-1" end-border-pos="0.875" end-local-pos="0" name-position="-59,40">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-277" y1="1266" x2="-172" y2="1364" start-border-pos="-1" end-border-pos="0.875" end-local-pos="0" name-position="-59,40">
               <points>
-                <point x="-327" y="1263" />
-                <point x="-222" y="1361" />
+                <point x="-277" y="1266" />
+                <point x="-172" y="1364" />
               </points>
             </layout>
             <relation to="ed701a48d5e84f92b11b00aa798150e0" to-iid="5cc29b71929d457ca66d3961128618b5" />
@@ -8127,25 +8176,13 @@
             <layout ax="513" ay="1230.25" awidth="120" aheight="90" x="513" y="1230.25" width="120" height="90" />
           </item>
           <item id="b8018ee39eab46b9b227d4422fda9581" iid="93de018a79624359924b1a7e9bbbb31a" creation-date="11/11/2022 18:17:40" order-index="65" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="150" y1="1316" x2="64" y2="1243" start-border-pos="0.886805555555556" end-border-pos="0.369444444444444" start-local-pos="43" end-local-pos="40.75" name-position="-15,27" name-width="76">
+            <layout line-style="oblique" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="109" y1="1267" x2="227" y2="1349" start-border-pos="0.427777782082558" end-border-pos="0.369444444444444" start-local-pos="64" end-local-pos="40.75" name-position="-15,27" name-width="76">
               <points>
-                <point x="150" y="1316" />
-                <point x="64" y="1243" />
+                <point x="109" y="1267" />
+                <point x="227" y="1349" />
               </points>
             </layout>
-            <relation to="4bf1937d0f3544e3963f6671d5e4355d" to-iid="45d17da42aab42879789622212cb50cf" />
-          </item>
-          <item id="a239240e78044689aea1c5ed92ebfd73" iid="5571725c64f344da82dfb4dce3afaf3a" creation-date="11/11/2022 18:22:33" order-index="69" type="entity">
-            <layout ax="-500" ay="1022" awidth="140" aheight="100" x="-500" y="1022" width="140" height="100" />
-          </item>
-          <item id="di4f9608b9859644ebb5bf1d2b421be3064267" iid="f09dafc8584d410fb7bb3eef8493a64f" creation-date="11/11/2022 18:22:33" order-index="70" type="comment-connector">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-393" y1="1122" x2="-314" y2="1228" start-border-pos="0.558608082362584" end-border-pos="0.973684175325345" name-position="0,20">
-              <points>
-                <point x="-393" y="1122" />
-                <point x="-314" y="1228" />
-              </points>
-            </layout>
-            <relation from="a239240e78044689aea1c5ed92ebfd73" from-iid="5571725c64f344da82dfb4dce3afaf3a" />
+            <relation from="4bf1937d0f3544e3963f6671d5e4355d" from-iid="45d17da42aab42879789622212cb50cf" />
           </item>
           <item id="0c22a034388e437cb10061276868e007" iid="bd9ccc4543d04305b05766b06d4a84a9" creation-date="11/11/2022 18:23:06" order-index="71" type="entity">
             <layout ax="728" ay="1162" awidth="120" aheight="90" x="728" y="1162" width="120" height="90" />
@@ -8187,9 +8224,9 @@
             <layout ax="933" ay="1029.25" awidth="120" aheight="50" x="933" y="1029.25" width="120" height="50" />
           </item>
           <item id="d5dd532b89db4b6bb4887cc0bddd0e95" iid="1cffdc9e41af4ea097928602923d6079" creation-date="11/11/2022 18:24:18" order-index="78" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1088" y1="1162" x2="921" y2="1320" start-border-pos="0.625" end-border-pos="0.300694443285465" start-local-pos="60" end-local-pos="18" name-position="43,30" name-width="76">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1113" y1="1232" x2="921" y2="1320" start-border-pos="0.625" end-border-pos="0.300694443285465" start-local-pos="60" end-local-pos="18" name-position="43,30" name-width="76">
               <points>
-                <point x="1088" y="1162" />
+                <point x="1113" y="1232" />
                 <point x="921" y="1320" />
               </points>
             </layout>
@@ -8205,13 +8242,13 @@
             <relation from="efc8987771334ed2a575595334f2b50a" from-iid="23633306a5fd4aa091980f8737a29b37" to="0c22a034388e437cb10061276868e007" to-iid="bd9ccc4543d04305b05766b06d4a84a9" />
           </item>
           <item id="2940c5ef470c46448141116d74eed46e" iid="6c55b12724bb4e008aa2b456e2e1a3c8" creation-date="11/11/2022 18:24:26" order-index="80" type="entity">
-            <layout ax="513" ay="1575.25" awidth="120" aheight="70" x="513" y="1575.25" width="120" height="70" />
+            <layout ax="1053" ay="1454.125" awidth="120" aheight="70" x="1053" y="1454.125" width="120" height="70" />
           </item>
           <item id="e5202343d2d543dca962c6a26ca95c57" iid="733c63307a3240979ed5ae4d7e412f3f" creation-date="11/11/2022 18:24:57" order-index="81" type="relation">
-            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="633" y1="1586" x2="775" y2="1530" start-border-pos="0.289241681780134" end-border-pos="0.374305555555556" end-local-pos="44.75" name-position="5,29">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1053" y1="1496" x2="894" y2="1530" start-border-pos="0.849453299386161" end-border-pos="0.374305555555556" end-local-pos="44.75" name-position="5,29">
               <points>
-                <point x="633" y="1586" />
-                <point x="775" y="1530" />
+                <point x="1053" y="1496" />
+                <point x="894" y="1530" />
               </points>
             </layout>
             <relation from="2940c5ef470c46448141116d74eed46e" from-iid="6c55b12724bb4e008aa2b456e2e1a3c8" to="9dd203482bb94a96a900efa7daefb1fd" to-iid="a8899120c3cd420592c2dc752d641219" />
@@ -8225,131 +8262,65 @@
             </layout>
             <relation to="7150c2535ddf4b6782f2cf4c4968f481" to-iid="5cea70d1526146a2a0ab1df989a26a2f" />
           </item>
-          <item id="af78ce23bda64229bbeed56a58afbb07" iid="c624f725c05142a78a1c1d79658ceb3e" creation-date="11/11/2022 18:27:45" order-index="83" type="entity">
-            <layout ax="1097" ay="1416.125" awidth="120" aheight="90" x="1097" y="1416.125" width="120" height="90" />
-          </item>
-          <item id="a40ef49bcc444485bb7874dd934ee732" iid="72bba22d09e2435da69ac26eb6a4e4ba" creation-date="11/11/2022 18:27:59" order-index="84" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="906" y1="1384" x2="1100" y2="1447" start-border-pos="0.55625" end-border-pos="0.913888888888889" start-local-pos="93" end-local-pos="31" name-position="0,20">
-              <points>
-                <point x="906" y="1384" />
-                <point x="1100" y="1447" />
-              </points>
-            </layout>
-            <relation from="bff3039112694818baf74d6bc4f375b2" from-iid="4d0e7f7b86fd470c983d26328d7db79f" to="af78ce23bda64229bbeed56a58afbb07" to-iid="c624f725c05142a78a1c1d79658ceb3e" />
-          </item>
-          <item id="09a3867845f5410b851ff9a6829cd56d" iid="d62c5fc9624c4255a7db98d3766854fc" creation-date="11/11/2022 18:28:02" order-index="85" type="relation">
-            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="892" y1="1517" x2="1099" y2="1474" start-border-pos="0.338951958550347" end-border-pos="0.838888888888889" end-local-pos="58" name-position="0,18">
-              <points>
-                <point x="892" y="1517" />
-                <point x="1099" y="1474" />
-              </points>
-            </layout>
-            <relation from="9dd203482bb94a96a900efa7daefb1fd" from-iid="a8899120c3cd420592c2dc752d641219" to="af78ce23bda64229bbeed56a58afbb07" to-iid="c624f725c05142a78a1c1d79658ceb3e" />
-          </item>
-          <item id="11f381369fa54823ac7ad4f6814492f2" iid="a1f180d50d544a6ba70e45f35009ab6a" creation-date="11/11/2022 18:28:05" order-index="86" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="847" y1="1202" x2="1137" y2="1418" start-border-pos="0.361111111111111" end-border-pos="0.0833333333333333" start-local-pos="40" end-local-pos="40" name-position="65,31">
-              <points>
-                <point x="847" y="1202" />
-                <point x="1137" y="1418" />
-              </points>
-            </layout>
-            <relation from="0c22a034388e437cb10061276868e007" from-iid="bd9ccc4543d04305b05766b06d4a84a9" to="af78ce23bda64229bbeed56a58afbb07" to-iid="c624f725c05142a78a1c1d79658ceb3e" />
-          </item>
-          <item id="di6a5a1949b2384690bdcacbdbc49ce2335948" iid="36fb99dafb634f7d896f86c275fe72b9" creation-date="11/11/2022 17:27:04" order-index="12" type="entity">
-            <layout ax="1802" ay="1273.625" awidth="120" aheight="90" x="1800" y="1273.625" width="120" height="90" />
-          </item>
-          <item id="dibd4cc15520114dcab8e5182002a8e2259177" iid="9c7d52be86e44cffad41bf8c7845fa3f" creation-date="11/11/2022 17:27:19" order-index="13" type="relation">
-            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1643" y1="1226.625" x2="1806" y2="1302" start-border-pos="-1" end-border-pos="0.922222222222222" end-local-pos="6" name-position="0,20">
-              <points>
-                <point x="1643" y="1226.625" />
-                <point x="1806" y="1302" />
-              </points>
-            </layout>
-            <relation to="di6a5a1949b2384690bdcacbdbc49ce2335948" to-iid="36fb99dafb634f7d896f86c275fe72b9" />
-          </item>
-          <item id="did3cb9d48d6134a41b78929b29ff537e05948" iid="f07c4dba0c1543498f635c5c6ac8f3bf" creation-date="11/11/2022 17:27:32" order-index="14" type="entity">
-            <layout ax="1790" ay="1433.625" awidth="120" aheight="55" x="1790" y="1433.625" width="120" height="50" />
-          </item>
-          <item id="didbdb301125dc46909f8cc57864ccd0689177" iid="f5b777e3b1b34e8fbc9b76fb1f3564a9" creation-date="11/11/2022 17:27:36" order-index="15" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1850" y1="1434" x2="1862" y2="1363" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="60" end-local-pos="60" name-position="55,7" name-width="102">
-              <points>
-                <point x="1850" y="1434" />
-                <point x="1862" y="1363" />
-              </points>
-            </layout>
-            <relation from="did3cb9d48d6134a41b78929b29ff537e05948" from-iid="f07c4dba0c1543498f635c5c6ac8f3bf" to="di6a5a1949b2384690bdcacbdbc49ce2335948" to-iid="36fb99dafb634f7d896f86c275fe72b9" />
-          </item>
           <item id="di8424fc6794b64c3d854fee0f65321cae5948" iid="3b60492f596344f1881be4016cb8a71e" creation-date="11/11/2022 17:28:11" order-index="16" type="entity">
-            <layout ax="2050" ay="1273.625" awidth="120" aheight="90" x="2050" y="1273.625" width="120" height="90" />
+            <layout ax="1696" ay="1319.625" awidth="100" aheight="70" x="1686" y="1309.625" width="120" height="90" />
           </item>
           <item id="di23a9952b34834345bab1434cc0b5cd4e9177" iid="7e9d30d146e641e38f5d76bc93096049" creation-date="11/11/2022 17:28:33" order-index="17" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1921" y1="1318" x2="2050" y2="1319" start-border-pos="0.372222222222222" end-border-pos="0.875" start-local-pos="44" end-local-pos="45" name-position="0,20">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1527" y1="1283" x2="1696" y2="1355" start-border-pos="0.372222222222222" end-border-pos="0.875" start-local-pos="44" end-local-pos="45" name-position="0,20">
               <points>
-                <point x="1921" y="1318" />
-                <point x="2050" y="1319" />
+                <point x="1527" y="1283" />
+                <point x="1696" y="1355" />
               </points>
             </layout>
-            <relation from="di6a5a1949b2384690bdcacbdbc49ce2335948" from-iid="36fb99dafb634f7d896f86c275fe72b9" to="di8424fc6794b64c3d854fee0f65321cae5948" to-iid="3b60492f596344f1881be4016cb8a71e" />
+            <relation to="di8424fc6794b64c3d854fee0f65321cae5948" to-iid="3b60492f596344f1881be4016cb8a71e" />
           </item>
           <item id="didc8d06d7f8c4400fa93b2034a87578515948" iid="0fd2f86d9ca2438d8d3d7309e036e857" creation-date="11/11/2022 17:28:45" order-index="18" type="entity">
-            <layout ax="2140" ay="1433.625" awidth="120" aheight="90" x="2140.004" y="1433.625" width="120" height="90" />
+            <layout ax="1776" ay="1469.625" awidth="120" aheight="90" x="1776.004" y="1469.625" width="120" height="90" />
           </item>
           <item id="dia27a18d5cdb944fbab9b0a59f175991d9177" iid="9388fa75fc1e4dd8b93f0216f4a23c25" creation-date="11/11/2022 17:28:45" order-index="19" type="relation">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="2135" y1="1359" x2="2175" y2="1437" start-border-pos="0.5734375" end-border-pos="0.072265625" name-position="-51,4">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="1765" y1="1386" x2="1811" y2="1473" start-border-pos="0.5771875" end-border-pos="0.072265625" name-position="-51,4">
               <points>
-                <point x="2135" y="1359" />
-                <point x="2175" y="1437" />
+                <point x="1765" y="1386" />
+                <point x="1811" y="1473" />
               </points>
             </layout>
             <relation from="di8424fc6794b64c3d854fee0f65321cae5948" from-iid="3b60492f596344f1881be4016cb8a71e" to="didc8d06d7f8c4400fa93b2034a87578515948" to-iid="0fd2f86d9ca2438d8d3d7309e036e857" />
           </item>
           <item id="did61f2f959fd547889d34cf51f0266aeb5948" iid="9b9b59c356114166b67e1519fa7c7983" creation-date="11/11/2022 17:30:02" order-index="20" type="entity">
-            <layout ax="2277" ay="1183.625" awidth="120" aheight="90" x="2277" y="1183.625" width="120" height="90" />
+            <layout ax="1913" ay="1219.625" awidth="120" aheight="90" x="1913" y="1219.625" width="120" height="90" />
           </item>
           <item id="di5bb8a1fd22834249ac41264f46f16dd39177" iid="d80221ebd04646fbac985bd94e82ff1f" creation-date="11/11/2022 17:30:02" order-index="21" type="relation">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="2161" y1="1295" x2="2286" y2="1253" start-border-pos="0.309962293836806" end-border-pos="0.807878960503472" name-position="0,20">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="1787" y1="1335" x2="1922" y2="1289" start-border-pos="0.305540248325893" end-border-pos="0.807878960503472" name-position="0,20">
               <points>
-                <point x="2161" y="1295" />
-                <point x="2286" y="1253" />
+                <point x="1787" y="1335" />
+                <point x="1922" y="1289" />
               </points>
             </layout>
             <relation from="di8424fc6794b64c3d854fee0f65321cae5948" from-iid="3b60492f596344f1881be4016cb8a71e" to="did61f2f959fd547889d34cf51f0266aeb5948" to-iid="9b9b59c356114166b67e1519fa7c7983" />
           </item>
           <item id="di1c914ef309ce4074aa4e8fcad8e9c9b69177" iid="5758c60086ad4a9c9d9b01968052ce41" creation-date="11/11/2022 17:30:24" order-index="22" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="2391" y1="1210" x2="2525" y2="1161.625" start-border-pos="0.322222222222222" end-border-pos="-1" start-local-pos="26" name-position="0,20">
+            <layout line-style="oblique" lock-start-point="true" lock-to-fields="false" auto-path="" x1="2027" y1="1246" x2="2161" y2="1197.625" start-border-pos="0.323263891041279" end-border-pos="-1" start-local-pos="26.375" name-position="0,20">
               <points>
-                <point x="2391" y="1210" />
-                <point x="2525" y="1161.625" />
+                <point x="2027" y="1246" />
+                <point x="2161" y="1197.625" />
               </points>
             </layout>
             <relation from="did61f2f959fd547889d34cf51f0266aeb5948" from-iid="9b9b59c356114166b67e1519fa7c7983" />
           </item>
           <item id="e41de1d83db347119a3893e965b4a040" iid="45471d8508264f449b3ffae74dda1471" creation-date="11/11/2022 18:33:15" order-index="88" type="entity">
-            <layout ax="-1460" ay="1091" awidth="120" aheight="90" x="-1460" y="1091" width="120" height="90" />
-          </item>
-          <item id="9afeeb585aac4255846c2ace69a90f4f" iid="d8afd5a53fe641628bfd457b39020e0a" creation-date="11/11/2022 18:33:30" order-index="89" type="entity">
-            <layout ax="-1180" ay="1091" awidth="120" aheight="90" x="-1180" y="1091" width="120" height="90" />
+            <layout ax="-865" ay="1109" awidth="120" aheight="90" x="-865" y="1109" width="120" height="90" />
           </item>
           <item id="da644fe30e1a425c8ed6fecd9419d81a" iid="dedc77d1b72742fa9a02ef2b00567482" creation-date="11/11/2022 18:33:30" order-index="90" type="relation">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-1340" y1="1136" x2="-1180" y2="1136" start-border-pos="0.375" end-border-pos="0.875" name-position="0,20">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-745" y1="1154" x2="-642" y2="1154" start-border-pos="0.375" end-border-pos="0.875" end-local-pos="45" name-position="0,20">
               <points>
-                <point x="-1340" y="1136" />
-                <point x="-1180" y="1136" />
+                <point x="-745" y="1154" />
+                <point x="-642" y="1154" />
               </points>
             </layout>
-            <relation from="e41de1d83db347119a3893e965b4a040" from-iid="45471d8508264f449b3ffae74dda1471" to="9afeeb585aac4255846c2ace69a90f4f" to-iid="d8afd5a53fe641628bfd457b39020e0a" />
+            <relation from="e41de1d83db347119a3893e965b4a040" from-iid="45471d8508264f449b3ffae74dda1471" to="0f59bbb16cd54f9f9459793c0f0a9280" to-iid="f66b33adde0348d2b1226543a01db347" />
           </item>
           <item id="0f59bbb16cd54f9f9459793c0f0a9280" iid="f66b33adde0348d2b1226543a01db347" creation-date="11/11/2022 18:34:10" order-index="91" type="entity">
-            <layout ax="-953" ay="1091" awidth="120" aheight="90" x="-1573" y="-735" width="120" height="90" />
-          </item>
-          <item id="c89db8ed623b43caa011c5c3af667586" iid="06d496dc00f44390bdd3c3b21ba23165" creation-date="11/11/2022 18:34:10" order-index="92" type="relation">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="-1060" y1="1136" x2="-953" y2="1136" start-border-pos="0.375" end-border-pos="0.875" name-position="0,20">
-              <points>
-                <point x="-1060" y="1136" />
-                <point x="-953" y="1136" />
-              </points>
-            </layout>
-            <relation from="9afeeb585aac4255846c2ace69a90f4f" from-iid="d8afd5a53fe641628bfd457b39020e0a" to="0f59bbb16cd54f9f9459793c0f0a9280" to-iid="f66b33adde0348d2b1226543a01db347" />
+            <layout ax="-642" ay="1109" awidth="120" aheight="90" x="-1262" y="-717" width="120" height="90" />
           </item>
           <item id="9750425d381c43f2ba9d05cec9d9f261" iid="0ec75ac173954dc6bdf004b5436810b5" creation-date="11/11/2022 18:34:44" order-index="93" type="relation">
             <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="94" y1="529" x2="228" y2="639" start-border-pos="0.547916666666667" end-border-pos="0.904513895511627" start-local-pos="97" end-local-pos="34.375" name-position="-3,16">
@@ -8361,49 +8332,40 @@
             <relation from="edad468fd87f48199444661fde7a3887" from-iid="942d9a4a761443308212ad3eb80f5bfb" to="eae41f56e14c4982a3b0e5e294b1492e" to-iid="42aa4bcadd9046e7a2b1573966bad64f" />
           </item>
           <item id="2408962fba7e48b19c0d90d820946023" iid="8883911b3ccd47bd939701d5268d9290" creation-date="11/11/2022 18:35:16" order-index="94" type="entity">
-            <layout ax="-1460" ay="1323" awidth="120" aheight="53" x="-1459" y="1323" width="120" height="50" />
+            <layout ax="-642" ay="1316" awidth="120" aheight="53" x="-642" y="1316" width="120" height="50" />
           </item>
           <item id="bc5283e48ae9418f951934503c047e44" iid="963b495439fc48cfa00b47509f42c9dc" creation-date="11/11/2022 18:35:21" order-index="95" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-1400" y1="1323" x2="-1400" y2="1181" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="60" end-local-pos="60" name-position="-61,22" name-width="70">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-582" y1="1316" x2="-582" y2="1199" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="60" end-local-pos="60" name-position="-46,22" name-width="70">
               <points>
-                <point x="-1400" y="1323" />
-                <point x="-1400" y="1181" />
+                <point x="-582" y="1316" />
+                <point x="-582" y="1199" />
               </points>
             </layout>
-            <relation from="2408962fba7e48b19c0d90d820946023" from-iid="8883911b3ccd47bd939701d5268d9290" to="e41de1d83db347119a3893e965b4a040" to-iid="45471d8508264f449b3ffae74dda1471" />
-          </item>
-          <item id="e58868e1e3994d13aaa716cd291777a9" iid="326570943cdf4ca5bef220930518fdfe" creation-date="11/11/2022 18:35:38" order-index="96" type="relation">
-            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-888" y1="1180" x2="-1340" y2="1349" start-border-pos="0.614583333333333" end-border-pos="0.372641509433962" start-local-pos="65" end-local-pos="26" name-position="0,20">
-              <points>
-                <point x="-888" y="1180" />
-                <point x="-1340" y="1349" />
-              </points>
-            </layout>
-            <relation from="0f59bbb16cd54f9f9459793c0f0a9280" from-iid="f66b33adde0348d2b1226543a01db347" to="2408962fba7e48b19c0d90d820946023" to-iid="8883911b3ccd47bd939701d5268d9290" />
+            <relation from="2408962fba7e48b19c0d90d820946023" from-iid="8883911b3ccd47bd939701d5268d9290" to="0f59bbb16cd54f9f9459793c0f0a9280" to-iid="f66b33adde0348d2b1226543a01db347" />
           </item>
           <item id="d0617d99d788440ebd1487a6cd5dc8a7" iid="a4c8fc1e3afb45fa8b4325f60aa09a3d" creation-date="11/11/2022 18:35:56" order-index="97" type="relation">
-            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-1663" y1="1061" x2="-1460" y2="1136" start-border-pos="-1" end-border-pos="0.875" end-local-pos="0" name-position="-19,20">
+            <layout line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-1038" y1="1106" x2="-865" y2="1154" start-border-pos="-1" end-border-pos="0.875" end-local-pos="0" name-position="-20,26">
               <points>
-                <point x="-1663" y="1061" />
-                <point x="-1460" y="1136" />
+                <point x="-1038" y="1106" />
+                <point x="-865" y="1154" />
               </points>
             </layout>
             <relation to="e41de1d83db347119a3893e965b4a040" to-iid="45471d8508264f449b3ffae74dda1471" />
           </item>
           <item id="d6bc11a548a94002aaad766b3396a05d" iid="c8be323bff424ad9bd89f34837e2e712" creation-date="11/11/2022 18:46:34" order-index="100" type="entity">
-            <layout ax="1028" ay="1112" awidth="120" aheight="50" x="1028" y="1103" width="120" height="50" />
+            <layout ax="1053" ay="1182" awidth="120" aheight="50" x="1053" y="1182" width="120" height="50" />
           </item>
           <item id="4a4042f673634664bb702adcbdae07af" iid="34b7092db23b4effa36d076d8cc37565" creation-date="11/11/2022 18:48:18" order-index="101" type="entity">
-            <layout ax="1287" ay="1416.125" awidth="120" aheight="90" x="1287" y="1416.125" width="120" height="90" />
+            <layout ax="393" ay="1444.125" awidth="120" aheight="90" x="393" y="1444.125" width="120" height="90" />
           </item>
           <item id="7a95da97e9ab487c9d7670fa7f833274" iid="eae014f41f1e40f7871ad5ccfffaaccd" creation-date="11/11/2022 18:48:18" order-index="102" type="relation">
-            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="1216" y1="1461" x2="1287" y2="1461" start-border-pos="0.374652777777778" end-border-pos="0.875347222222222" name-position="0,20">
+            <layout line-style="oblique" start-auto-side="false" lock-start-point="true" lock-to-fields="false" auto-path="" x1="566" y1="1319" x2="483" y2="1450" start-border-pos="0.639583334326744" end-border-pos="0.187316195170085" start-local-pos="53" name-position="46,6">
               <points>
-                <point x="1216" y="1461" />
-                <point x="1287" y="1461" />
+                <point x="566" y="1319" />
+                <point x="483" y="1450" />
               </points>
             </layout>
-            <relation from="af78ce23bda64229bbeed56a58afbb07" from-iid="c624f725c05142a78a1c1d79658ceb3e" to="4a4042f673634664bb702adcbdae07af" to-iid="34b7092db23b4effa36d076d8cc37565" />
+            <relation from="7150c2535ddf4b6782f2cf4c4968f481" from-iid="5cea70d1526146a2a0ab1df989a26a2f" to="4a4042f673634664bb702adcbdae07af" to-iid="34b7092db23b4effa36d076d8cc37565" />
           </item>
           <item id="eae41f56e14c4982a3b0e5e294b1492e" iid="42aa4bcadd9046e7a2b1573966bad64f" creation-date="11/11/2022 18:48:47" order-index="103" type="entity">
             <layout ax="227" ay="604.625" awidth="120" aheight="90" x="227" y="604.625" width="120" height="90" />
@@ -8416,6 +8378,72 @@
               </points>
             </layout>
             <relation from="fc2260209b444fa0a23907098415ec56" from-iid="bc6e9734bfe5449d99ad9974412cafa0" to="eae41f56e14c4982a3b0e5e294b1492e" to-iid="42aa4bcadd9046e7a2b1573966bad64f" />
+          </item>
+          <item id="56fec6e5fd054449a8ea571327ae2635" iid="609e1c683ba84454912fc978b1416e69" creation-date="11/11/2022 19:59:00" order-index="105" type="entity">
+            <layout ax="1611" ay="2177" awidth="120" aheight="70" x="1611" y="2177" width="120" height="70" />
+          </item>
+          <item id="6d652053c82d48c5a00a848ca77c2d7e" iid="daf2663855f04bcdbb0a0968dc9831bc" creation-date="11/11/2022 19:59:08" order-index="106" type="entity">
+            <layout ax="1491" ay="2308" awidth="120" aheight="70" x="1498" y="2308" width="120" height="70" />
+          </item>
+          <item id="fcb15e34a6114037838b6ed5e5c2ef64" iid="eaefc485d3fa4cc5a32430861be7c41a" creation-date="11/11/2022 19:59:16" order-index="107" type="entity">
+            <layout ax="1748" ay="2308" awidth="120" aheight="70" x="1748" y="2308" width="120" height="70" />
+          </item>
+          <item id="ea47e30d173b463baea82d20dd8b83a5" iid="47007dc97e6a4fb4a086693284d90459" creation-date="11/11/2022 20:03:26" order-index="108" type="relation">
+            <layout line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-558" y1="1195" x2="-555" y2="1316" start-border-pos="0.575" end-border-pos="0.18125" start-local-pos="84" end-local-pos="87" name-position="45,5">
+              <points>
+                <point x="-558" y="1195" />
+                <point x="-555" y="1316" />
+              </points>
+            </layout>
+            <relation from="0f59bbb16cd54f9f9459793c0f0a9280" from-iid="f66b33adde0348d2b1226543a01db347" to="2408962fba7e48b19c0d90d820946023" to-iid="8883911b3ccd47bd939701d5268d9290" />
+          </item>
+          <item id="e534f8de94d04ff3897ecdac118f3fd4" iid="605eb480b088486aa226c0471689803d" creation-date="11/11/2022 20:06:21" order-index="109" type="entity">
+            <layout ax="-885" ay="857" awidth="120" aheight="90" x="-885" y="857" width="120" height="90" />
+          </item>
+          <item id="3f7f534d85c84e8189f4727a2aeb1177" iid="3d769be0212c422d89997191f467cc86" creation-date="11/11/2022 20:06:28" order-index="110" type="relation">
+            <layout line-style="straight" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-1050" y1="829" x2="-882" y2="890" start-border-pos="-1" end-border-pos="0.908333333333333" end-local-pos="5" name-position="0,20">
+              <points>
+                <point x="-1050" y="829" />
+                <point x="-882" y="890" />
+              </points>
+            </layout>
+            <relation to="e534f8de94d04ff3897ecdac118f3fd4" to-iid="605eb480b088486aa226c0471689803d" />
+          </item>
+          <item id="07dafb443ffe4389913c993d5b8850eb" iid="342368d9a2714fccadef553252011300" creation-date="11/11/2022 20:08:27" order-index="111" type="entity">
+            <layout ax="262" ay="2311" awidth="120" aheight="70" x="262" y="2311" width="120" height="70" />
+          </item>
+          <item id="5d388d6140244678a41095a0dd4c70f1" iid="3c9c67d2577b46efadaaece34ff11824" creation-date="11/11/2022 20:08:52" order-index="112" type="entity">
+            <layout ax="653" ay="2311" awidth="120" aheight="70" x="653" y="2311" width="120" height="70" />
+          </item>
+          <item id="5fcf429ae0354dad91c4db9eb531dd57" iid="d5ff200744bd4d7e9608bebf5b207084" creation-date="11/11/2022 20:09:08" order-index="113" type="entity">
+            <layout ax="430" ay="2445" awidth="120" aheight="70" x="430" y="2445" width="120" height="70" />
+          </item>
+          <item id="01a3fd504491472cafa3921f778858bd" iid="8e764b998d5e4833a8fa1be7f147b8e6" creation-date="11/11/2022 20:09:15" order-index="114" type="entity">
+            <layout ax="653" ay="2445" awidth="120" aheight="70" x="652" y="2448" width="120" height="70" />
+          </item>
+          <item id="36b5aa39ee8b4689a74c54326a849d70" iid="f23a212fd8404e1581cf218b4f3b7855" creation-date="11/11/2022 20:09:31" order-index="115" type="entity">
+            <layout ax="854" ay="2445" awidth="120" aheight="70" x="854" y="2439" width="120" height="70" />
+          </item>
+          <item id="029dbe2341d54dc2934ebfa383d62f32" iid="03f595d647cc4191889447ec2dbfa724" creation-date="11/11/2022 20:10:09" order-index="116" type="entity">
+            <layout ax="653" ay="2177" awidth="120" aheight="70" x="653" y="2177" width="120" height="70" />
+          </item>
+          <item id="f7b3f8fa47c74c0fab5aa91126f21ff3" iid="ced6ed5d2b6b42b6a3d146820aa85c22" creation-date="11/11/2022 20:10:44" order-index="117" type="entity">
+            <layout ax="1072" ay="2445" awidth="120" aheight="70" x="1072" y="2445" width="120" height="70" />
+          </item>
+          <item id="1496ccd778fc4cee80e7cd5fd87afbad" iid="f102f8297a61406db4e02f7d46ccc79e" creation-date="11/11/2022 20:10:56" order-index="118" type="entity">
+            <layout ax="1072" ay="2177" awidth="120" aheight="70" x="1072" y="2177" width="120" height="70" />
+          </item>
+          <item id="1ce9751ce29b4e8c96320238f78e2406" iid="a74d28b0296a4159a751b06851c3695a" creation-date="11/11/2022 20:13:28" order-index="119" type="entity">
+            <layout ax="653" ay="2022" awidth="120" aheight="70" x="652" y="2022" width="120" height="70" />
+          </item>
+          <item id="36021d9eb1a14f58b7e6d291de964658" iid="2023280bdf704fa7bb95f3e21aae0505" creation-date="11/11/2022 20:14:35" order-index="120" type="entity">
+            <layout ax="-273" ay="1796" awidth="120" aheight="70" x="-273" y="1796" width="120" height="70" />
+          </item>
+          <item id="2a38711fb426456c97a89e138701ea93" iid="6c74cab4103849eba6fb622b7d73415c" creation-date="11/11/2022 20:14:39" order-index="121" type="entity">
+            <layout ax="-16" ay="1796" awidth="120" aheight="70" x="-16" y="1796" width="120" height="70" />
+          </item>
+          <item id="9a34511f1ed14234807a35beaea82f88" iid="68d6bd8b4cfb43cabcd96a795e7513f8" creation-date="11/11/2022 20:14:49" order-index="122" type="entity">
+            <layout ax="-172" ay="1656" awidth="120" aheight="70" x="-174" y="1656" width="120" height="70" />
           </item>
         </layer>
       </diagram>
