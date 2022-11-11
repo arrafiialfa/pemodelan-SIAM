@@ -99,11 +99,11 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>8798</value>
+        <value>9077</value>
       </counter>
       <counter>
         <item-type type-id="actor" type="Actor" />
-        <value>20</value>
+        <value>21</value>
       </counter>
       <counter>
         <item-type type-id="use-case" type="Use Case" />
@@ -203,7 +203,7 @@
       </counter>
       <counter>
         <item-type type-id="lifeline" type="Lifeline" />
-        <value>33</value>
+        <value>34</value>
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
@@ -211,11 +211,11 @@
       </counter>
       <counter>
         <item-type type-id="sequence-action" type="Message" />
-        <value>105</value>
+        <value>107</value>
       </counter>
       <counter>
         <item-type type-id="activation-bar" type="Execution Occurrence" />
-        <value>99</value>
+        <value>101</value>
       </counter>
       <counter>
         <item-type type-id="fragment" type="Fragment" />
@@ -3665,7 +3665,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-sequence" id="p4b11b6045dca43f9bf840a2f197efdbf_967069917" name="SD-KHS&amp;KRS" order-index="10" overview-order-index="8" uid="" auto-routed-paths="false" default-line-style="default" view-location="1210,1215" zoom="0.8">
+      <diagram type="uml-sequence" id="p4b11b6045dca43f9bf840a2f197efdbf_967069917" name="SD-KHS&amp;KRS" order-index="10" overview-order-index="8" uid="" auto-routed-paths="false" default-line-style="default" view-location="461,644" zoom="0.5">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -3677,7 +3677,7 @@
           </authors>
           <description />
           <creation-date>11/11/2022 07:56:07</creation-date>
-          <change-date>11/11/2022 10:31:30</change-date>
+          <change-date>11/11/2022 10:32:14</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -3697,6 +3697,15 @@
           </item>
           <item id="60dd8b2f42d54d6598defa0cd14fbe4d" cid="AC019" type="actor" name="Mahasiswa" creation-date="11/11/2022 10:24:40">
             <owned-items />
+          </item>
+          <item id="dic024395f03ee4bef88bd375a497fa2ba5280" cid="LL033" type="lifeline" name="SIAM" creation-date="11/11/2022 09:23:58" visibility="undefined">
+            <stereotypes>
+              <stereotype name="boundary" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="93bb9a07df6f4c4aadec1aad57e0e80d_boundary_c" type="boundary" ref="" />
+            </stereotype-instances>
+            <lifeline classifier-name="Halaman KRS" classifier-ref="f839f5b6e0214fa88bc65fad54452088" selector="" is-multi-object="false" />
           </item>
           <item id="4b605f69fa764dfc9793776d69c78c22" cid="LL017" type="lifeline" name="DATASTORE" creation-date="11/11/2022 09:17:06">
             <stereotypes>
@@ -4002,6 +4011,7 @@
               <parameters />
             </sequence-action>
           </item>
+          <item id="dic4fd6a9052844c5ea63adfeb7c8763e85280" cid="AC020" type="actor" name="Mahasiswa" creation-date="11/11/2022 09:23:45" visibility="undefined" />
           <item id="250534b0d46b4ea098897007befca9a5" cid="SM097" type="sequence-action" name="Message87" creation-date="11/11/2022 10:24:11" from="a6e2ad58a8d04fac8d78b24d3580f501" to="5d820d2adb4640cd802cb3a1114bd8f6" visibility="package">
             <sequence-action type="reply" message="status mssg" is-asynchronous="false" return-value="" assign-to-variable="">
               <parameters />
@@ -4036,6 +4046,11 @@
           </item>
           <item id="1645c6f5cc694af1a46e720bfcf1d9c3" cid="SM066" type="sequence-action" name="Message56" creation-date="11/11/2022 09:48:47" from="a16f0dbab58240a68da81347a5012c8a" to="85ee854242fc4750a7a78d841fff7ab7" visibility="package">
             <sequence-action type="call" message="klik tambah mata kuliah" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
+          <item id="difa2518038ac84587865fdff35773f40f5280" cid="SM105" type="sequence-action" name="Message30" creation-date="11/11/2022 09:26:02" from="di8e41444681b54eeb962c15880ee24a7e5280" to="di16c7d2c12a81493e8e4bbe6ecf896f035280" visibility="package">
+            <sequence-action type="call" message="klik tombol print" is-asynchronous="false" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
           </item>
@@ -4261,6 +4276,7 @@
             <activation-bar lifeline-ref="b3d89d2c905b4127a206da0d4ab76bd8" />
           </item>
           <item id="a2838360f53d4a1f9d6e5317b35c2e31" cid="AB068" type="activation-bar" name="ExecutionOccurrence58" owner="987760eb6d564a1b89b78248aaf16e30" creation-date="11/11/2022 09:55:39" />
+          <item id="di8e41444681b54eeb962c15880ee24a7e5280" cid="AB099" type="activation-bar" name="ExecutionOccurrence28" owner="dic4fd6a9052844c5ea63adfeb7c8763e85280" creation-date="11/11/2022 09:26:04" visibility="undefined" />
           <item id="dic5dd40ace2ab4647969171496c5333a01456" cid="AB036" type="activation-bar" name="ExecutionOccurrence13" owner="di7c312037630949dc803b3ff1d9e98fd41456" creation-date="11/11/2022 08:02:10" visibility="undefined">
             <activation-bar lifeline-ref="di7c312037630949dc803b3ff1d9e98fd41456" />
           </item>
@@ -4304,6 +4320,11 @@
               <parameters />
             </sequence-action>
           </item>
+          <item id="didbea5cd688ee4b54833183cd1cb9866d5280" cid="SM106" type="sequence-action" name="Message32" creation-date="11/11/2022 09:27:23" from="di16c7d2c12a81493e8e4bbe6ecf896f035280" to="di8e41444681b54eeb962c15880ee24a7e5280" visibility="package">
+            <sequence-action type="call" message="openwindowprintdialog" is-asynchronous="false" return-value="" assign-to-variable="">
+              <parameters />
+            </sequence-action>
+          </item>
           <item id="b04d6d99498140a6a952c02a765ca89f" cid="AB094" type="activation-bar" name="ExecutionOccurrence84" owner="d1f44195e5fb4e67bf45d10880b4ff4a" creation-date="11/11/2022 10:27:20">
             <activation-bar lifeline-ref="d1f44195e5fb4e67bf45d10880b4ff4a" />
           </item>
@@ -4324,6 +4345,9 @@
           </item>
           <item id="fe6fc564f19c44ce94f21937fe5e53f4" cid="AB061" type="activation-bar" name="ExecutionOccurrence51" owner="d672c7a486c34b4a82361825c3dfa5e7" creation-date="11/11/2022 09:41:09">
             <activation-bar lifeline-ref="d672c7a486c34b4a82361825c3dfa5e7" />
+          </item>
+          <item id="di16c7d2c12a81493e8e4bbe6ecf896f035280" cid="AB100" type="activation-bar" name="ExecutionOccurrence29" owner="dic024395f03ee4bef88bd375a497fa2ba5280" creation-date="11/11/2022 09:26:04" visibility="undefined">
+            <activation-bar lifeline-ref="dic024395f03ee4bef88bd375a497fa2ba5280" />
           </item>
           <item id="2e1c73db321d495a9415ccf95bb793ec" cid="AB051" type="activation-bar" name="ExecutionOccurrence41" owner="8b8353886dbd4d6c9f580b55bf4a7b39" creation-date="11/11/2022 09:36:34">
             <activation-bar lifeline-ref="8b8353886dbd4d6c9f580b55bf4a7b39" />
@@ -5222,6 +5246,46 @@
             <layout ax="1840" ay="2123" awidth="20" aheight="40" x="1840" y="2123" width="20" height="40" expanded="1840,2123,20,40" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
+          </item>
+          <item id="dic4fd6a9052844c5ea63adfeb7c8763e85280" iid="7d80f6807ef54e169804a8280f3c56a4" creation-date="11/11/2022 09:23:45" order-index="32" type="lifeline">
+            <layout ax="1527" ay="2340" awidth="140" aheight="427" x="1527" y="2340" width="140" height="427" expanded="137,1260,140,427" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="dic024395f03ee4bef88bd375a497fa2ba5280" iid="0c5fcc29768d41249bff2f878a666e54" creation-date="11/11/2022 09:23:58" order-index="33" presentation-style="stereotype" type="lifeline">
+            <layout ax="1720" ay="2340" awidth="140" aheight="427" x="1720" y="2340" width="140" height="427" expanded="330,1260,140,427" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="difa2518038ac84587865fdff35773f40f5280" iid="1cee3079350f404690ed3f12da84bbe2" creation-date="11/11/2022 09:26:02" order-index="34" type="relation">
+            <layout message-x="1694" message-y="2497" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="1607" y1="2477" x2="1780" y2="2477" start-border-pos="0.251" end-border-pos="0.999" start-local-pos="0" end-local-pos="0" name-position="0,20">
+              <points>
+                <point x="1607" y="2477" />
+                <point x="1780" y="2477" />
+              </points>
+            </layout>
+            <relation from="di8e41444681b54eeb962c15880ee24a7e5280" from-iid="14f32b99662744a4a8f596e1cee0f76e" to="di16c7d2c12a81493e8e4bbe6ecf896f035280" to-iid="22ff790f74874eae9fae7ffeae0538c1" />
+            <sequence-action show-sequence-number="false" />
+          </item>
+          <item id="di8e41444681b54eeb962c15880ee24a7e5280" iid="14f32b99662744a4a8f596e1cee0f76e" container="dic4fd6a9052844c5ea63adfeb7c8763e85280" container-iid="7d80f6807ef54e169804a8280f3c56a4" creation-date="11/11/2022 09:26:04" order-index="35" type="entity">
+            <layout ax="1587" ay="2477" awidth="20" aheight="60" x="1587" y="2477" width="20" height="40" expanded="1587,2477,20,60" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="di16c7d2c12a81493e8e4bbe6ecf896f035280" iid="22ff790f74874eae9fae7ffeae0538c1" container="dic024395f03ee4bef88bd375a497fa2ba5280" container-iid="0c5fcc29768d41249bff2f878a666e54" creation-date="11/11/2022 09:26:04" order-index="36" type="entity">
+            <layout ax="1780" ay="2477" awidth="20" aheight="60" x="1780" y="2477" width="20" height="40" expanded="1780,2477,20,60" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="didbea5cd688ee4b54833183cd1cb9866d5280" iid="8db6273b139142feb54be066a943f208" creation-date="11/11/2022 09:27:23" order-index="37" type="relation">
+            <layout message-x="1694" message-y="2557" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="1780" y1="2537" x2="1607" y2="2537" start-border-pos="0.751" end-border-pos="0.499" start-local-pos="60" end-local-pos="60" name-position="0,20">
+              <points>
+                <point x="1780" y="2537" />
+                <point x="1607" y="2537" />
+              </points>
+            </layout>
+            <relation from="di16c7d2c12a81493e8e4bbe6ecf896f035280" from-iid="22ff790f74874eae9fae7ffeae0538c1" to="di8e41444681b54eeb962c15880ee24a7e5280" to-iid="14f32b99662744a4a8f596e1cee0f76e" />
+            <sequence-action show-sequence-number="false" />
           </item>
         </layer>
       </diagram>
