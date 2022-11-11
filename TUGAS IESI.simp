@@ -135,7 +135,7 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>18604</value>
+        <value>18617</value>
       </counter>
       <counter>
         <item-type type-id="actor" type="Actor" />
@@ -167,7 +167,7 @@
       </counter>
       <counter>
         <item-type type-id="universal-connector" type="Universal Connector" />
-        <value>141</value>
+        <value>146</value>
       </counter>
       <counter>
         <item-type type-id="drawing-line" type="Line" />
@@ -7850,7 +7850,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="data-flow" id="pa50e804443e4448b9b4f3739257ea6a5_557763585" name="DFD-KRS" order-index="17" overview-order-index="15" uid="" auto-routed-paths="false" default-line-style="default" view-location="67,892" zoom="0.6">
+      <diagram type="data-flow" id="pa50e804443e4448b9b4f3739257ea6a5_557763585" name="DFD-KRS" order-index="17" overview-order-index="15" uid="" auto-routed-paths="false" default-line-style="default" view-location="127,1096" zoom="0.7">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -7862,7 +7862,7 @@
           </authors>
           <description />
           <creation-date>11/11/2022 17:32:35</creation-date>
-          <change-date>11/11/2022 20:20:56</change-date>
+          <change-date>11/11/2022 20:22:29</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
@@ -8523,8 +8523,8 @@
             <drawing-line start-point="709,2195" end-point="316,2311" />
           </item>
           <item id="Line29" iid="132805204ad54cdcbfb5a56e5df6e390" creation-date="11/11/2022 20:18:51" order-index="131" type="entity">
-            <layout ax="360" ay="1952" awidth="294" aheight="56" x="414" y="1948" width="289" height="59.5" rotation-center="-507,-1980" />
-            <drawing-line start-point="653,1952" end-point="360,2007" />
+            <layout ax="360" ay="1981" awidth="354.5" aheight="27" x="414" y="1948" width="289" height="59.5" rotation-center="-537.25,-1994.5" />
+            <drawing-line start-point="713.5,1981" end-point="360,2007" />
           </item>
           <item id="Line30" iid="71fce19e711540f3aa4a89d395ec165e" creation-date="11/11/2022 20:18:54" order-index="132" type="entity">
             <layout ax="246" ay="2074.5" awidth="115" aheight="64" x="234" y="2074.5" width="119" height="62" rotation-center="-303.5,-2106.5" />
