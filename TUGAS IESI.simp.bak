@@ -101,7 +101,7 @@
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>11</value>
+        <value>20</value>
       </counter>
       <counter>
         <item-type type-id="erd-entity" type="Entity" />
@@ -115,7 +115,7 @@
     <entity-ids>
       <counter>
         <item-type type-id="group" type="Group" />
-        <value>12338</value>
+        <value>13104</value>
       </counter>
       <counter>
         <item-type type-id="actor" type="Actor" />
@@ -127,11 +127,11 @@
       </counter>
       <counter>
         <item-type type-id="relationship" type="Association" />
-        <value>92</value>
+        <value>114</value>
       </counter>
       <counter>
         <item-type type-id="property" type="Property" />
-        <value>240</value>
+        <value>309</value>
       </counter>
       <counter>
         <item-type type-id="include" type="Include" />
@@ -223,7 +223,7 @@
       </counter>
       <counter>
         <item-type type-id="class" type="Class" />
-        <value>37</value>
+        <value>64</value>
       </counter>
       <counter>
         <item-type type-id="sequence-action" type="Message" />
@@ -265,7 +265,7 @@
       </counter>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
-        <value>3</value>
+        <value>4</value>
       </counter>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
@@ -275,7 +275,7 @@
     <fields>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
-        <value>16</value>
+        <value>32</value>
       </counter>
       <counter>
         <type>SoftwareIdeasModeler.Core.DiagramItems.Erd.ErdEntityAttribute</type>
@@ -313,38 +313,50 @@
     <custom-types>
       <parameters />
       <types>
-        <type id="NOT" name="NOT" />
-        <type id="Class:fa93b37948bc45559231aa5aad24cf46" name="KRS" class-ref="fa93b37948bc45559231aa5aad24cf46" />
-        <type id="Class:7d574a9ef09e46d092a6fe42fead56f0" name="HalamanUtama" class-ref="7d574a9ef09e46d092a6fe42fead56f0" />
-        <type id="Class:0bd3b3a866d14a3184a9d5d46670672a" name="HalamanLogin" class-ref="0bd3b3a866d14a3184a9d5d46670672a" />
-        <type id="Class:c3b40fe0289740fc825968dd5392aa41" name="server" class-ref="c3b40fe0289740fc825968dd5392aa41" />
-        <type id="Class:4c7673c51f394a8082c0d7e547ad0ec1" name="Halaman Login" class-ref="4c7673c51f394a8082c0d7e547ad0ec1" />
-        <type id="Class:28c63d29eeb0489a9d32cea653266e5e" name="M" class-ref="28c63d29eeb0489a9d32cea653266e5e" />
-        <type id="Class:3806e50e3a9d48afb8d891671f2e692b" name="Halaman Batal Tambah" class-ref="3806e50e3a9d48afb8d891671f2e692b" />
-        <type id="Class:d6c23753cb854bfcb303e6e6c7e64784" name="Halaman Utama" class-ref="d6c23753cb854bfcb303e6e6c7e64784" />
-        <type id="Class:69723f1f99e1442f88d3fd880e062bba" name="Otentikasi" class-ref="69723f1f99e1442f88d3fd880e062bba" />
-        <type id="Class:d5e16da4802a4744b961bf42f93351a7" name="Login Page" class-ref="d5e16da4802a4744b961bf42f93351a7" />
-        <type id="Class:66ac7102bfd64612bffc04436fee3c3d" name="print dialog" class-ref="66ac7102bfd64612bffc04436fee3c3d" />
-        <type id="Class:6eb7b3fb63ae41a9912dc968896ee65a" name="KELAS" class-ref="6eb7b3fb63ae41a9912dc968896ee65a" />
-        <type id="Class:075c539cf61446068cc7238576d42bdc" name="router" class-ref="075c539cf61446068cc7238576d42bdc" />
-        <type id="Class:b6d9dfe027b84938be27498a9c1e73b5" name="Halaman KRS" class-ref="b6d9dfe027b84938be27498a9c1e73b5" />
-        <type id="Class:be54c991252944a880994ab537db6872" name="printDialog" class-ref="be54c991252944a880994ab537db6872" />
-        <type id="Class:778ffe3d1f24459eb48d0cae52816493" name="Mahasiswa" class-ref="778ffe3d1f24459eb48d0cae52816493" />
-        <type id="Class:81295c43a1d34454adad4cac615dbe13" name="KHS" class-ref="81295c43a1d34454adad4cac615dbe13" />
-        <type id="Class:e3d5c7f4c54c4c14a0f4f23a70174f57" name="HalamanKHS" class-ref="e3d5c7f4c54c4c14a0f4f23a70174f57" />
-        <type id="Class:f1642d51c89246fda3e6a6c490e44432" name="Mahasiswa" class-ref="f1642d51c89246fda3e6a6c490e44432" />
-        <type id="Class:e298be33653d4f90b2bfdea0fdfb6820" name="Verifikasi informasi login\" class-ref="e298be33653d4f90b2bfdea0fdfb6820" />
-        <type id="Class:52b094aff4b445d7916d0e512d2878db" name="otentikasi" class-ref="52b094aff4b445d7916d0e512d2878db" />
-        <type id="Class:650636b7f2ee4d98bc563d02874b3e3c" name="Halaman Tambah Mata Kuliah" class-ref="650636b7f2ee4d98bc563d02874b3e3c" />
-        <type id="Class:10dba79693aa4748bacad3d82769bbe0" name="window detailNilai" class-ref="10dba79693aa4748bacad3d82769bbe0" />
-        <type id="Class:1c2961f9577f48e78c4d8d45c45f1d45" name="HalamanUtama" class-ref="1c2961f9577f48e78c4d8d45c45f1d45" />
         <type id="Class:11b86623ab234bf1aa90c097577cc7e4" name="KR" class-ref="11b86623ab234bf1aa90c097577cc7e4" />
-        <type id="Class:c48e3f5b488a4cd3b9191ffbd98a6c67" name="Halaman KHS" class-ref="c48e3f5b488a4cd3b9191ffbd98a6c67" />
-        <type id="Class:82f921a83a974143a58f37ec9d07cc1a" name="KHSController" class-ref="82f921a83a974143a58f37ec9d07cc1a" />
+        <type id="Class:778ffe3d1f24459eb48d0cae52816493" name="Mahasiswa" class-ref="778ffe3d1f24459eb48d0cae52816493" />
+        <type id="Class:fa93b37948bc45559231aa5aad24cf46" name="KRS" class-ref="fa93b37948bc45559231aa5aad24cf46" />
+        <type id="Class:9e232c9773984b1e875bc60334a99391" name="DetailNilai" class-ref="9e232c9773984b1e875bc60334a99391" />
+        <type id="Class:e298be33653d4f90b2bfdea0fdfb6820" name="Verifikasi informasi login\" class-ref="e298be33653d4f90b2bfdea0fdfb6820" />
+        <type id="Class:f1642d51c89246fda3e6a6c490e44432" name="Mahasiswa" class-ref="f1642d51c89246fda3e6a6c490e44432" />
+        <type id="Class:di2e601e5f94104dd1a2e101b599c075da9695" name="KHSController" class-ref="di2e601e5f94104dd1a2e101b599c075da9695" />
+        <type id="Class:di3f6bde98f01a4abe91a87ff07020496a2053" name="HalamanKHS" class-ref="di3f6bde98f01a4abe91a87ff07020496a2053" />
+        <type id="Class:4c7673c51f394a8082c0d7e547ad0ec1" name="Halaman Login" class-ref="4c7673c51f394a8082c0d7e547ad0ec1" />
+        <type id="Class:075c539cf61446068cc7238576d42bdc" name="router" class-ref="075c539cf61446068cc7238576d42bdc" />
+        <type id="Class:69723f1f99e1442f88d3fd880e062bba" name="Otentikasi" class-ref="69723f1f99e1442f88d3fd880e062bba" />
+        <type id="Class:10dba79693aa4748bacad3d82769bbe0" name="window detailNilai" class-ref="10dba79693aa4748bacad3d82769bbe0" />
+        <type id="Class:6eb7b3fb63ae41a9912dc968896ee65a" name="KELAS" class-ref="6eb7b3fb63ae41a9912dc968896ee65a" />
+        <type id="Class:54881f8789944b55b2d8436fdd0ac1db" name="HalamanTambahMatkul" class-ref="54881f8789944b55b2d8436fdd0ac1db" />
+        <type id="Class:b6d9dfe027b84938be27498a9c1e73b5" name="Halaman KRS" class-ref="b6d9dfe027b84938be27498a9c1e73b5" />
+        <type id="Class:e3d5c7f4c54c4c14a0f4f23a70174f57" name="HalamanKHS" class-ref="e3d5c7f4c54c4c14a0f4f23a70174f57" />
+        <type id="Class:d5e16da4802a4744b961bf42f93351a7" name="Login Page" class-ref="d5e16da4802a4744b961bf42f93351a7" />
         <type id="Class:bf6e75d919314dd18f45efa208196611" name="Login" class-ref="bf6e75d919314dd18f45efa208196611" />
-        <type id="DetailNilai" name="DetailNilai" />
+        <type id="Class:d6c23753cb854bfcb303e6e6c7e64784" name="Halaman Utama" class-ref="d6c23753cb854bfcb303e6e6c7e64784" />
+        <type id="Class:c48e3f5b488a4cd3b9191ffbd98a6c67" name="Halaman KHS" class-ref="c48e3f5b488a4cd3b9191ffbd98a6c67" />
         <type id="Class:782c9d1819e84156a315ef9fab1328a5" name="Print" class-ref="782c9d1819e84156a315ef9fab1328a5" />
         <type id="Class:714feb380832461780b75b4368257b9c" name="KHS" class-ref="714feb380832461780b75b4368257b9c" />
+        <type id="Class:di38d2db02fac24e8aa41f04285cb3093c1601" name="KHS" class-ref="di38d2db02fac24e8aa41f04285cb3093c1601" />
+        <type id="DetailNilai" name="DetailNilai" />
+        <type id="Class:di05e0322248274074b39b43fc87c6494a5433" name="HalamanKRS" class-ref="di05e0322248274074b39b43fc87c6494a5433" />
+        <type id="Class:7d574a9ef09e46d092a6fe42fead56f0" name="HalamanUtama" class-ref="7d574a9ef09e46d092a6fe42fead56f0" />
+        <type id="Class:1c2961f9577f48e78c4d8d45c45f1d45" name="HalamanUtama" class-ref="1c2961f9577f48e78c4d8d45c45f1d45" />
+        <type id="Class:0bd3b3a866d14a3184a9d5d46670672a" name="HalamanLogin" class-ref="0bd3b3a866d14a3184a9d5d46670672a" />
+        <type id="Class:be54c991252944a880994ab537db6872" name="printDialog" class-ref="be54c991252944a880994ab537db6872" />
+        <type id="Class:c3b40fe0289740fc825968dd5392aa41" name="server" class-ref="c3b40fe0289740fc825968dd5392aa41" />
+        <type id="NOT" name="NOT" />
+        <type id="Class:82f921a83a974143a58f37ec9d07cc1a" name="KHSController" class-ref="82f921a83a974143a58f37ec9d07cc1a" />
+        <type id="Class:81295c43a1d34454adad4cac615dbe13" name="KHS" class-ref="81295c43a1d34454adad4cac615dbe13" />
+        <type id="Class:a97c444cd38b478dba375acf0865e46d" name="HalamanKHS" class-ref="a97c444cd38b478dba375acf0865e46d" />
+        <type id="Class:d68334330949442bbd072f01809e1312" name="PrintController" class-ref="d68334330949442bbd072f01809e1312" />
+        <type id="Class:52b094aff4b445d7916d0e512d2878db" name="otentikasi" class-ref="52b094aff4b445d7916d0e512d2878db" />
+        <type id="Class:di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" name="DetailNilai" class-ref="di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" />
+        <type id="Class:di4de2e561ae4f4129b62097f6dca763971184" name="KRSController" class-ref="di4de2e561ae4f4129b62097f6dca763971184" />
+        <type id="Class:3806e50e3a9d48afb8d891671f2e692b" name="Halaman Batal Tambah" class-ref="3806e50e3a9d48afb8d891671f2e692b" />
+        <type id="Class:650636b7f2ee4d98bc563d02874b3e3c" name="Halaman Tambah Mata Kuliah" class-ref="650636b7f2ee4d98bc563d02874b3e3c" />
+        <type id="Class:9fc0c5bf16f2453690eac5af7870f55e" name="WindowDetailNilai" class-ref="9fc0c5bf16f2453690eac5af7870f55e" />
+        <type id="Class:66ac7102bfd64612bffc04436fee3c3d" name="print dialog" class-ref="66ac7102bfd64612bffc04436fee3c3d" />
+        <type id="Class:9542c64bdf544ec286e3e09578f7ad3a" name="Kelas" class-ref="9542c64bdf544ec286e3e09578f7ad3a" />
+        <type id="Class:28c63d29eeb0489a9d32cea653266e5e" name="M" class-ref="28c63d29eeb0489a9d32cea653266e5e" />
       </types>
     </custom-types>
   </types>
@@ -406,6 +418,9 @@
       </use-case>
     </item>
     <item id="566b5a989fed41db92a2385e071eee9a" cid="PROP038" type="property" owner="987b0476f5eb4e0f8b485487049a0e87" creation-date="11/10/2022 11:38:44" visibility="private" />
+    <item id="3feb35ad39ec461eb644e80251c7bc2a" cid="PROP256" type="property" owner="d7db46a052ad4df09d5e761a1ce08f28" creation-date="11/11/2022 15:53:39" visibility="undefined">
+      <structural-feature type="KHS" type-id="Class:di38d2db02fac24e8aa41f04285cb3093c1601" />
+    </item>
     <item id="5368533ecb0b4e57ab0416b3336f013b" cid="PROP220" type="property" owner="54f1357db4d24033b88289ff45f0ac95" creation-date="11/11/2022 15:21:15" visibility="private">
       <structural-feature type="KHS" type-id="Class:81295c43a1d34454adad4cac615dbe13" />
     </item>
@@ -418,6 +433,9 @@
     <item id="90cfcf5057524ed18f0822509350ba59" cid="PROP016" type="property" owner="4e5016e58a2d4e99879db42c44c11ea0" creation-date="11/10/2022 11:13:22" visibility="private" />
     <item id="f1c9eb63f008499493b0ed49a5dc00fa" cid="PROP193" type="property" name="web" creation-date="11/11/2022 10:55:44" visibility="undefined">
       <structural-feature type="print dialog" type-id="Class:66ac7102bfd64612bffc04436fee3c3d" />
+    </item>
+    <item id="2e8a070db95547d291057e12b993467b" cid="PROP253" type="property" owner="f05baad1b75a48cba77380459399cda6" creation-date="11/11/2022 15:53:12" visibility="undefined">
+      <structural-feature type="KHSController" type-id="Class:di2e601e5f94104dd1a2e101b599c075da9695" />
     </item>
     <item id="f2d89c552d0e42a695aafe4f35dc63cd" cid="PROP200" type="property" owner="399258d868d74556a8fb2920521676bb" creation-date="11/11/2022 11:02:15" visibility="private" />
     <item id="5086c66a80fb474caf9b84dbbc56a3c5" cid="INC003" type="include" creation-date="11/10/2022 11:27:43" from="05525191c6114deba85ec4385d981c59" to="287c949507854680b95c1d029a832987" visibility="package">
@@ -437,12 +455,21 @@
       <comment>Jika Validasi Gagal</comment>
     </item>
     <item id="10dba79693aa4748bacad3d82769bbe0" cid="C020" type="class" name="window detailNilai" creation-date="11/11/2022 11:12:41" visibility="undefined" />
+    <item id="f9b270834947493e8bb8e96a51a2b104" cid="PROP307" type="property" owner="161edf039b694f5a8c9fd50393d8ab69" creation-date="11/11/2022 16:15:16" visibility="undefined">
+      <structural-feature type="KRSController" type-id="Class:di4de2e561ae4f4129b62097f6dca763971184" />
+    </item>
+    <item id="f865acc3d0c94dbda9775f17bc893ea8" cid="PROP240" type="property" name="1" owner="7f713a8414f445d5b9ec95d546c18cda" creation-date="11/11/2022 15:48:39" visibility="undefined">
+      <structural-feature type="KHS" type-id="Class:81295c43a1d34454adad4cac615dbe13" />
+    </item>
     <item id="40c9191219be46ee9bb7a6c3e63fac11" cid="UC015" type="use-case" name="Tambah Mata Kuliah" owner="59d60594bbf14bf69a7f11a8f5e797e6" creation-date="11/10/2022 11:24:21" visibility="undefined">
       <use-case>
         <stakeholders />
       </use-case>
     </item>
     <item id="be54c991252944a880994ab537db6872" cid="C017" type="class" name="printDialog" creation-date="11/11/2022 10:55:33" visibility="undefined" />
+    <item id="d2d260679d504b8ab3d3e1c608242357" cid="PROP305" type="property" owner="bd6ebf9b1f2e44e0970274c3bdab7357" creation-date="11/11/2022 16:14:55" visibility="undefined">
+      <structural-feature type="HalamanKRS" type-id="Class:di05e0322248274074b39b43fc87c6494a5433" />
+    </item>
     <item id="803d079fac0d490eb3516283a7f318c3" cid="UC017" type="use-case" name="Print KRS" owner="59d60594bbf14bf69a7f11a8f5e797e6" creation-date="11/10/2022 11:24:37" visibility="undefined">
       <use-case>
         <stakeholders />
@@ -481,7 +508,13 @@
     </item>
     <item id="d93e15cd288a434eaa1e337cc77487a2" cid="PROP017" type="property" owner="761eb068f10045eb96b269bf9a0a1ee8" creation-date="11/10/2022 11:13:39" visibility="private" />
     <item id="ca2a5da730194fbd96bdd3f148b0c34d" cid="PROP036" type="property" owner="67a314dcf2e64257b097539fac7c3df7" creation-date="11/10/2022 11:38:34" visibility="private" />
+    <item id="0ca73de6b4d74b43a6634ecc51164ace" cid="PROP265" type="property" owner="961d20f63b5d43569b0a481898ccb649" creation-date="11/11/2022 15:57:07" visibility="undefined">
+      <structural-feature type="PrintController" type-id="Class:d68334330949442bbd072f01809e1312" />
+    </item>
     <item id="b72ad88cc3e748288a3c2d42407f0efb" cid="PROP159" type="property" owner="c1a041e18fe84c6ab7540294e6af0e59" creation-date="11/10/2022 17:45:29" visibility="private" />
+    <item id="da667439d46d41d0b01a953621f01848" cid="PROP306" type="property" owner="bd6ebf9b1f2e44e0970274c3bdab7357" creation-date="11/11/2022 16:14:55" visibility="undefined">
+      <structural-feature type="KRSController" type-id="Class:di4de2e561ae4f4129b62097f6dca763971184" />
+    </item>
     <item id="d1005c495a4a4f9f96ab496edca55235" cid="PROP175" type="property" name="SIAM" creation-date="11/11/2022 07:49:26" visibility="undefined">
       <structural-feature type="Halaman Utama" type-id="Class:d6c23753cb854bfcb303e6e6c7e64784" />
     </item>
@@ -503,11 +536,17 @@
       <structural-feature type="KELAS" type-id="Class:6eb7b3fb63ae41a9912dc968896ee65a" />
     </item>
     <item id="8d0900d2f46a4a1a8b49a859149835ef" cid="PROP031" type="property" owner="e7b3f5b240314e70aa83798b218d9c3f" creation-date="11/10/2022 11:35:36" visibility="private" />
+    <item id="995da7a7a7a64c29aa1f6bb072789d5b" cid="PROP252" type="property" owner="f05baad1b75a48cba77380459399cda6" creation-date="11/11/2022 15:53:12" visibility="undefined">
+      <structural-feature type="WindowDetailNilai" type-id="Class:9fc0c5bf16f2453690eac5af7870f55e" />
+    </item>
     <item id="075c539cf61446068cc7238576d42bdc" cid="C007" type="class" name="router" creation-date="11/11/2022 07:58:57" visibility="undefined" />
     <item id="8d2d329a959b46b69276ed1e19c09b1f" cid="PROP215" type="property" owner="a98834cbffda4f2b90472e2d4a1c2a90" creation-date="11/11/2022 15:21:04" visibility="private">
       <structural-feature type="HalamanUtama" type-id="Class:1c2961f9577f48e78c4d8d45c45f1d45" />
     </item>
     <item id="3806e50e3a9d48afb8d891671f2e692b" cid="C016" type="class" name="Halaman Batal Tambah" creation-date="11/11/2022 10:25:23" visibility="undefined" />
+    <item id="ed9310534a114678b4b516ff90af2d86" cid="PROP255" type="property" owner="b75882128b7647aa8af2cd80d41edd97" creation-date="11/11/2022 15:53:32" visibility="undefined">
+      <structural-feature type="KHS" type-id="Class:di38d2db02fac24e8aa41f04285cb3093c1601" />
+    </item>
     <item id="d9b12dead748418b84a7ea65c4bcda34" cid="PROP178" type="property" name="SIAM" creation-date="11/11/2022 07:59:16" visibility="undefined">
       <structural-feature type="Halaman KHS" type-id="Class:c48e3f5b488a4cd3b9191ffbd98a6c67" />
     </item>
@@ -537,14 +576,23 @@
       </stereotype-instances>
       <extend extension-point="" condition="" />
     </item>
+    <item id="07f34e9f623747bca4f6cb9c86791f61" cid="PROP264" type="property" owner="961d20f63b5d43569b0a481898ccb649" creation-date="11/11/2022 15:57:07" visibility="undefined">
+      <structural-feature type="HalamanKHS" type-id="Class:di3f6bde98f01a4abe91a87ff07020496a2053" />
+    </item>
     <item id="a61c85da85df4e6192ff039d66fddcd6" cid="PROP192" type="property" name="SIAM" creation-date="11/11/2022 10:55:33" visibility="undefined">
       <structural-feature type="printDialog" type-id="Class:be54c991252944a880994ab537db6872" />
+    </item>
+    <item id="574ec85c5dde4edc82d10018ba520903" cid="PROP251" type="property" owner="951a92a4da994998b2c899e7d97aa529" creation-date="11/11/2022 15:52:59" visibility="undefined">
+      <structural-feature type="WindowDetailNilai" type-id="Class:9fc0c5bf16f2453690eac5af7870f55e" />
     </item>
     <item id="5e3265edfa1446b29e1c74c6e1f3bb67" cid="PROP176" type="property" name="SIAM" creation-date="11/11/2022 07:58:48" visibility="undefined">
       <structural-feature type="server" type-id="Class:c3b40fe0289740fc825968dd5392aa41" />
     </item>
     <item id="333b55bb96514313a8a7a4188cee85de" cid="PROP052" type="property" owner="09d76e9a4b3145dca85cae0148ba5f55" creation-date="11/10/2022 11:49:32" visibility="private" />
     <item id="66ac7102bfd64612bffc04436fee3c3d" cid="C018" type="class" name="print dialog" creation-date="11/11/2022 10:55:44" visibility="undefined" />
+    <item id="ab1dcd3e68044675a5c989196910284f" cid="PROP241" type="property" name="0,1" owner="7f713a8414f445d5b9ec95d546c18cda" creation-date="11/11/2022 15:48:39" visibility="undefined">
+      <structural-feature type="DetailNilai" type-id="Class:9e232c9773984b1e875bc60334a99391" />
+    </item>
     <item id="c232525fe44c4061a3658af840c91668" cid="PROP217" type="property" owner="37801afe10034330acb6f669b4e1ae89" creation-date="11/11/2022 15:21:10" visibility="private">
       <structural-feature type="HalamanKHS" type-id="Class:e3d5c7f4c54c4c14a0f4f23a70174f57" />
     </item>
@@ -562,6 +610,9 @@
     <item id="dcc5d74fa5b145d48a15de57340644ce" cid="PROP196" type="property" owner="21a9bf9fb6294266ae1a80894330fa71" creation-date="11/11/2022 11:01:10" visibility="private" />
     <item id="2a2e4edfbb2d48b5ad2f5eadc320db47" cid="PROP018" type="property" owner="761eb068f10045eb96b269bf9a0a1ee8" creation-date="11/10/2022 11:13:39" visibility="private" />
     <item id="650636b7f2ee4d98bc563d02874b3e3c" cid="C014" type="class" name="Halaman Tambah Mata Kuliah" creation-date="11/11/2022 09:50:52" visibility="undefined" />
+    <item id="6dce00a7d0024dac9f220d4ff0a5bcf0" cid="PROP257" type="property" owner="d7db46a052ad4df09d5e761a1ce08f28" creation-date="11/11/2022 15:53:39" visibility="undefined">
+      <structural-feature type="DetailNilai" type-id="Class:di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" />
+    </item>
     <item id="3dd21b5d8bf74887a344325f04b0554e" cid="UC029" type="use-case" name="Melihat Detail Nilai" owner="59d60594bbf14bf69a7f11a8f5e797e6" creation-date="11/10/2022 11:43:50" visibility="undefined">
       <use-case>
         <stakeholders />
@@ -614,6 +665,9 @@
     <item id="435a6a54276545d78b7bac4d8d8495ed" cid="PROP173" type="property" name="SIAM" creation-date="11/11/2022 07:44:34" visibility="undefined">
       <structural-feature type="Halaman Login" type-id="Class:4c7673c51f394a8082c0d7e547ad0ec1" />
     </item>
+    <item id="94c530afa89b4cf2838462c154347aa0" cid="PROP254" type="property" owner="b75882128b7647aa8af2cd80d41edd97" creation-date="11/11/2022 15:53:32" visibility="undefined">
+      <structural-feature type="KHSController" type-id="Class:di2e601e5f94104dd1a2e101b599c075da9695" />
+    </item>
     <item id="006a61662c614334a938cc45bb9f053a" cid="PROP198" type="property" owner="f71b95525e76472f9cdffb1d2b0e5588" creation-date="11/11/2022 11:01:42" visibility="private" />
     <item id="ec4f23ed3eb84a7e8895681728925178" cid="PROP189" type="property" name="DATASTORE" creation-date="11/11/2022 10:06:50" visibility="undefined">
       <structural-feature type="M" type-id="Class:28c63d29eeb0489a9d32cea653266e5e" />
@@ -645,7 +699,13 @@
     </item>
     <item id="9f728763df814c17baf74d4f1b3a8030" cid="PROP068" type="property" owner="d19efea043b44351ba7397ab2abb72f0" creation-date="11/10/2022 11:57:55" visibility="private" />
     <item id="4ec530edfc8048dcaa4d89532ee76457" cid="PROP199" type="property" owner="399258d868d74556a8fb2920521676bb" creation-date="11/11/2022 11:02:15" visibility="private" />
+    <item id="0ebb180f09c44c81a38c26ad52577e11" cid="PROP308" type="property" owner="161edf039b694f5a8c9fd50393d8ab69" creation-date="11/11/2022 16:15:16" visibility="undefined">
+      <structural-feature type="HalamanTambahMatkul" type-id="Class:54881f8789944b55b2d8436fdd0ac1db" />
+    </item>
     <item id="5f8f24d01eb54667ad017bd924a6e1c5" cid="PROP035" type="property" owner="67a314dcf2e64257b097539fac7c3df7" creation-date="11/10/2022 11:38:34" visibility="private" />
+    <item id="534f7d02d2e441249e4b0ad9bc47b3b4" cid="PROP250" type="property" owner="951a92a4da994998b2c899e7d97aa529" creation-date="11/11/2022 15:52:59" visibility="undefined">
+      <structural-feature type="HalamanKHS" type-id="Class:a97c444cd38b478dba375acf0865e46d" />
+    </item>
     <item id="ed4f7139e26345a0b89a209cedf5da74" cid="PROP051" type="property" owner="09d76e9a4b3145dca85cae0148ba5f55" creation-date="11/10/2022 11:49:32" visibility="private" />
     <item id="cfbfb14dc791460fa2ec411b109abf5d" cid="PROP047" type="property" owner="5b428045996e47008de913db18337d78" creation-date="11/10/2022 11:48:42" visibility="private" />
     <item id="f7dd0558a49e4f16b307833782a39c20" cid="PROP015" type="property" owner="4e5016e58a2d4e99879db42c44c11ea0" creation-date="11/10/2022 11:13:22" visibility="private" />
@@ -3909,7 +3969,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-sequence" id="p4b11b6045dca43f9bf840a2f197efdbf_967069917" name="SD-KHS&amp;KRS" order-index="10" overview-order-index="8" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-807,409" zoom="0.8">
+      <diagram type="uml-sequence" id="p4b11b6045dca43f9bf840a2f197efdbf_967069917" name="SD-KHS&amp;KRS" order-index="10" overview-order-index="8" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="734,144" zoom="0.5">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -4132,7 +4192,7 @@
             <activation-bar lifeline-ref="ac444ee5be20418b8a32f95542d650fd" />
           </item>
           <item id="7858710d8f1d42c894bbc9d097bf7cf2" cid="SM141" type="sequence-action" name="Message125" creation-date="11/11/2022 15:41:25" from="9ba6521f951a4f038629bbb98d02d5e3" to="d403fb6ccfe44f5f9f87c64e2aadbe59" visibility="package">
-            <sequence-action type="call" message="ASYNC getNilai()" is-asynchronous="false" return-value="" assign-to-variable="">
+            <sequence-action type="call" message="ASYNC getDetailNilai()" is-asynchronous="false" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
           </item>
@@ -4273,7 +4333,7 @@
             <activation-bar lifeline-ref="8b8353886dbd4d6c9f580b55bf4a7b39" />
           </item>
           <item id="ec59cdcf3e014dd595ef222dc705a271" cid="SM143" type="sequence-action" name="Message127" creation-date="11/11/2022 15:43:38" from="d403fb6ccfe44f5f9f87c64e2aadbe59" visibility="package">
-            <sequence-action type="reply" message="" is-asynchronous="false" return-value="" assign-to-variable="">
+            <sequence-action type="reply" message="setDetailNilai(detailNilai)" is-asynchronous="false" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
           </item>
@@ -4688,7 +4748,7 @@
             <lifeline classifier-name="KHS" classifier-ref="2b45cc559fa940068f97dee8ddeefab9" selector="" is-multi-object="false" />
           </item>
           <item id="d46cc49cc1ef447e8c80e41844fb90a8" cid="SM116" type="sequence-action" name="Message104" creation-date="11/11/2022 10:58:18" from="444d78312f254d5abb476054c4a2151e" to="662f186e8cca4ccb95564634f229558a" visibility="package">
-            <sequence-action type="call" message="print(KHS)" is-asynchronous="false" return-value="" assign-to-variable="">
+            <sequence-action type="call" message="printKHS" is-asynchronous="false" return-value="" assign-to-variable="">
               <parameters />
             </sequence-action>
           </item>
@@ -4907,60 +4967,60 @@
             </layout>
           </item>
           <item id="3e2a462b982645edb376398773ccbc0b" iid="ec24b6283b30481aa283f607d5a7ca7f" creation-date="11/11/2022 08:12:30" order-index="16" type="lifeline">
-            <layout ax="-921.5" ay="726.5" awidth="140" aheight="429.5" x="-921.5" y="726.5" width="140" height="409" expanded="128.5,783.5,140,409" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="128.5" ay="789.5" awidth="140" aheight="429.5" x="128.5" y="789.5" width="140" height="409" expanded="-921.5,726.5,140,429.5" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="4ed5b84c131543289f164a05d506c37b" iid="97961777585b4b489bbf68a2b7c15f72" creation-date="11/11/2022 09:11:56" order-index="17" presentation-style="stereotype" type="lifeline">
-            <layout ax="-718.5" ay="726.5" awidth="140" aheight="429.5" x="-718.5" y="726.5" width="140" height="409" expanded="331.5,783.5,140,409" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="331.5" ay="789.5" awidth="140" aheight="429.5" x="331.5" y="789.5" width="140" height="409" expanded="-718.5,726.5,140,429.5" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="c96636b89117426c9a16ecfe5e5a2abb" iid="7cb40bb273064868b939b14f787659d7" creation-date="11/11/2022 09:12:18" order-index="18" type="relation">
-            <layout message-x="-750" message-y="886" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="-842" y1="866" x2="-658" y2="866" start-border-pos="0.251" end-border-pos="0.972602739726027" start-local-pos="0" end-local-pos="8" name-position="0,20">
+            <layout message-x="300" message-y="949" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="208" y1="929" x2="392" y2="929" start-border-pos="0.251" end-border-pos="0.972602739726027" start-local-pos="0" end-local-pos="8" name-position="0,20">
               <points>
-                <point x="-842" y="866" />
-                <point x="-658" y="866" />
+                <point x="208" y="929" />
+                <point x="392" y="929" />
               </points>
             </layout>
             <relation from="83d32073cec34a21aba0e17f73283501" from-iid="43509b1075304fbd86fe20edbb569f95" to="96f78e9426564d78b17d6c1887a390c2" to-iid="5a014fb262fc456cb32673f0d73ca2b5" />
             <sequence-action show-sequence-number="false" />
           </item>
           <item id="83d32073cec34a21aba0e17f73283501" iid="43509b1075304fbd86fe20edbb569f95" container="3e2a462b982645edb376398773ccbc0b" container-iid="ec24b6283b30481aa283f607d5a7ca7f" creation-date="11/11/2022 09:12:19" order-index="19" type="entity">
-            <layout ax="-861.5" ay="866" awidth="20" aheight="40" x="-861.5" y="866" width="20" height="40" expanded="-862,866,20,40" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="188.5" ay="929" awidth="20" aheight="40" x="188.5" y="929" width="20" height="40" expanded="188,929,20,40" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="96f78e9426564d78b17d6c1887a390c2" iid="5a014fb262fc456cb32673f0d73ca2b5" container="4ed5b84c131543289f164a05d506c37b" container-iid="97961777585b4b489bbf68a2b7c15f72" creation-date="11/11/2022 09:12:19" order-index="20" type="entity">
-            <layout ax="-658.5" ay="858" awidth="20" aheight="73" x="-658.5" y="858" width="20" height="73" expanded="-658.5,858,20,73" collapsed="0,0,0,0" rotation-center="0,1" container-layout="simple">
+            <layout ax="391.5" ay="921" awidth="20" aheight="73" x="391.5" y="921" width="20" height="73" expanded="392,921,20,73" collapsed="0,0,0,0" rotation-center="0,1" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="99534a7145724861b76866b5f4d6edd6" iid="5b0ef0ba8df64c219e39d64f882e2f3b" creation-date="11/11/2022 09:17:01" order-index="22" presentation-style="stereotype" type="lifeline">
-            <layout ax="-488.5" ay="726.5" awidth="140" aheight="429.5" x="-488.5" y="726.5" width="140" height="409" expanded="561.5,783.5,140,409" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="561.5" ay="789.5" awidth="140" aheight="429.5" x="561.5" y="789.5" width="140" height="409" expanded="-488.5,726.5,140,429.5" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="4b605f69fa764dfc9793776d69c78c22" iid="519b357445c9424da58451ddbad70ac1" creation-date="11/11/2022 09:17:06" order-index="23" presentation-style="stereotype" type="lifeline">
-            <layout ax="-258.5" ay="726.5" awidth="140" aheight="429.5" x="-258.5" y="726.5" width="140" height="409" expanded="791.5,783.5,140,409" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="791.5" ay="789.5" awidth="140" aheight="429.5" x="791.5" y="789.5" width="140" height="409" expanded="-258.5,726.5,140,429.5" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="d403fb6ccfe44f5f9f87c64e2aadbe59" iid="c1239c6bac34410ba0da6f8be26b99b8" container="99534a7145724861b76866b5f4d6edd6" container-iid="5b0ef0ba8df64c219e39d64f882e2f3b" creation-date="11/11/2022 09:17:58" order-index="25" type="entity">
-            <layout ax="-428.5" ay="978" awidth="20" aheight="121" x="-428.5" y="978" width="20" height="119" expanded="-428.5,980,20,119" collapsed="0,0,0,0" rotation-center="0,-97" container-layout="simple">
+            <layout ax="621.5" ay="1041" awidth="20" aheight="121" x="621.5" y="1041" width="20" height="119" expanded="622,1041,20,121" collapsed="0,0,0,0" rotation-center="0,-97" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="e3db8e967f9e4d7093c6b57f56b6078b" iid="8777f1bff86a4a06b80a072745fbf542" container="4b605f69fa764dfc9793776d69c78c22" container-iid="519b357445c9424da58451ddbad70ac1" creation-date="11/11/2022 09:19:08" order-index="29" type="entity">
-            <layout ax="-198.5" ay="1001" awidth="20" aheight="56" x="-198.5" y="1001" width="20" height="55" expanded="-198.5,1002,20,55" collapsed="0,0,0,0" rotation-center="0,-85.375" container-layout="simple">
+            <layout ax="851.5" ay="1064" awidth="20" aheight="56" x="851.5" y="1064" width="20" height="55" expanded="852,1064,20,56" collapsed="0,0,0,0" rotation-center="0,-85.375" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="10a0d35aeeaf43e695d13c57a3d9e88e" iid="0a9782565dcb4220b1cfc6be2d65af0b" creation-date="11/11/2022 09:19:19" order-index="30" type="relation">
-            <layout message-x="-303" message-y="1077" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="-198" y1="1057" x2="-408" y2="1057" start-border-pos="0.751" end-border-pos="0.413223140495868" start-local-pos="56" end-local-pos="79" name-position="0,20">
+            <layout message-x="747" message-y="1140" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="852" y1="1120" x2="642" y2="1120" start-border-pos="0.751" end-border-pos="0.413223140495868" start-local-pos="56" end-local-pos="79" name-position="0,20">
               <points>
-                <point x="-198" y="1057" />
-                <point x="-408" y="1057" />
+                <point x="852" y="1120" />
+                <point x="642" y="1120" />
               </points>
             </layout>
             <relation from="e3db8e967f9e4d7093c6b57f56b6078b" from-iid="8777f1bff86a4a06b80a072745fbf542" to="d403fb6ccfe44f5f9f87c64e2aadbe59" to-iid="c1239c6bac34410ba0da6f8be26b99b8" />
@@ -5718,7 +5778,7 @@
             </layout>
           </item>
           <item id="f92fb2fb27284078a483956af46007af" iid="668ab339f9d843a582ee7a087bbf4306" creation-date="11/11/2022 11:12:19" order-index="137" presentation-style="stereotype" type="lifeline">
-            <layout ax="-28.5" ay="726.5" awidth="140" aheight="439.5" x="-28.5" y="726.5" width="140" height="500" expanded="1021.5,783.5,140,410.5" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="1021.5" ay="789.5" awidth="140" aheight="439.5" x="1021.5" y="789.5" width="140" height="500" expanded="-28.5,726.5,140,439.5" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
@@ -5868,62 +5928,62 @@
             </layout>
           </item>
           <item id="c871ddbbda304582886ef00b78db1b59" iid="c09c7e6eab234160bef1e83c7bf8a1c7" creation-date="11/11/2022 15:41:13" order-index="161" type="relation">
-            <layout message-x="-303" message-y="895" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="-638" y1="875" x2="32" y2="875" start-border-pos="0.308219178082192" end-border-pos="0.999" start-local-pos="17" end-local-pos="0" name-position="0,20">
+            <layout message-x="747" message-y="958" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="412" y1="938" x2="1082" y2="938" start-border-pos="0.308219178082192" end-border-pos="0.999" start-local-pos="17" end-local-pos="0" name-position="0,20">
               <points>
-                <point x="-638" y="875" />
-                <point x="32" y="875" />
+                <point x="412" y="938" />
+                <point x="1082" y="938" />
               </points>
             </layout>
             <relation from="96f78e9426564d78b17d6c1887a390c2" from-iid="5a014fb262fc456cb32673f0d73ca2b5" to="9ba6521f951a4f038629bbb98d02d5e3" to-iid="ba5fb7b721204d3dbdcfdf5eddac8bb1" />
             <sequence-action show-sequence-number="false" />
           </item>
           <item id="9ba6521f951a4f038629bbb98d02d5e3" iid="ba5fb7b721204d3dbdcfdf5eddac8bb1" container="f92fb2fb27284078a483956af46007af" container-iid="668ab339f9d843a582ee7a087bbf4306" creation-date="11/11/2022 15:41:15" order-index="162" type="entity">
-            <layout ax="31.5" ay="875" awidth="20" aheight="281" x="31.5" y="875" width="20" height="281" expanded="31.5,875,20,281" collapsed="0,0,0,0" rotation-center="0,-116.5" container-layout="simple">
+            <layout ax="1081.5" ay="938" awidth="20" aheight="281" x="1081.5" y="938" width="20" height="281" expanded="1082,938,20,281" collapsed="0,0,0,0" rotation-center="0,-116.5" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
           <item id="7858710d8f1d42c894bbc9d097bf7cf2" iid="7a0870b29e0343f39d8ea21b134ab0f1" creation-date="11/11/2022 15:41:25" order-index="163" type="relation">
-            <layout message-x="-78" message-y="1002" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="32" y1="983" x2="-408" y2="983" start-border-pos="0.903914590747331" end-border-pos="0.260330578512397" start-local-pos="108" end-local-pos="5" name-position="110,19">
+            <layout message-x="972" message-y="1064" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="1082" y1="1046" x2="642" y2="1046" start-border-pos="0.903914590747331" end-border-pos="0.260330578512397" start-local-pos="108" end-local-pos="5" name-position="110,18">
               <points>
-                <point x="32" y="983" />
-                <point x="-408" y="983" />
+                <point x="1082" y="1046" />
+                <point x="642" y="1046" />
               </points>
             </layout>
             <relation from="9ba6521f951a4f038629bbb98d02d5e3" from-iid="ba5fb7b721204d3dbdcfdf5eddac8bb1" to="d403fb6ccfe44f5f9f87c64e2aadbe59" to-iid="c1239c6bac34410ba0da6f8be26b99b8" />
             <sequence-action show-sequence-number="false" />
           </item>
           <item id="2625101a560843188ddbdde8ab18e451" iid="ae3e62b6ea0448178f17af6a2ab40817" creation-date="11/11/2022 15:42:20" order-index="164" type="relation">
-            <layout message-x="-303" message-y="1031" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="-408" y1="1012" x2="-198" y2="1012" start-border-pos="0.320247933884298" end-border-pos="0.950892857142857" start-local-pos="34" end-local-pos="11" name-position="0,19">
+            <layout message-x="747" message-y="1094" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="642" y1="1075" x2="852" y2="1075" start-border-pos="0.320247933884298" end-border-pos="0.950892857142857" start-local-pos="34" end-local-pos="11" name-position="0,19">
               <points>
-                <point x="-408" y="1012" />
-                <point x="-198" y="1012" />
+                <point x="642" y="1075" />
+                <point x="852" y="1075" />
               </points>
             </layout>
             <relation from="d403fb6ccfe44f5f9f87c64e2aadbe59" from-iid="c1239c6bac34410ba0da6f8be26b99b8" to="e3db8e967f9e4d7093c6b57f56b6078b" to-iid="8777f1bff86a4a06b80a072745fbf542" />
             <sequence-action show-sequence-number="false" />
           </item>
           <item id="ec59cdcf3e014dd595ef222dc705a271" iid="fcf68c68ac914b06bb42a4a39bb62b00" creation-date="11/11/2022 15:43:38" order-index="165" type="relation">
-            <layout message-x="-188" message-y="1117" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="-408" y1="1097" x2="32" y2="1097" start-border-pos="0.495867768595041" end-border-pos="-1" start-local-pos="119" end-local-pos="0" name-position="0,20">
+            <layout message-x="862" message-y="1179" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="642" y1="1160" x2="1082" y2="1160" start-border-pos="0.495867768595041" end-border-pos="-1" start-local-pos="119" end-local-pos="0" name-position="0,19">
               <points>
-                <point x="-408" y="1097" />
-                <point x="32" y="1097" />
+                <point x="642" y="1160" />
+                <point x="1082" y="1160" />
               </points>
             </layout>
             <relation from="d403fb6ccfe44f5f9f87c64e2aadbe59" from-iid="c1239c6bac34410ba0da6f8be26b99b8" />
             <sequence-action show-sequence-number="false" />
           </item>
           <item id="785759632dfd471aa624a7f9f3c39b71" iid="923a3f128e3145ba8e353283984d3270" creation-date="11/11/2022 15:45:32" order-index="166" type="relation">
-            <layout message-x="-539" message-y="980" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="32" y1="965" x2="-842" y2="965" start-border-pos="0.919928825622776" end-border-pos="0.251" start-local-pos="90" end-local-pos="0" name-position="-134,15">
+            <layout message-x="511" message-y="1043" line-style="oblique" lock-start-point="true" lock-end-point="true" start-absolute-lock="true" end-absolute-lock="true" lock-to-fields="false" auto-path="" x1="1082" y1="1028" x2="208" y2="1028" start-border-pos="0.919928825622776" end-border-pos="0.251" start-local-pos="90" end-local-pos="0" name-position="-134,15">
               <points>
-                <point x="32" y="965" />
-                <point x="-842" y="965" />
+                <point x="1082" y="1028" />
+                <point x="208" y="1028" />
               </points>
             </layout>
             <relation from="9ba6521f951a4f038629bbb98d02d5e3" from-iid="ba5fb7b721204d3dbdcfdf5eddac8bb1" to="3542f1666a2145f289a0170ba2a8be6e" to-iid="4eccc4f3c64e4342bb1a7ef3384c480f" />
             <sequence-action show-sequence-number="false" />
           </item>
           <item id="3542f1666a2145f289a0170ba2a8be6e" iid="4eccc4f3c64e4342bb1a7ef3384c480f" container="3e2a462b982645edb376398773ccbc0b" container-iid="ec24b6283b30481aa283f607d5a7ca7f" creation-date="11/11/2022 15:45:33" order-index="167" type="entity">
-            <layout ax="-861.5" ay="965" awidth="20" aheight="40" x="-861.5" y="965" width="20" height="40" expanded="0,0,0,0" collapsed="0,0,0,0" container-layout="simple">
+            <layout ax="188.5" ay="1028" awidth="20" aheight="40" x="188.5" y="1028" width="20" height="40" expanded="188,1028,20,40" collapsed="0,0,0,0" container-layout="simple">
               <container-layout padding="10,10,10,10" />
             </layout>
           </item>
@@ -6063,7 +6123,7 @@
           </item>
         </layer>
       </diagram>
-      <diagram type="uml-class" id="pbf45bd7ed3714cbea060285ced5b3b2e_246390121" name="CD-KHS&amp;KRS" order-index="12" overview-order-index="10" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-23,110" zoom="0.9">
+      <diagram type="uml-class" id="pbf45bd7ed3714cbea060285ced5b3b2e_246390121" name="CD-KHS" order-index="12" overview-order-index="10" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-31,-81" zoom="0.6">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -6075,11 +6135,52 @@
           </authors>
           <description />
           <creation-date>11/11/2022 14:51:03</creation-date>
-          <change-date>11/11/2022 15:37:52</change-date>
+          <change-date>11/11/2022 15:57:33</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
+          <item id="a98834cbffda4f2b90472e2d4a1c2a90" cid="REL089" type="relationship" creation-date="11/11/2022 15:21:04" from="1c2961f9577f48e78c4d8d45c45f1d45" to="e3d5c7f4c54c4c14a0f4f23a70174f57" visibility="package">
+            <owned-items />
+            <relation from="1c2961f9577f48e78c4d8d45c45f1d45" to="e3d5c7f4c54c4c14a0f4f23a70174f57" derived="false">
+              <start-role id="umlar-7bccf105-71a3-498d-b681-275c41f933e0" name="" navigability="" association-type="association" visibility="private" property-ref="8d2d329a959b46b69276ed1e19c09b1f" />
+              <end-role id="umlar-a38df4b1-d75a-44cb-8f59-f2aabad3c930" name="" navigability="" association-type="association" visibility="private" property-ref="cce18cf7f82341d9addb1c0a03fa0e15" />
+            </relation>
+          </item>
+          <item id="2d31c931484648268309757518a15b8e" cid="PROP229" type="property" name="grade" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:28:47" visibility="private" />
+          <item id="a6fae55ee3c14461a3919048ae27c02c" cid="PROP239" type="property" name="detailNilai" owner="9fc0c5bf16f2453690eac5af7870f55e" creation-date="11/11/2022 15:39:44" visibility="private" />
+          <item id="di2e601e5f94104dd1a2e101b599c075da9695" cid="C032" type="class" name="KHSController" creation-date="11/11/2022 14:57:50" visibility="undefined">
+            <operations>
+              <operation id="o88cc25e2ad514af899a0fe7a0fe287b6418" cid="OP007" name="getDetailNilaiKHS" creation-date="11/11/2022 15:19:35" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p9840356015dc41db98b66fc29ce69ccd" name="KHSId" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di2d4cb9061a0b4ed8b494a70f0c1e10e53177" cid="PROP262" type="property" name="detailNilaiID" owner="di088a59e56fc94e98be4241f665682a2d3177" creation-date="11/11/2022 15:28:59" visibility="private" />
+          <item id="04a13dd385164aae9da064471929c8b3" cid="PROP221" type="property" name="KHS" owner="e3d5c7f4c54c4c14a0f4f23a70174f57" creation-date="11/11/2022 15:21:25" visibility="private">
+            <structural-feature type="KHS" type-id="Class:81295c43a1d34454adad4cac615dbe13" />
+          </item>
+          <item id="0ac559329b3e48ba9f10bc0c30fe7cc2" cid="PROP228" type="property" name="matkulID" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:28:40" visibility="private" />
+          <item id="9e232c9773984b1e875bc60334a99391" cid="C037" type="class" name="DetailNilai" creation-date="11/11/2022 15:48:32" />
+          <item id="464fd029e2404fc1adef3206a3faf147" cid="PROP230" type="property" name="detailNilaiID" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:28:59" visibility="private" />
+          <item id="d68334330949442bbd072f01809e1312" cid="C041" type="class" name="PrintController" creation-date="11/11/2022 15:55:17">
+            <operations>
+              <operation id="o815b9c8f83aa4052908afefbe2f4a4a2237" cid="OP016" name="printKHS" creation-date="11/11/2022 15:56:00" type="" type-id="" visibility="public" />
+              <operation id="o1f706beb56cd4910baefc8370ec6a330165" cid="OP017" name="showPrintDialog" creation-date="11/11/2022 15:56:26" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" cid="C038" type="class" name="DetailNilai" creation-date="11/11/2022 15:48:32" visibility="undefined" />
+          <item id="5e5c4232509b4f189939daeb7bcb0d5d" cid="PROP232" type="property" name="KHSId" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:36:21" visibility="private" />
+          <item id="di17ebe3994f5d447d8e0f5b5c02a66efe1601" cid="PROP235" type="property" name="matkulID" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:28:40" visibility="private" />
+          <item id="951a92a4da994998b2c899e7d97aa529" cid="REL097" type="relationship" creation-date="11/11/2022 15:52:59" from="a97c444cd38b478dba375acf0865e46d" to="9fc0c5bf16f2453690eac5af7870f55e" visibility="package">
+            <owned-items />
+            <relation from="a97c444cd38b478dba375acf0865e46d" to="9fc0c5bf16f2453690eac5af7870f55e" derived="false">
+              <start-role id="umlar-a5b4f8d9-a68b-411d-8d5c-9ba04d4c1b78" name="" navigability="" association-type="association" visibility="undefined" property-ref="534f7d02d2e441249e4b0ad9bc47b3b4" />
+              <end-role id="umlar-8b0cca71-9b85-4c4c-bcb4-b15401c105a5" name="" navigability="" association-type="association" visibility="undefined" property-ref="574ec85c5dde4edc82d10018ba520903" />
+            </relation>
+          </item>
           <item id="e3d5c7f4c54c4c14a0f4f23a70174f57" cid="C030" type="class" name="HalamanKHS" creation-date="11/11/2022 15:18:25">
             <owned-items />
             <attributes>
@@ -6089,8 +6190,55 @@
               <operation id="o81e61806bb5549cabdf26110ae7da6fd509" cid="OP006" name="show" creation-date="11/11/2022 15:18:43" type="" type-id="" visibility="public" />
             </operations>
           </item>
-          <item id="dia8d227843db34fc8b81a1dae2a17d7631601" cid="PROP233" type="property" name="KHSId" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:36:21" visibility="private" />
-          <item id="d229df7b1bf7486aa962a1bd50775090" cid="PROP227" type="property" name="NIM" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:28:23" visibility="private" />
+          <item id="b75882128b7647aa8af2cd80d41edd97" cid="REL099" type="relationship" creation-date="11/11/2022 15:53:32" from="di2e601e5f94104dd1a2e101b599c075da9695" to="di38d2db02fac24e8aa41f04285cb3093c1601" visibility="package">
+            <owned-items />
+            <relation from="di2e601e5f94104dd1a2e101b599c075da9695" to="di38d2db02fac24e8aa41f04285cb3093c1601" derived="false">
+              <start-role id="umlar-1a74fbc3-5532-4640-b27a-0e9fe74d69e3" name="" navigability="" association-type="association" visibility="undefined" property-ref="94c530afa89b4cf2838462c154347aa0" />
+              <end-role id="umlar-e5c75e86-746c-4c35-9c83-135622d9a494" name="" navigability="" association-type="association" visibility="undefined" property-ref="ed9310534a114678b4b516ff90af2d86" />
+            </relation>
+          </item>
+          <item id="7f713a8414f445d5b9ec95d546c18cda" cid="REL092" type="relationship" creation-date="11/11/2022 15:48:39" from="81295c43a1d34454adad4cac615dbe13" to="9e232c9773984b1e875bc60334a99391" visibility="package">
+            <owned-items />
+            <relation from="81295c43a1d34454adad4cac615dbe13" to="9e232c9773984b1e875bc60334a99391" derived="false">
+              <start-role id="umlar-75c7cd35-d695-4cb2-a26d-4274f00bab1a" name="" navigability="" association-type="association" visibility="private" property-ref="f865acc3d0c94dbda9775f17bc893ea8" />
+              <end-role id="umlar-376fa7db-f8e3-4f2e-96a8-fef291cc9e0a" name="" navigability="" association-type="association" visibility="private" property-ref="ab1dcd3e68044675a5c989196910284f" />
+            </relation>
+          </item>
+          <item id="di75d39824b09d402d93aa4e35b4108f263177" cid="PROP260" type="property" name="matkulID" owner="di088a59e56fc94e98be4241f665682a2d3177" creation-date="11/11/2022 15:28:40" visibility="private" />
+          <item id="37801afe10034330acb6f669b4e1ae89" cid="REL090" type="relationship" creation-date="11/11/2022 15:21:10" from="e3d5c7f4c54c4c14a0f4f23a70174f57" to="82f921a83a974143a58f37ec9d07cc1a" visibility="package">
+            <owned-items />
+            <relation from="e3d5c7f4c54c4c14a0f4f23a70174f57" to="82f921a83a974143a58f37ec9d07cc1a" derived="false">
+              <start-role id="umlar-118e91a9-51df-4cc8-a483-5987bd832c02" name="" navigability="" association-type="association" visibility="private" property-ref="c232525fe44c4061a3658af840c91668" />
+              <end-role id="umlar-0e33518d-b7de-41ee-81ff-f7cd51ee6fc2" name="" navigability="" association-type="association" visibility="private" property-ref="f53fe2b7f62d4784be445b9de5a211fd" />
+            </relation>
+          </item>
+          <item id="1c2961f9577f48e78c4d8d45c45f1d45" cid="C026" type="class" name="HalamanUtama" creation-date="11/11/2022 14:57:43" visibility="undefined" />
+          <item id="a97c444cd38b478dba375acf0865e46d" cid="C031" type="class" name="HalamanKHS" creation-date="11/11/2022 15:23:27">
+            <operations>
+              <operation id="o8267162622d24d5eb85b85f09a6c6a80932" cid="OP011" name="getDetailNilai" creation-date="11/11/2022 15:35:19" type="" type-id="" visibility="private" />
+            </operations>
+          </item>
+          <item id="dic3aaa24358d24089962c5845eecad8bb3177" cid="PROP259" type="property" name="NIM" owner="di088a59e56fc94e98be4241f665682a2d3177" creation-date="11/11/2022 15:28:23" visibility="private" />
+          <item id="82e16756eaaf48aeafe57196c9dba137" cid="PROP231" type="property" name="tahunAkademik" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:29:41" visibility="private" />
+          <item id="di6b4c4da27e20422f9f27201504c2ebb01601" cid="PROP234" type="property" name="NIM" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:28:23" visibility="private" />
+          <item id="dif6dae10f6bd241d4ae40fa6f7c243b691601" cid="PROP236" type="property" name="grade" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:28:47" visibility="private">
+            <structural-feature type="DetailNilai" type-id="Class:di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" />
+          </item>
+          <item id="d7db46a052ad4df09d5e761a1ce08f28" cid="REL100" type="relationship" creation-date="11/11/2022 15:53:39" from="di38d2db02fac24e8aa41f04285cb3093c1601" to="di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" visibility="package">
+            <owned-items />
+            <relation from="di38d2db02fac24e8aa41f04285cb3093c1601" to="di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" derived="false">
+              <start-role id="umlar-f7b6c8a1-e542-4fc4-ab85-dd70cdbe2989" name="" navigability="" association-type="association" visibility="undefined" attribute-ref="aa478d07428794d688646af9ce7c3736e398" property-ref="3feb35ad39ec461eb644e80251c7bc2a" />
+              <end-role id="umlar-c578d5bf-f6a6-49b9-99e0-d73da8a94f0c" name="" navigability="" association-type="association" visibility="undefined" property-ref="6dce00a7d0024dac9f220d4ff0a5bcf0" />
+            </relation>
+          </item>
+          <item id="f05baad1b75a48cba77380459399cda6" cid="REL098" type="relationship" creation-date="11/11/2022 15:53:12" from="9fc0c5bf16f2453690eac5af7870f55e" to="di2e601e5f94104dd1a2e101b599c075da9695" visibility="package">
+            <owned-items />
+            <relation from="9fc0c5bf16f2453690eac5af7870f55e" to="di2e601e5f94104dd1a2e101b599c075da9695" derived="false">
+              <start-role id="umlar-899ddf15-05f7-42ab-a93a-d650b34d7de2" name="" navigability="" association-type="association" visibility="undefined" property-ref="995da7a7a7a64c29aa1f6bb072789d5b" />
+              <end-role id="umlar-c899e6a8-dd3c-43e4-8f58-b8306ca1bb72" name="" navigability="" association-type="association" visibility="undefined" property-ref="2e8a070db95547d291057e12b993467b" />
+            </relation>
+          </item>
+          <item id="di357872d75a434e5980a2548d18fde1341601" cid="PROP238" type="property" name="tahunAkademik" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:29:41" visibility="private" />
           <item id="81295c43a1d34454adad4cac615dbe13" cid="C028" type="class" name="KHS" creation-date="11/11/2022 14:57:57" visibility="undefined">
             <owned-items />
             <attributes>
@@ -6125,44 +6273,8 @@
               <operation id="o88cc25e2ad514af899a0fe7a0fe287b6418" cid="OP007" name="getKHSMahasiswa" creation-date="11/11/2022 15:19:35" type="KHS" type-id="Class:714feb380832461780b75b4368257b9c" visibility="public" />
             </operations>
           </item>
-          <item id="di357872d75a434e5980a2548d18fde1341601" cid="PROP238" type="property" name="tahunAkademik" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:29:41" visibility="private" />
-          <item id="a6fae55ee3c14461a3919048ae27c02c" cid="PROP239" type="property" name="detailNilai" owner="9fc0c5bf16f2453690eac5af7870f55e" creation-date="11/11/2022 15:39:44" visibility="private" />
-          <item id="dif6dae10f6bd241d4ae40fa6f7c243b691601" cid="PROP236" type="property" name="grade" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:28:47" visibility="private" />
-          <item id="a98834cbffda4f2b90472e2d4a1c2a90" cid="REL089" type="relationship" creation-date="11/11/2022 15:21:04" from="1c2961f9577f48e78c4d8d45c45f1d45" to="e3d5c7f4c54c4c14a0f4f23a70174f57" visibility="package">
-            <owned-items />
-            <relation from="1c2961f9577f48e78c4d8d45c45f1d45" to="e3d5c7f4c54c4c14a0f4f23a70174f57" derived="false">
-              <start-role id="umlar-7bccf105-71a3-498d-b681-275c41f933e0" name="" navigability="" association-type="association" visibility="private" property-ref="8d2d329a959b46b69276ed1e19c09b1f" />
-              <end-role id="umlar-a38df4b1-d75a-44cb-8f59-f2aabad3c930" name="" navigability="" association-type="association" visibility="private" property-ref="cce18cf7f82341d9addb1c0a03fa0e15" />
-            </relation>
-          </item>
-          <item id="di2e601e5f94104dd1a2e101b599c075da9695" cid="C032" type="class" name="KHSController" creation-date="11/11/2022 14:57:50" visibility="undefined">
-            <operations>
-              <operation id="o88cc25e2ad514af899a0fe7a0fe287b6418" cid="OP007" name="getDetailNilaiKHS" creation-date="11/11/2022 15:19:35" type="" type-id="" visibility="public">
-                <parameters>
-                  <parameter id="p9840356015dc41db98b66fc29ce69ccd" name="KHSId" type="" type-id="" />
-                </parameters>
-              </operation>
-            </operations>
-          </item>
-          <item id="82e16756eaaf48aeafe57196c9dba137" cid="PROP231" type="property" name="tahunAkademik" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:29:41" visibility="private" />
-          <item id="464fd029e2404fc1adef3206a3faf147" cid="PROP230" type="property" name="detailNilaiID" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:28:59" visibility="private" />
-          <item id="2d31c931484648268309757518a15b8e" cid="PROP229" type="property" name="grade" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:28:47" visibility="private" />
-          <item id="54f1357db4d24033b88289ff45f0ac95" cid="REL091" type="relationship" creation-date="11/11/2022 15:21:15" from="82f921a83a974143a58f37ec9d07cc1a" to="81295c43a1d34454adad4cac615dbe13" visibility="package">
-            <owned-items />
-            <relation from="82f921a83a974143a58f37ec9d07cc1a" to="81295c43a1d34454adad4cac615dbe13" derived="false">
-              <start-role id="umlar-01edb4ef-339e-4a12-af33-ab2bd52d6a26" name="" navigability="" association-type="association" visibility="private" property-ref="74976108df3f420f81c50bccec089e6d" />
-              <end-role id="umlar-cfc7ebcf-26f1-4d22-8cd3-d7bb1ba4ab2e" name="" navigability="" association-type="association" visibility="private" property-ref="5368533ecb0b4e57ab0416b3336f013b" />
-            </relation>
-          </item>
-          <item id="37801afe10034330acb6f669b4e1ae89" cid="REL090" type="relationship" creation-date="11/11/2022 15:21:10" from="e3d5c7f4c54c4c14a0f4f23a70174f57" to="82f921a83a974143a58f37ec9d07cc1a" visibility="package">
-            <owned-items />
-            <relation from="e3d5c7f4c54c4c14a0f4f23a70174f57" to="82f921a83a974143a58f37ec9d07cc1a" derived="false">
-              <start-role id="umlar-118e91a9-51df-4cc8-a483-5987bd832c02" name="" navigability="" association-type="association" visibility="private" property-ref="c232525fe44c4061a3658af840c91668" />
-              <end-role id="umlar-0e33518d-b7de-41ee-81ff-f7cd51ee6fc2" name="" navigability="" association-type="association" visibility="private" property-ref="f53fe2b7f62d4784be445b9de5a211fd" />
-            </relation>
-          </item>
-          <item id="5e5c4232509b4f189939daeb7bcb0d5d" cid="PROP232" type="property" name="KHSId" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:36:21" visibility="private" />
-          <item id="di202b5c6b0ec7461dad20f3952a0fef061601" cid="PROP237" type="property" name="detailNilaiID" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:28:59" visibility="private" />
+          <item id="dia8d227843db34fc8b81a1dae2a17d7631601" cid="PROP233" type="property" name="KHSId" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:36:21" visibility="private" />
+          <item id="d229df7b1bf7486aa962a1bd50775090" cid="PROP227" type="property" name="NIM" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:28:23" visibility="private" />
           <item id="9fc0c5bf16f2453690eac5af7870f55e" cid="C034" type="class" name="WindowDetailNilai" creation-date="11/11/2022 15:27:11">
             <owned-items />
             <attributes>
@@ -6173,12 +6285,25 @@
               <operation id="o7befeb2a4c2a4b23b48ac7202fd55f79761" cid="OP014" name="setDetailNilai" creation-date="11/11/2022 15:39:57" type="" type-id="" visibility="public" />
             </operations>
           </item>
-          <item id="a97c444cd38b478dba375acf0865e46d" cid="C031" type="class" name="HalamanKHS" creation-date="11/11/2022 15:23:27">
+          <item id="54f1357db4d24033b88289ff45f0ac95" cid="REL091" type="relationship" creation-date="11/11/2022 15:21:15" from="82f921a83a974143a58f37ec9d07cc1a" to="81295c43a1d34454adad4cac615dbe13" visibility="package">
+            <owned-items />
+            <relation from="82f921a83a974143a58f37ec9d07cc1a" to="81295c43a1d34454adad4cac615dbe13" derived="false">
+              <start-role id="umlar-01edb4ef-339e-4a12-af33-ab2bd52d6a26" name="" navigability="" association-type="association" visibility="private" property-ref="74976108df3f420f81c50bccec089e6d" />
+              <end-role id="umlar-cfc7ebcf-26f1-4d22-8cd3-d7bb1ba4ab2e" name="" navigability="" association-type="association" visibility="private" property-ref="5368533ecb0b4e57ab0416b3336f013b" />
+            </relation>
+          </item>
+          <item id="di3f6bde98f01a4abe91a87ff07020496a2053" cid="C044" type="class" name="HalamanKHS" creation-date="11/11/2022 15:23:27" visibility="undefined">
             <operations>
-              <operation id="o8267162622d24d5eb85b85f09a6c6a80932" cid="OP011" name="getDetailNilai" creation-date="11/11/2022 15:35:19" type="" type-id="" visibility="private" />
+              <operation id="oec1134816d90477abaa5682cb00322ac503" cid="OP019" name="print" creation-date="11/11/2022 15:57:47" type="" type-id="" visibility="public" />
             </operations>
           </item>
-          <item id="0ac559329b3e48ba9f10bc0c30fe7cc2" cid="PROP228" type="property" name="matkulID" owner="81295c43a1d34454adad4cac615dbe13" creation-date="11/11/2022 15:28:40" visibility="private" />
+          <item id="961d20f63b5d43569b0a481898ccb649" cid="REL101" type="relationship" creation-date="11/11/2022 15:57:07" from="di3f6bde98f01a4abe91a87ff07020496a2053" to="d68334330949442bbd072f01809e1312" visibility="package">
+            <owned-items />
+            <relation from="di3f6bde98f01a4abe91a87ff07020496a2053" to="d68334330949442bbd072f01809e1312" derived="false">
+              <start-role id="umlar-6251e146-f5e3-431d-99b1-1b9e7d546bdc" name="" navigability="" association-type="association" visibility="undefined" property-ref="07f34e9f623747bca4f6cb9c86791f61" />
+              <end-role id="umlar-e03f52c3-3683-4f99-8663-9ea638459cf6" name="" navigability="" association-type="association" visibility="undefined" property-ref="0ca73de6b4d74b43a6634ecc51164ace" />
+            </relation>
+          </item>
           <item id="di38d2db02fac24e8aa41f04285cb3093c1601" cid="C036" type="class" name="KHS" creation-date="11/11/2022 14:57:57" visibility="undefined">
             <attributes>
               <attribute id="acb368861946a46659bad84c7c7b8d78a596" cid="PROP233" name="KHSId" creation-date="11/11/2022 15:36:21" property-ref="dia8d227843db34fc8b81a1dae2a17d7631601" />
@@ -6207,12 +6332,11 @@
               </operation>
             </operations>
           </item>
-          <item id="04a13dd385164aae9da064471929c8b3" cid="PROP221" type="property" name="KHS" owner="e3d5c7f4c54c4c14a0f4f23a70174f57" creation-date="11/11/2022 15:21:25" visibility="private">
-            <structural-feature type="KHS" type-id="Class:81295c43a1d34454adad4cac615dbe13" />
+          <item id="di202b5c6b0ec7461dad20f3952a0fef061601" cid="PROP237" type="property" name="detailNilaiID" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:28:59" visibility="private" />
+          <item id="dieb66b9b55b5746099ae1ab31e6ff7aef3177" cid="PROP263" type="property" name="tahunAkademik" owner="di088a59e56fc94e98be4241f665682a2d3177" creation-date="11/11/2022 15:29:41" visibility="private" />
+          <item id="di6d6b3221d81b4fd78a312873cc361f353177" cid="PROP261" type="property" name="grade" owner="di088a59e56fc94e98be4241f665682a2d3177" creation-date="11/11/2022 15:28:47" visibility="private">
+            <structural-feature type="DetailNilai" type-id="Class:di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" />
           </item>
-          <item id="di6b4c4da27e20422f9f27201504c2ebb01601" cid="PROP234" type="property" name="NIM" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:28:23" visibility="private" />
-          <item id="1c2961f9577f48e78c4d8d45c45f1d45" cid="C026" type="class" name="HalamanUtama" creation-date="11/11/2022 14:57:43" visibility="undefined" />
-          <item id="di17ebe3994f5d447d8e0f5b5c02a66efe1601" cid="PROP235" type="property" name="matkulID" owner="di38d2db02fac24e8aa41f04285cb3093c1601" creation-date="11/11/2022 15:28:40" visibility="private" />
         </abstract-items>
         <layer id="43c00d6ada1841e2b2ee211bf9fade92" name="Default" visible="true" enabled="true" locked="false">
           <item id="1c2961f9577f48e78c4d8d45c45f1d45" iid="be2d40ebfd494934ade9f7db7d3efa98" show-fields="true" creation-date="11/11/2022 14:57:43" order-index="0" type="entity">
@@ -6221,7 +6345,7 @@
             <class />
           </item>
           <item id="82f921a83a974143a58f37ec9d07cc1a" iid="18cd39ccfe484d9fae67aab371d4f4c4" show-fields="true" creation-date="11/11/2022 14:57:50" order-index="1" type="entity">
-            <layout ax="576" ay="70" awidth="140" aheight="160" x="576" y="70" width="140" height="160" />
+            <layout ax="561" ay="70" awidth="140" aheight="160" x="561" y="70" width="140" height="160" />
             <classifier />
             <class />
           </item>
@@ -6245,42 +6369,116 @@
             <relation from="1c2961f9577f48e78c4d8d45c45f1d45" from-iid="be2d40ebfd494934ade9f7db7d3efa98" to="e3d5c7f4c54c4c14a0f4f23a70174f57" to-iid="849737893f8249b08f90c882a3d2c969" />
           </item>
           <item id="37801afe10034330acb6f669b4e1ae89" iid="01bf00c7e5024bf8912cd33070b09865" creation-date="11/11/2022 15:21:10" order-index="5" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="462" y1="150" x2="576" y2="150" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="462" y1="150" x2="561" y2="150" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
               <points>
                 <point x="462" y="150" />
-                <point x="576" y="150" />
+                <point x="561" y="150" />
               </points>
             </layout>
             <relation from="e3d5c7f4c54c4c14a0f4f23a70174f57" from-iid="849737893f8249b08f90c882a3d2c969" to="82f921a83a974143a58f37ec9d07cc1a" to-iid="18cd39ccfe484d9fae67aab371d4f4c4" />
           </item>
           <item id="54f1357db4d24033b88289ff45f0ac95" iid="7ef5781371204f2c847bdc7efae95117" creation-date="11/11/2022 15:21:15" order-index="6" type="relation">
-            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="716" y1="150" x2="791" y2="150" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="701" y1="150" x2="791" y2="150" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
               <points>
-                <point x="716" y="150" />
+                <point x="701" y="150" />
                 <point x="791" y="150" />
               </points>
             </layout>
             <relation from="82f921a83a974143a58f37ec9d07cc1a" from-iid="18cd39ccfe484d9fae67aab371d4f4c4" to="81295c43a1d34454adad4cac615dbe13" to-iid="2fc39657249f4713a0330d25c429f6be" />
           </item>
           <item id="a97c444cd38b478dba375acf0865e46d" iid="1c3947cfcfc34141bce4d34aa4093dae" show-fields="true" creation-date="11/11/2022 15:23:27" order-index="7" type="entity">
-            <layout ax="106" ay="377" awidth="140" aheight="160" x="97" y="377" width="140" height="160" />
+            <layout ax="106" ay="354" awidth="140" aheight="160" x="106" y="354" width="140" height="160" />
             <classifier />
             <class />
           </item>
           <item id="di2e601e5f94104dd1a2e101b599c075da9695" iid="8ce3fad78038468b8e1b936c6d7480b3" show-fields="true" creation-date="11/11/2022 14:57:50" order-index="1" type="entity">
-            <layout ax="350" ay="377" awidth="140" aheight="160" x="350" y="377" width="140" height="160" />
+            <layout ax="578" ay="354" awidth="140" aheight="160" x="578" y="354" width="140" height="160" />
             <classifier />
             <class />
           </item>
           <item id="9fc0c5bf16f2453690eac5af7870f55e" iid="7920f8a6c76549bebf1b18a19bbe4f8a" show-fields="true" creation-date="11/11/2022 15:27:11" order-index="8" type="entity">
-            <layout ax="565" ay="630" awidth="140" aheight="160" x="565" y="630" width="140" height="160" />
+            <layout ax="342" ay="354" awidth="140" aheight="160" x="342" y="354" width="140" height="160" />
             <classifier />
             <class />
           </item>
           <item id="di38d2db02fac24e8aa41f04285cb3093c1601" iid="8bc848e13cbd41f084b6e74a7964f8a0" show-fields="true" creation-date="11/11/2022 14:57:57" order-index="2" type="entity">
-            <layout ax="561" ay="377" awidth="230" aheight="212" x="561" y="377" width="140" height="160" />
+            <layout ax="214" ay="598" awidth="230" aheight="212" x="214" y="598" width="140" height="212" />
             <classifier />
             <class />
+          </item>
+          <item id="9e232c9773984b1e875bc60334a99391" iid="239fb9fb47eb4160ba4a365433e1c5f6" show-fields="true" creation-date="11/11/2022 15:48:32" order-index="9" type="entity">
+            <layout ax="1111" ay="70" awidth="140" aheight="160" x="1111" y="70" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="7f713a8414f445d5b9ec95d546c18cda" iid="5a3fe9c0d29040a29b4da95c6abb436c" creation-date="11/11/2022 15:48:39" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1021" y1="150" x2="1111" y2="150" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="106" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="1021" y="150" />
+                <point x="1111" y="150" />
+              </points>
+            </layout>
+            <relation from="81295c43a1d34454adad4cac615dbe13" from-iid="2fc39657249f4713a0330d25c429f6be" to="9e232c9773984b1e875bc60334a99391" to-iid="239fb9fb47eb4160ba4a365433e1c5f6" />
+          </item>
+          <item id="di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" iid="eca78abb115c44c68e94142f2febc756" show-fields="true" creation-date="11/11/2022 15:48:32" order-index="9" type="entity">
+            <layout ax="578" ay="614" awidth="140" aheight="160" x="578" y="614" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="951a92a4da994998b2c899e7d97aa529" iid="0ad7434d466d42bb9251808409cb1a92" creation-date="11/11/2022 15:52:59" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="246" y1="434" x2="342" y2="434" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="246" y="434" />
+                <point x="342" y="434" />
+              </points>
+            </layout>
+            <relation from="a97c444cd38b478dba375acf0865e46d" from-iid="1c3947cfcfc34141bce4d34aa4093dae" to="9fc0c5bf16f2453690eac5af7870f55e" to-iid="7920f8a6c76549bebf1b18a19bbe4f8a" />
+          </item>
+          <item id="f05baad1b75a48cba77380459399cda6" iid="40db62c21ce34d08a1fb8c1b884a481b" creation-date="11/11/2022 15:53:12" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="482" y1="440" x2="578" y2="434" start-border-pos="0.38359375" end-border-pos="0.875" start-local-pos="86" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="482" y="440" />
+                <point x="578" y="434" />
+              </points>
+            </layout>
+            <relation from="9fc0c5bf16f2453690eac5af7870f55e" from-iid="7920f8a6c76549bebf1b18a19bbe4f8a" from-field="o80c4846cb5fc4baba777e171a984358a471" to="di2e601e5f94104dd1a2e101b599c075da9695" to-iid="8ce3fad78038468b8e1b936c6d7480b3" />
+          </item>
+          <item id="b75882128b7647aa8af2cd80d41edd97" iid="c85ca8856ed74a509d5f6bc975635482" creation-date="11/11/2022 15:53:32" order-index="13" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="664" y1="514" x2="329" y2="598" start-border-pos="0.596428571428571" end-border-pos="0.125" start-local-pos="86" end-local-pos="115" name-position="0,20">
+              <points>
+                <point x="664" y="514" />
+                <point x="329" y="598" />
+              </points>
+            </layout>
+            <relation from="di2e601e5f94104dd1a2e101b599c075da9695" from-iid="8ce3fad78038468b8e1b936c6d7480b3" to="di38d2db02fac24e8aa41f04285cb3093c1601" to-iid="8bc848e13cbd41f084b6e74a7964f8a0" />
+          </item>
+          <item id="d7db46a052ad4df09d5e761a1ce08f28" iid="35aff3a8cca4475fbc7097fc5a54f3b7" creation-date="11/11/2022 15:53:39" order-index="14" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="444" y1="696" x2="578" y2="694" start-border-pos="0.365566037595272" end-border-pos="0.875" start-local-pos="98" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="444" y="696" />
+                <point x="578" y="694" />
+              </points>
+            </layout>
+            <relation from="di38d2db02fac24e8aa41f04285cb3093c1601" from-iid="8bc848e13cbd41f084b6e74a7964f8a0" to="di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" to-iid="eca78abb115c44c68e94142f2febc756" />
+          </item>
+          <item id="d68334330949442bbd072f01809e1312" iid="53e373ca83a24fb8b4e55b08d4865f7c" show-fields="true" creation-date="11/11/2022 15:55:17" order-index="15" type="entity">
+            <layout ax="322" ay="939" awidth="140" aheight="160" x="322" y="939" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di3f6bde98f01a4abe91a87ff07020496a2053" iid="c160870d4edd4037b8c783b00d623698" show-fields="true" creation-date="11/11/2022 15:23:27" order-index="7" type="entity">
+            <layout ax="86" ay="939" awidth="140" aheight="160" x="86" y="939" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="961d20f63b5d43569b0a481898ccb649" iid="acaf8ed0432748df94505c9f9c9faee5" creation-date="11/11/2022 15:57:07" order-index="17" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="226" y1="1019" x2="322" y2="1019" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="226" y="1019" />
+                <point x="322" y="1019" />
+              </points>
+            </layout>
+            <relation from="di3f6bde98f01a4abe91a87ff07020496a2053" from-iid="c160870d4edd4037b8c783b00d623698" to="d68334330949442bbd072f01809e1312" to-iid="53e373ca83a24fb8b4e55b08d4865f7c" />
           </item>
         </layer>
       </diagram>
@@ -6323,6 +6521,409 @@
           <item id="23fd5d50df39454195c5ad58f765a107" iid="175c687483234d088ea74896a5329edb" creation-date="11/11/2022 15:26:05" order-index="1" type="entity">
             <layout ax="651" ay="212" awidth="140" aheight="160" x="651" y="221" width="140" height="160" />
             <erd-entity show-nullability="true" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p9ec449044dfd4c9fbf5b40709f17c1e7_701007060" name="CD-KRS" order-index="14" overview-order-index="12" uid="" auto-routed-paths="false" default-line-style="default" view-location="-32,-55" zoom="0.7">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/11/2022 15:58:38</creation-date>
+          <change-date>11/11/2022 16:15:16</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="did71e4b0667164a4dbfc7144d31b540409821" cid="PROP291" type="property" owner="die0a39d221add4e5ab110e68ac8034fb66592" creation-date="11/11/2022 15:52:59" visibility="undefined">
+            <structural-feature type="WindowDetailNilai" type-id="Class:9fc0c5bf16f2453690eac5af7870f55e" />
+          </item>
+          <item id="diae8780f8654b48cba6e9c73393c4dfdd9821" cid="PROP289" type="property" name="0,1" owner="di8af97de4d82b4cefbba300c841fec03f6592" creation-date="11/11/2022 15:48:39" visibility="undefined" />
+          <item id="dibcaf5fd86c9c4ad2aa0f80583e7d3b956592" cid="REL111" type="relationship" creation-date="11/11/2022 15:57:07" from="die632219b784346e990c184fdb1debb698064" to="dib4047a966fee4c35892752fe824871ae8064" visibility="package">
+            <relation from="di3f6bde98f01a4abe91a87ff07020496a2053" to="d68334330949442bbd072f01809e1312" derived="false">
+              <start-role id="umlar-6251e146-f5e3-431d-99b1-1b9e7d546bdc" name="" navigability="" association-type="association" visibility="undefined" property-ref="diff15f292c2cb488b8f12dc113daf84ee9821" />
+              <end-role id="umlar-e03f52c3-3683-4f99-8663-9ea638459cf6" name="" navigability="" association-type="association" visibility="undefined" property-ref="dib31232e8acb24a92a55c342569f2cb3f9821" />
+            </relation>
+          </item>
+          <item id="di9b672d2b99054caa9d79139de64d7b156592" cid="PROP275" type="property" owner="di5909251c1e3a482e86074e738cb642456592" creation-date="11/11/2022 15:21:04" visibility="private">
+            <structural-feature type="HalamanUtama" type-id="Class:1c2961f9577f48e78c4d8d45c45f1d45" />
+          </item>
+          <item id="dib31232e8acb24a92a55c342569f2cb3f9821" cid="PROP299" type="property" owner="dibcaf5fd86c9c4ad2aa0f80583e7d3b956592" creation-date="11/11/2022 15:57:07" visibility="undefined">
+            <structural-feature type="PrintController" type-id="Class:d68334330949442bbd072f01809e1312" />
+          </item>
+          <item id="dif4e61b499e9947e2b05aeebdaa478bdd6592" cid="PROP271" type="property" name="KRS" owner="dif36f0d49e8114204b55a1cb2a8c870028064" creation-date="11/11/2022 15:28:47" visibility="private" />
+          <item id="69c24de654114607affb62902cafb89b" cid="C063" type="class" name="Jadwal" creation-date="11/11/2022 16:05:51">
+            <operations>
+              <operation id="oe32d8728c8984263b8b7c228fae6b033175" cid="OP027" name="getJadwal" creation-date="11/11/2022 16:11:48" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="5f55c1e6d3cb44f2b4d15024815a62c6" cid="PROP304" type="property" name="mssg" owner="di05e0322248274074b39b43fc87c6494a5433" creation-date="11/11/2022 16:14:33" visibility="private" />
+          <item id="bd6ebf9b1f2e44e0970274c3bdab7357" cid="REL112" type="relationship" creation-date="11/11/2022 16:14:55" from="di05e0322248274074b39b43fc87c6494a5433" to="di4de2e561ae4f4129b62097f6dca763971184" visibility="package">
+            <owned-items />
+            <relation from="di05e0322248274074b39b43fc87c6494a5433" to="di4de2e561ae4f4129b62097f6dca763971184" derived="false">
+              <start-role id="umlar-1ee662dd-6a58-48ba-bba2-ca6a100c9690" name="" navigability="" association-type="association" visibility="undefined" property-ref="d2d260679d504b8ab3d3e1c608242357" />
+              <end-role id="umlar-e0521095-4627-4d64-9f91-7e0054878a9a" name="" navigability="" association-type="association" visibility="undefined" property-ref="da667439d46d41d0b01a953621f01848" />
+            </relation>
+          </item>
+          <item id="di1f8abc55cbe34e07945d0cbd061ab9869821" cid="PROP296" type="property" owner="did561deeb7fad44e586c5df6bd096027c6592" creation-date="11/11/2022 15:53:39" visibility="undefined">
+            <structural-feature type="KHS" type-id="Class:di38d2db02fac24e8aa41f04285cb3093c1601" />
+          </item>
+          <item id="di05e0322248274074b39b43fc87c6494a5433" cid="C058" type="class" name="HalamanKRS" creation-date="11/11/2022 15:18:25" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a1ee0fae2623044c79af253cc3680c52c403" cid="PROP301" name="KHS" creation-date="11/11/2022 15:21:25" property-ref="di05092947cddb461aa86037c69b7c0e285433" />
+              <attribute id="a3e700e8b938e451191f829ab75dcf254102" cid="PROP304" name="mssg" creation-date="11/11/2022 16:14:33" property-ref="5f55c1e6d3cb44f2b4d15024815a62c6" />
+            </attributes>
+            <operations>
+              <operation id="o81e61806bb5549cabdf26110ae7da6fd509" cid="OP006" name="show" creation-date="11/11/2022 15:18:43" type="" type-id="" visibility="public" />
+              <operation id="o70827950fbb541daaf41324d9e5c6cca991" cid="OP021" name="setKRS" creation-date="11/11/2022 16:02:10" type="" type-id="" visibility="private" />
+              <operation id="o8e3e7a4a88a943468cd4089716f202fe533" cid="OP022" name="tambahMatkul" creation-date="11/11/2022 16:07:00" type="" type-id="" visibility="public" />
+              <operation id="od7b87e34dbc640b78970f4db0398940c789" cid="OP031" name="displayMssg" creation-date="11/11/2022 16:14:24" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="dia233bd9dea4e40749df57f3a01c89a3b8064" cid="C046" type="class" name="KRSController" creation-date="11/11/2022 14:57:50" visibility="undefined">
+            <operations>
+              <operation id="o88cc25e2ad514af899a0fe7a0fe287b6418" cid="OP007" name="getKRSMahasiswa" creation-date="11/11/2022 15:19:35" type="KRS" type-id="Class:fa93b37948bc45559231aa5aad24cf46" visibility="public" />
+            </operations>
+          </item>
+          <item id="difade8cb589a44535bf17b660fd8df0556592" cid="PROP279" type="property" owner="di69e6f7b14713447eaabb517d25278b786592" creation-date="11/11/2022 15:21:15" visibility="private">
+            <structural-feature type="KRSController" type-id="Class:82f921a83a974143a58f37ec9d07cc1a" />
+          </item>
+          <item id="didb2258cc33ad47dc876242219926aaa86592" cid="PROP274" type="property" name="KHS" owner="dia43ae0b9c68c433f9e260b9500c1bb3c8064" creation-date="11/11/2022 15:21:25" visibility="private">
+            <structural-feature type="KRS" type-id="Class:81295c43a1d34454adad4cac615dbe13" />
+          </item>
+          <item id="di1c6321045d364d058852555d01c1795f9821" cid="PROP282" type="property" name="KHSId" owner="di302446d116564a049830d1f84c6aae6c8064" creation-date="11/11/2022 15:36:21" visibility="private" />
+          <item id="di5d1c976f5bd040f8ae6526a509d0b54f8064" cid="C049" type="class" name="HalamanKHS" creation-date="11/11/2022 15:23:27" visibility="undefined">
+            <operations>
+              <operation id="o8267162622d24d5eb85b85f09a6c6a80932" cid="OP011" name="getDetailNilai" creation-date="11/11/2022 15:35:19" type="" type-id="" visibility="private" />
+            </operations>
+          </item>
+          <item id="a1408b63b3be4e918420770bcb133abd" cid="PROP302" type="property" name="kelas" owner="54881f8789944b55b2d8436fdd0ac1db" creation-date="11/11/2022 16:07:33" visibility="private">
+            <structural-feature type="Kelas" type-id="Class:9542c64bdf544ec286e3e09578f7ad3a" />
+          </item>
+          <item id="dia43ae0b9c68c433f9e260b9500c1bb3c8064" cid="C048" type="class" name="HalamanKRS" creation-date="11/11/2022 15:18:25" visibility="undefined">
+            <attributes>
+              <attribute id="a1ee0fae2623044c79af253cc3680c52c403" cid="PROP274" name="KHS" creation-date="11/11/2022 15:21:25" property-ref="didb2258cc33ad47dc876242219926aaa86592" />
+            </attributes>
+            <operations>
+              <operation id="o81e61806bb5549cabdf26110ae7da6fd509" cid="OP006" name="show" creation-date="11/11/2022 15:18:43" type="" type-id="" visibility="public" />
+              <operation id="o70827950fbb541daaf41324d9e5c6cca991" cid="OP021" name="setKRS" creation-date="11/11/2022 16:02:10" type="" type-id="" visibility="private" />
+            </operations>
+          </item>
+          <item id="di3f7cb9efa4f641c2a8469e6a2a85a3fd9821" cid="PROP284" type="property" name="matkulID" owner="di302446d116564a049830d1f84c6aae6c8064" creation-date="11/11/2022 15:28:40" visibility="private" />
+          <item id="die632219b784346e990c184fdb1debb698064" cid="C056" type="class" name="HalamanKRS" creation-date="11/11/2022 15:23:27" visibility="undefined">
+            <operations>
+              <operation id="oec1134816d90477abaa5682cb00322ac503" cid="OP019" name="print" creation-date="11/11/2022 15:57:47" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="di5909251c1e3a482e86074e738cb642456592" cid="REL103" type="relationship" creation-date="11/11/2022 15:21:04" from="di8937b82967eb4cf982fd7d40a4c132958064" to="dia43ae0b9c68c433f9e260b9500c1bb3c8064" visibility="package">
+            <relation from="1c2961f9577f48e78c4d8d45c45f1d45" to="e3d5c7f4c54c4c14a0f4f23a70174f57" derived="false">
+              <start-role id="umlar-7bccf105-71a3-498d-b681-275c41f933e0" name="" navigability="" association-type="association" visibility="private" property-ref="di9b672d2b99054caa9d79139de64d7b156592" />
+              <end-role id="umlar-a38df4b1-d75a-44cb-8f59-f2aabad3c930" name="" navigability="" association-type="association" visibility="private" property-ref="die33cc3447d634212868d5b0ed8d692be6592" />
+            </relation>
+          </item>
+          <item id="di8937b82967eb4cf982fd7d40a4c132958064" cid="C045" type="class" name="HalamanUtama" creation-date="11/11/2022 14:57:43" visibility="undefined" />
+          <item id="di29ded76946994a838f52576655d87f149821" cid="PROP283" type="property" name="NIM" owner="di302446d116564a049830d1f84c6aae6c8064" creation-date="11/11/2022 15:28:23" visibility="private" />
+          <item id="diff15f292c2cb488b8f12dc113daf84ee9821" cid="PROP298" type="property" owner="dibcaf5fd86c9c4ad2aa0f80583e7d3b956592" creation-date="11/11/2022 15:57:07" visibility="undefined">
+            <structural-feature type="HalamanKRS" type-id="Class:di3f6bde98f01a4abe91a87ff07020496a2053" />
+          </item>
+          <item id="die33cc3447d634212868d5b0ed8d692be6592" cid="PROP276" type="property" owner="di5909251c1e3a482e86074e738cb642456592" creation-date="11/11/2022 15:21:04" visibility="private">
+            <structural-feature type="HalamanKRS" type-id="Class:e3d5c7f4c54c4c14a0f4f23a70174f57" />
+          </item>
+          <item id="di4f63d6f5654d443a8a526e5beb21b0c39821" cid="PROP294" type="property" owner="diad92fa98dd5c4fb3b486d31fee721c876592" creation-date="11/11/2022 15:53:32" visibility="undefined">
+            <structural-feature type="KHSController" type-id="Class:di2e601e5f94104dd1a2e101b599c075da9695" />
+          </item>
+          <item id="di9fd34d6cdae146bb90ab70cc9542ac969821" cid="PROP292" type="property" owner="di378572eeaec14e2cb0c589c6386f3bc26592" creation-date="11/11/2022 15:53:12" visibility="undefined">
+            <structural-feature type="WindowDetailNilai" type-id="Class:9fc0c5bf16f2453690eac5af7870f55e" />
+          </item>
+          <item id="di45861dbf507e4d36bfaa21cd927443849821" cid="PROP286" type="property" name="detailNilaiID" owner="di302446d116564a049830d1f84c6aae6c8064" creation-date="11/11/2022 15:28:59" visibility="private" />
+          <item id="diac0d58c74fd14d1d84da87300fcd91e79821" cid="PROP290" type="property" owner="die0a39d221add4e5ab110e68ac8034fb66592" creation-date="11/11/2022 15:52:59" visibility="undefined">
+            <structural-feature type="HalamanKHS" type-id="Class:a97c444cd38b478dba375acf0865e46d" />
+          </item>
+          <item id="54881f8789944b55b2d8436fdd0ac1db" cid="C060" type="class" name="HalamanTambahMatkul" creation-date="11/11/2022 16:05:20">
+            <owned-items />
+            <attributes>
+              <attribute id="a5fc3333aaa764f7fbb48a18d02ea9b62748" cid="PROP302" name="kelas" creation-date="11/11/2022 16:07:33" property-ref="a1408b63b3be4e918420770bcb133abd" />
+              <attribute id="ac8105ea4e105405fb37d02ea037cc274355" cid="PROP303" name="mssg" creation-date="11/11/2022 16:13:25" property-ref="82da5749518448c19d3b597cdae679d9" />
+            </attributes>
+            <operations>
+              <operation id="obd4d8b30f662443b9051abcc4213d098791" cid="OP025" name="setKelas" creation-date="11/11/2022 16:08:26" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="p037927fbe5a445b68dadac6ab9749c98" name="Kelas" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="oc3c5d5674557409e8d060d0dd8e6bf9b779" cid="OP030" name="displayMssg" creation-date="11/11/2022 16:13:17" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p9bb6eacd37054b64a1298bd788b4ea2b" name="mssg" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="09f68e9f404943509f3834602ee37d1a" cid="C061" type="class" name="Kelas" creation-date="11/11/2022 16:05:38">
+            <operations>
+              <operation id="o24be0c09d3a849b78ce4e6acc1c5881d578" cid="OP026" name="getKelas" creation-date="11/11/2022 16:10:06" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pf5e247aa3755424b98b04a05cf708ec8" name="matkul" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="dib4047a966fee4c35892752fe824871ae8064" cid="C055" type="class" name="PrintController" creation-date="11/11/2022 15:55:17" visibility="undefined">
+            <operations>
+              <operation id="o815b9c8f83aa4052908afefbe2f4a4a2237" cid="OP016" name="printKHS" creation-date="11/11/2022 15:56:00" type="" type-id="" visibility="public" />
+              <operation id="o1f706beb56cd4910baefc8370ec6a330165" cid="OP017" name="showPrintDialog" creation-date="11/11/2022 15:56:26" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="di298fbd64a8a843f5b1edc59b77ce33599821" cid="PROP288" type="property" name="1" owner="di8af97de4d82b4cefbba300c841fec03f6592" creation-date="11/11/2022 15:48:39" visibility="undefined">
+            <structural-feature type="KRS" type-id="Class:81295c43a1d34454adad4cac615dbe13" />
+          </item>
+          <item id="di8d64e5b60d7045528bdb3ef74a1d6fe79821" cid="PROP287" type="property" name="tahunAkademik" owner="di302446d116564a049830d1f84c6aae6c8064" creation-date="11/11/2022 15:29:41" visibility="private" />
+          <item id="920cd1af1a2249b9b30bce35549b9589" cid="PROP300" type="property" name="nim" owner="dif36f0d49e8114204b55a1cb2a8c870028064" creation-date="11/11/2022 16:03:33" visibility="private" />
+          <item id="di77cf0b131b024ca59db606649c7e8f889821" cid="PROP285" type="property" name="grade" owner="di302446d116564a049830d1f84c6aae6c8064" creation-date="11/11/2022 15:28:47" visibility="private">
+            <structural-feature type="DetailNilai" type-id="Class:di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" />
+          </item>
+          <item id="di02455e6fe32f400cb88577fa77f8983d6592" cid="PROP278" type="property" owner="di8ee67a575a19433b8d0f5922c93206416592" creation-date="11/11/2022 15:21:10" visibility="private">
+            <structural-feature type="KRSController" type-id="Class:82f921a83a974143a58f37ec9d07cc1a" />
+          </item>
+          <item id="di4de2e561ae4f4129b62097f6dca763971184" cid="C059" type="class" name="KRSController" creation-date="11/11/2022 14:57:50" visibility="undefined">
+            <operations>
+              <operation id="o88cc25e2ad514af899a0fe7a0fe287b6418" cid="OP007" name="getKRSMahasiswa" creation-date="11/11/2022 15:19:35" type="KRS" type-id="Class:fa93b37948bc45559231aa5aad24cf46" visibility="public" />
+              <operation id="o478faaf91439404d8376cca33a98c76c76" cid="OP023" name="tambahMatkul" creation-date="11/11/2022 16:07:17" type="" type-id="" visibility="public" />
+              <operation id="o8c67099b52084b8388c71ccc2e44c94c450" cid="OP024" name="getKelasByMatkul" creation-date="11/11/2022 16:08:19" type="Kelas" type-id="Class:9542c64bdf544ec286e3e09578f7ad3a" visibility="public">
+                <parameters>
+                  <parameter id="p6928ddea5ee84f94a79f612735cc85f8" name="matkulId" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="dif36f0d49e8114204b55a1cb2a8c870028064" cid="C047" type="class" name="KRS" creation-date="11/11/2022 14:57:57" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a717930f94dd242d4ad503728bf8a6bff345" cid="PROP300" name="nim" creation-date="11/11/2022 16:03:33" property-ref="920cd1af1a2249b9b30bce35549b9589" />
+              <attribute id="aa478d07428794d688646af9ce7c3736e398" cid="PROP271" name="KRS" creation-date="11/11/2022 15:28:47" property-ref="dif4e61b499e9947e2b05aeebdaa478bdd6592" />
+            </attributes>
+            <operations>
+              <operation id="oc0ad42f1db8d45a3b733446a765f7532469" cid="OP008" name="getKRS" creation-date="11/11/2022 15:20:06" type="KRS" type-id="Class:fa93b37948bc45559231aa5aad24cf46" visibility="public">
+                <parameters>
+                  <parameter id="pab1f0bbffc0e4828959786a97ff22ed0" name="nim" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di8ea5dbb32fce450196a16f9a86e4cd019821" cid="PROP295" type="property" owner="diad92fa98dd5c4fb3b486d31fee721c876592" creation-date="11/11/2022 15:53:32" visibility="undefined">
+            <structural-feature type="KHS" type-id="Class:di38d2db02fac24e8aa41f04285cb3093c1601" />
+          </item>
+          <item id="di302446d116564a049830d1f84c6aae6c8064" cid="C052" type="class" name="KHS" creation-date="11/11/2022 14:57:57" visibility="undefined">
+            <attributes>
+              <attribute id="acb368861946a46659bad84c7c7b8d78a596" cid="PROP282" name="KHSId" creation-date="11/11/2022 15:36:21" property-ref="di1c6321045d364d058852555d01c1795f9821" />
+              <attribute id="a5359c59ad6c54c3cb1f6e02b604dfa4c6" cid="PROP283" name="NIM" creation-date="11/11/2022 15:28:23" property-ref="di29ded76946994a838f52576655d87f149821" />
+              <attribute id="aafd8a7da25c64f7ca483021cc83143a3366" cid="PROP284" name="matkulID" creation-date="11/11/2022 15:28:40" property-ref="di3f7cb9efa4f641c2a8469e6a2a85a3fd9821" />
+              <attribute id="aa478d07428794d688646af9ce7c3736e398" cid="PROP285" name="grade" creation-date="11/11/2022 15:28:47" property-ref="di77cf0b131b024ca59db606649c7e8f889821" />
+              <attribute id="a656046e798cf43c7a85651bad15e39d3781" cid="PROP286" name="detailNilaiID" creation-date="11/11/2022 15:28:59" property-ref="di45861dbf507e4d36bfaa21cd927443849821" />
+              <attribute id="a66d6d5421f0a440dbe99a6bb30a0887a911" cid="PROP287" name="tahunAkademik" creation-date="11/11/2022 15:29:41" property-ref="di8d64e5b60d7045528bdb3ef74a1d6fe79821" />
+            </attributes>
+            <operations>
+              <operation id="oc0ad42f1db8d45a3b733446a765f7532469" cid="OP008" name="getKHS" creation-date="11/11/2022 15:20:06" type="KHS" type-id="Class:714feb380832461780b75b4368257b9c" visibility="public">
+                <parameters>
+                  <parameter id="pab1f0bbffc0e4828959786a97ff22ed0" name="nim" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o07e0550fd6184643af3725a273755d79917" cid="OP009" name="getKHS" creation-date="11/11/2022 15:20:22" type="KHS" type-id="Class:714feb380832461780b75b4368257b9c" visibility="public">
+                <parameters>
+                  <parameter id="p6d78d6822a774795a3fa0cee977a250b" name="nim" type="" type-id="" />
+                  <parameter id="p08f321633ec84b45853e8c5bcbdfd78a" name="tahunakademik" type="" type-id="" />
+                </parameters>
+              </operation>
+              <operation id="o3bee1314fcbb42ef96f00e15d48ef185338" cid="OP012" name="getDetailNilai" creation-date="11/11/2022 15:37:09" type="DetailNilai" type-id="DetailNilai" visibility="public">
+                <parameters>
+                  <parameter id="pc26b63e3b59844c08bc6be214c331991" name="KHSId" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="161edf039b694f5a8c9fd50393d8ab69" cid="REL113" type="relationship" creation-date="11/11/2022 16:15:16" from="di4de2e561ae4f4129b62097f6dca763971184" to="54881f8789944b55b2d8436fdd0ac1db" visibility="package">
+            <owned-items />
+            <relation from="di4de2e561ae4f4129b62097f6dca763971184" to="54881f8789944b55b2d8436fdd0ac1db" derived="false">
+              <start-role id="umlar-e535cb69-4ad3-4093-8b3a-42a305cf26a1" name="" navigability="" association-type="association" visibility="undefined" property-ref="f9b270834947493e8bb8e96a51a2b104" />
+              <end-role id="umlar-7fa4f631-e813-4a52-ad0a-fe1a9e68027f" name="" navigability="" association-type="association" visibility="undefined" attribute-ref="ac8105ea4e105405fb37d02ea037cc274355" property-ref="0ebb180f09c44c81a38c26ad52577e11" />
+            </relation>
+          </item>
+          <item id="dic88a628395964abfa3b14fb819637b159821" cid="PROP280" type="property" owner="di69e6f7b14713447eaabb517d25278b786592" creation-date="11/11/2022 15:21:15" visibility="private">
+            <structural-feature type="KRS" type-id="Class:81295c43a1d34454adad4cac615dbe13" />
+          </item>
+          <item id="dieecf3beda4514c9a809d0176a5e241179821" cid="PROP297" type="property" owner="did561deeb7fad44e586c5df6bd096027c6592" creation-date="11/11/2022 15:53:39" visibility="undefined">
+            <structural-feature type="DetailNilai" type-id="Class:di0fb04eb7e8fe4dc0a85ca78c7e0da5887333" />
+          </item>
+          <item id="di04cc3bf64e864c8d99dfc81d67dad2009821" cid="PROP281" type="property" name="detailNilai" owner="di44284f44403e4c5e8998ecbe35959f1c8064" creation-date="11/11/2022 15:39:44" visibility="private" />
+          <item id="82da5749518448c19d3b597cdae679d9" cid="PROP303" type="property" name="mssg" owner="54881f8789944b55b2d8436fdd0ac1db" creation-date="11/11/2022 16:13:25" visibility="private">
+            <structural-feature type="KRSController" type-id="Class:di4de2e561ae4f4129b62097f6dca763971184" />
+          </item>
+          <item id="difa53d196c3174023a1788ada986a24238064" cid="C054" type="class" name="DetailNilai" creation-date="11/11/2022 15:48:32" visibility="undefined" />
+          <item id="di1886e1b2c445467ead107780320b911d6592" cid="PROP277" type="property" owner="di8ee67a575a19433b8d0f5922c93206416592" creation-date="11/11/2022 15:21:10" visibility="private">
+            <structural-feature type="HalamanKRS" type-id="Class:e3d5c7f4c54c4c14a0f4f23a70174f57" />
+          </item>
+          <item id="di48ef7978a28d4f8a826d4802631a0bcb8064" cid="C050" type="class" name="KHSController" creation-date="11/11/2022 14:57:50" visibility="undefined">
+            <operations>
+              <operation id="o88cc25e2ad514af899a0fe7a0fe287b6418" cid="OP007" name="getDetailNilaiKHS" creation-date="11/11/2022 15:19:35" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p9840356015dc41db98b66fc29ce69ccd" name="KHSId" type="" type-id="" />
+                </parameters>
+              </operation>
+            </operations>
+          </item>
+          <item id="di05092947cddb461aa86037c69b7c0e285433" cid="PROP301" type="property" name="KHS" owner="di05e0322248274074b39b43fc87c6494a5433" creation-date="11/11/2022 15:21:25" visibility="private">
+            <structural-feature type="KRS" type-id="Class:81295c43a1d34454adad4cac615dbe13" />
+          </item>
+          <item id="di8ee67a575a19433b8d0f5922c93206416592" cid="REL104" type="relationship" creation-date="11/11/2022 15:21:10" from="dia43ae0b9c68c433f9e260b9500c1bb3c8064" to="dia233bd9dea4e40749df57f3a01c89a3b8064" visibility="package">
+            <relation from="e3d5c7f4c54c4c14a0f4f23a70174f57" to="82f921a83a974143a58f37ec9d07cc1a" derived="false">
+              <start-role id="umlar-118e91a9-51df-4cc8-a483-5987bd832c02" name="" navigability="" association-type="association" visibility="private" property-ref="di1886e1b2c445467ead107780320b911d6592" />
+              <end-role id="umlar-0e33518d-b7de-41ee-81ff-f7cd51ee6fc2" name="" navigability="" association-type="association" visibility="private" property-ref="di02455e6fe32f400cb88577fa77f8983d6592" />
+            </relation>
+          </item>
+          <item id="di44284f44403e4c5e8998ecbe35959f1c8064" cid="C051" type="class" name="WindowDetailNilai" creation-date="11/11/2022 15:27:11" visibility="undefined">
+            <attributes>
+              <attribute id="ac998da7fe2764b08a8f7f363df5af0fd397" cid="PROP281" name="detailNilai" creation-date="11/11/2022 15:39:44" property-ref="di04cc3bf64e864c8d99dfc81d67dad2009821" />
+            </attributes>
+            <operations>
+              <operation id="o80c4846cb5fc4baba777e171a984358a471" cid="OP013" name="show" creation-date="11/11/2022 15:39:50" type="" type-id="" visibility="public" />
+              <operation id="o7befeb2a4c2a4b23b48ac7202fd55f79761" cid="OP014" name="setDetailNilai" creation-date="11/11/2022 15:39:57" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+          <item id="did144407880a54697b85180442780eaa39821" cid="PROP293" type="property" owner="di378572eeaec14e2cb0c589c6386f3bc26592" creation-date="11/11/2022 15:53:12" visibility="undefined">
+            <structural-feature type="KHSController" type-id="Class:di2e601e5f94104dd1a2e101b599c075da9695" />
+          </item>
+          <item id="di69e6f7b14713447eaabb517d25278b786592" cid="REL105" type="relationship" creation-date="11/11/2022 15:21:15" from="dia233bd9dea4e40749df57f3a01c89a3b8064" to="dif36f0d49e8114204b55a1cb2a8c870028064" visibility="package">
+            <relation from="82f921a83a974143a58f37ec9d07cc1a" to="81295c43a1d34454adad4cac615dbe13" derived="false">
+              <start-role id="umlar-01edb4ef-339e-4a12-af33-ab2bd52d6a26" name="" navigability="" association-type="association" visibility="private" property-ref="difade8cb589a44535bf17b660fd8df0556592" />
+              <end-role id="umlar-cfc7ebcf-26f1-4d22-8cd3-d7bb1ba4ab2e" name="" navigability="" association-type="association" visibility="private" property-ref="dic88a628395964abfa3b14fb819637b159821" />
+            </relation>
+          </item>
+          <item id="4ca00f63f1c947d9bc5ac68b8d7ede8f" cid="C062" type="class" name="Mahasiswa" creation-date="11/11/2022 16:05:44">
+            <operations>
+              <operation id="oc2f369ef87fa475bbeebacc3ea918897409" cid="OP028" name="getMaxSKS" creation-date="11/11/2022 16:12:40" type="" type-id="" visibility="public" />
+            </operations>
+          </item>
+        </abstract-items>
+        <layer id="5e1bcf0e547549509408de23d69b8123" name="Default" visible="true" enabled="true" locked="false">
+          <item id="di8937b82967eb4cf982fd7d40a4c132958064" iid="bae432363298425aa411b8dad5bab320" show-fields="true" creation-date="11/11/2022 14:57:43" order-index="0" type="entity">
+            <layout ax="106" ay="70" awidth="140" aheight="160" x="106" y="70" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dia233bd9dea4e40749df57f3a01c89a3b8064" iid="9e42ec722a5943f0be070adc76e2b914" show-fields="true" creation-date="11/11/2022 14:57:50" order-index="1" type="entity">
+            <layout ax="561" ay="70" awidth="140" aheight="160" x="561" y="70" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dif36f0d49e8114204b55a1cb2a8c870028064" iid="41d773b5a709448fa05d3b4d6399e93d" show-fields="true" creation-date="11/11/2022 14:57:57" order-index="2" type="entity">
+            <layout ax="782" ay="44" awidth="230" aheight="212" x="782" y="44" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dia43ae0b9c68c433f9e260b9500c1bb3c8064" iid="20b5b0db399e4956b516c664d1d6507b" show-fields="true" creation-date="11/11/2022 15:18:25" order-index="3" type="entity">
+            <layout ax="320" ay="70" awidth="140" aheight="160" x="320" y="70" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di5909251c1e3a482e86074e738cb642456592" iid="a7b6b9eefea44dfdb13c5503fcdeeb1d" creation-date="11/11/2022 15:21:04" order-index="4" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="246" y1="150" x2="320" y2="150" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="246" y="150" />
+                <point x="320" y="150" />
+              </points>
+            </layout>
+            <relation from="di8937b82967eb4cf982fd7d40a4c132958064" from-iid="bae432363298425aa411b8dad5bab320" to="dia43ae0b9c68c433f9e260b9500c1bb3c8064" to-iid="20b5b0db399e4956b516c664d1d6507b" />
+          </item>
+          <item id="di8ee67a575a19433b8d0f5922c93206416592" iid="d89fc43e84ef423ab90b4c1937de5d55" creation-date="11/11/2022 15:21:10" order-index="5" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="460" y1="150" x2="561" y2="150" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="460" y="150" />
+                <point x="561" y="150" />
+              </points>
+            </layout>
+            <relation from="dia43ae0b9c68c433f9e260b9500c1bb3c8064" from-iid="20b5b0db399e4956b516c664d1d6507b" to="dia233bd9dea4e40749df57f3a01c89a3b8064" to-iid="9e42ec722a5943f0be070adc76e2b914" />
+          </item>
+          <item id="di69e6f7b14713447eaabb517d25278b786592" iid="00747d3dc26c4af9b109a8a3db0d9dac" creation-date="11/11/2022 15:21:15" order-index="6" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="701" y1="150" x2="782" y2="150" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="701" y="150" />
+                <point x="782" y="150" />
+              </points>
+            </layout>
+            <relation from="dia233bd9dea4e40749df57f3a01c89a3b8064" from-iid="9e42ec722a5943f0be070adc76e2b914" to="dif36f0d49e8114204b55a1cb2a8c870028064" to-iid="41d773b5a709448fa05d3b4d6399e93d" />
+          </item>
+          <item id="dib4047a966fee4c35892752fe824871ae8064" iid="72b5eb534f3f4b1da56983b3fd61e025" show-fields="true" creation-date="11/11/2022 15:55:17" order-index="15" type="entity">
+            <layout ax="322" ay="1129" awidth="140" aheight="160" x="322" y="1129" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="die632219b784346e990c184fdb1debb698064" iid="27535e675516445bb4dd3244cf0432b2" show-fields="true" creation-date="11/11/2022 15:23:27" order-index="7" type="entity">
+            <layout ax="86" ay="1129" awidth="140" aheight="160" x="86" y="1129" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dibcaf5fd86c9c4ad2aa0f80583e7d3b956592" iid="7224f828886d46559e2a53725e1da56d" creation-date="11/11/2022 15:57:07" order-index="17" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="226" y1="1209" x2="322" y2="1209" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="80" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="226" y="1209" />
+                <point x="322" y="1209" />
+              </points>
+            </layout>
+            <relation from="die632219b784346e990c184fdb1debb698064" from-iid="27535e675516445bb4dd3244cf0432b2" to="dib4047a966fee4c35892752fe824871ae8064" to-iid="72b5eb534f3f4b1da56983b3fd61e025" />
+          </item>
+          <item id="di05e0322248274074b39b43fc87c6494a5433" iid="e4d0ec175bc8478fbf62df3d49352f16" show-fields="true" creation-date="11/11/2022 15:18:25" order-index="3" type="entity">
+            <layout ax="202" ay="417" awidth="140" aheight="160" x="202" y="417" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="di4de2e561ae4f4129b62097f6dca763971184" iid="bd18f2b20ae44cdea42c01530bda9586" show-fields="true" creation-date="11/11/2022 14:57:50" order-index="1" type="entity">
+            <layout ax="441" ay="417" awidth="140" aheight="160" x="441" y="417" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="54881f8789944b55b2d8436fdd0ac1db" iid="2b8743a9b1bc47edba3113c5f5854b2e" show-fields="true" creation-date="11/11/2022 16:05:20" order-index="18" type="entity">
+            <layout ax="700" ay="417" awidth="140" aheight="160" x="700" y="417" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="09f68e9f404943509f3834602ee37d1a" iid="c6ba22465b22450dba296381dda65a20" show-fields="true" creation-date="11/11/2022 16:05:38" order-index="19" type="entity">
+            <layout ax="949" ay="683" awidth="140" aheight="160" x="949" y="683" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="4ca00f63f1c947d9bc5ac68b8d7ede8f" iid="4a3e57c7c86e4dbda75fe2ddc8469365" show-fields="true" creation-date="11/11/2022 16:05:44" order-index="20" type="entity">
+            <layout ax="451" ay="683" awidth="140" aheight="160" x="451" y="684" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="69c24de654114607affb62902cafb89b" iid="58151a7535ec424f92681bd0c4d5267e" show-fields="true" creation-date="11/11/2022 16:05:51" order-index="21" type="entity">
+            <layout ax="700" ay="683" awidth="140" aheight="160" x="707" y="681" width="140" height="160" />
+            <classifier />
+            <class />
+          </item>
+          <item id="bd6ebf9b1f2e44e0970274c3bdab7357" iid="7d4adc367c2b45dea7f87158d8620da0" creation-date="11/11/2022 16:14:55" order-index="22" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="342" y1="475" x2="441" y2="475" start-border-pos="0.340625" end-border-pos="0.909375" start-local-pos="58" end-local-pos="58" name-position="0,20">
+              <points>
+                <point x="342" y="475" />
+                <point x="441" y="475" />
+              </points>
+            </layout>
+            <relation from="di05e0322248274074b39b43fc87c6494a5433" from-iid="e4d0ec175bc8478fbf62df3d49352f16" to="di4de2e561ae4f4129b62097f6dca763971184" to-iid="bd18f2b20ae44cdea42c01530bda9586" />
+          </item>
+          <item id="161edf039b694f5a8c9fd50393d8ab69" iid="1ad11fa9e4604180b2a2d199e5770e7a" creation-date="11/11/2022 16:15:16" order-index="23" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="true" auto-path="" x1="581" y1="497" x2="700" y2="496" start-border-pos="0.375" end-border-pos="0.87578125" start-local-pos="80" end-local-pos="79" name-position="0,20">
+              <points>
+                <point x="581" y="497" />
+                <point x="700" y="496" />
+              </points>
+            </layout>
+            <relation from="di4de2e561ae4f4129b62097f6dca763971184" from-iid="bd18f2b20ae44cdea42c01530bda9586" to="54881f8789944b55b2d8436fdd0ac1db" to-iid="2b8743a9b1bc47edba3113c5f5854b2e" to-field="ac8105ea4e105405fb37d02ea037cc274355" />
           </item>
         </layer>
       </diagram>
